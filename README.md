@@ -15,6 +15,7 @@ Models: Whisper, Wav2Vec2, Kaldi - huggingface
 NOTE from teacher: Some Whisper model does punctuation and capitalization automatically
 
 # TO DO
-1. Choose Dataset containing speech and sentiment label
-2. Choose End2End audio to text transcriber
+1. Choose Dataset containing speech and sentiment label -> https://superkogito.github.io/SER-datasets/# and https://huggingface.co/datasets/asapp/slue
+2. Choose End2End audio to text transcriber (with punctuation)
 3. Choose Sentiment Analysis Model
+4. Research acoustic features + word embeddings
