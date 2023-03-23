@@ -5,8 +5,8 @@ Data: Ponyland or huggingface
 Model-features:  
 sentiment-analysis: output {negative, neutral, positive}
 
-## Karan: How robust are sentiment analysis/emotion recognition models to variability in speaking style, accent, and language? 
-Variable dataset. Show different accuracies on different datasets.
+## Karan: How robust are sentiment analysis/emotion recognition models to variability in language? 
+Variable dataset. Show different accuracies on different languages/accents.
 
 ## Mel: What are the most effective techniques for combining automatic speech recognition and sentiment?
 Variable models. Best techniques to increase accuracy.  
