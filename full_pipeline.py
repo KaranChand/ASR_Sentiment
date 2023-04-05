@@ -45,7 +45,7 @@ def predict(path, sampling_rate):
 emo = load_dataset("csv", data_files="data/transcriptions.csv", split="train", sep=";")
 # emo = emo.cast_column("audio", Audio(sampling_rate=16000))
 sampling_rate = 16000
-print(emo["audio"][4])
-path = "data/wav_corpus/" + str(emo["audio"][2])
+data_en = emo.filter(lambda x: x['language']== 'en')
+path = "data/wav_corpus/" + str(data_en["audio"][2])
 outputs = predict(path, sampling_rate)
 print(outputs)
