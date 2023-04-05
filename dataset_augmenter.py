@@ -1,39 +1,62 @@
-import pandas as pd 
-from pathlib import Path  
+import pandas as pd
+from pathlib import Path
 from datasets import load_dataset, Audio
 from scipy.io.wavfile import read
 import numpy as np
 from datasets import Dataset
 import json
 
-# augmenting the ATCOSIM csv file to be compatible with HuggingFace
-df = pd.read_csv("data/fulldata.csv") 
-df = df.drop(columns = ["utterance_id", "recording_corrupt", "comment_transcriptionist", "speaker_id", "session_id", "length_sec","recording_startpos_sec"])
-df = df.assign(path=lambda x: 'atcosim/WAVdata/' + x.directory + '/' + x.subdirectory + '/' + x.filename + '.wav')
-df = df.drop(columns = ["directory", "subdirectory", "filename"])
+# Merge all three datasets into one CSV file
+df_en = pd.read_csv("data/transcripts/transcriptions_en.csv", sep=";")
+df_en = df_en.assign(audio=lambda x: x.file_name + ".wav")
+df_en = df_en.drop(columns=["file_name"])
+df_en = df_en.assign(language="en")
 
-df.to_csv(Path("data/newdata.csv"), index = False, header=True) 
-atcosim = load_dataset('csv', data_files='data/newdata.csv', split='train')
+df_es = pd.read_csv("data/transcripts/transcriptions_es.csv", sep=";")
+df_es = df_es.assign(audio=lambda x: x.file_name + ".wav")
+df_es = df_es.drop(columns=["file_name"])
+df_es = df_es.assign(language="es")
 
-atcosim = atcosim.rename_column("path", "audio")
-atcosim.to_csv("data/newdata.csv", index = False, header=True)
+df_it = pd.read_csv("data/transcripts/transcriptions_it.csv", sep=";")
+df_it = df_it.assign(audio=lambda x: x.file_name + ".wav")
+df_it = df_it.drop(columns=["file_name"])
+df_it = df_it.assign(language="it")
+df_it = df_it.rename(
+    columns={
+        "manual correction from automatic transcription made with Wav2vec2-large-xlsr-53": "manual transcription"
+    }
+)
+df = df_en.append(df_es)
+df = df.append(df_it)
 
-# remove rows that contain unusable information
-import re
-chars_to_remove_regex = '[\=\~\@\,\?\.\!\-\;\:\"\“\%\‘\”\�\']'
+df = df.assign(emotion=lambda x: x.audio.str[2:5])
+df.to_csv(Path("data/test.csv"), index=False, header=True, sep=";")
 
-def remove_special_characters(batch):
-    batch["transcription"] = re.sub(chars_to_remove_regex, '', batch["transcription"]).lower()
-    return batch
+# df = df.assign(path=lambda x: 'atcosim/WAVdata/' + x.directory + '/' + x.subdirectory + '/' + x.filename + '.wav')
+# df = df.drop(columns = ["directory", "subdirectory", "filename"])
 
-atcosim = pd.read_csv("data/newdata.csv") 
-atcosim = atcosim[atcosim["transcription"].str.contains("<OT>|<FL>|[EMPTY]|[FRAGMENT]|[HNOISE]|[NONSENSE]|[UNKNOWN]") == False]
-atcosim.set_index('recording_id')
-atcosim_clean = Dataset.from_pandas(atcosim)
-atcosim_clean = atcosim_clean.map(remove_special_characters)
-atcosim_clean = atcosim_clean.remove_columns('__index_level_0__')
-print(atcosim_clean)
-atcosim_clean.to_csv("data/pruneddata.csv", index = False, header=True) 
+# df.to_csv(Path("data/newdata.csv"), index = False, header=True)
+# atcosim = load_dataset('csv', data_files='data/newdata.csv', split='train')
+
+# atcosim = atcosim.rename_column("path", "audio")
+# atcosim.to_csv("data/newdata.csv", index = False, header=True)
+
+# # remove rows that contain unusable information
+# import re
+# chars_to_remove_regex = '[\=\~\@\,\?\.\!\-\;\:\"\“\%\‘\”\�\']'
+
+# def remove_special_characters(batch):
+#     batch["transcription"] = re.sub(chars_to_remove_regex, '', batch["transcription"]).lower()
+#     return batch
+
+# atcosim = pd.read_csv("data/newdata.csv")
+# atcosim = atcosim[atcosim["transcription"].str.contains("<OT>|<FL>|[EMPTY]|[FRAGMENT]|[HNOISE]|[NONSENSE]|[UNKNOWN]") == False]
+# atcosim.set_index('recording_id')
+# atcosim_clean = Dataset.from_pandas(atcosim)
+# atcosim_clean = atcosim_clean.map(remove_special_characters)
+# atcosim_clean = atcosim_clean.remove_columns('__index_level_0__')
+# print(atcosim_clean)
+# atcosim_clean.to_csv("data/pruneddata.csv", index = False, header=True)
 
 
 ########################## dataset split
