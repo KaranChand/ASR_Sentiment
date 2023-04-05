@@ -4,20 +4,20 @@ import torch.nn.functional as F
 import torchaudio
 from transformers import (
     AutoConfig,
-    Wav2Vec2FeatureExtractor,
-    Wav2Vec2ForSpeechClassification,
+    Wav2Vec2FeatureExtractor, AutoModelForCTC
 )
 import librosa
 import IPython.display as ipd
 import numpy as np
 import pandas as pd
+from datasets import Audio, load_dataset
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model_name_or_path = "harshit345/xlsr-wav2vec-speech-emotion-recognition"
 config = AutoConfig.from_pretrained(model_name_or_path)
 feature_extractor = Wav2Vec2FeatureExtractor.from_pretrained(model_name_or_path)
 sampling_rate = feature_extractor.sampling_rate
-model = Wav2Vec2ForSpeechClassification.from_pretrained(model_name_or_path).to(device)
+model = AutoModelForCTC.from_pretrained(model_name_or_path).to(device)
 
 
 def speech_file_to_array_fn(path, sampling_rate):
@@ -42,6 +42,10 @@ def predict(path, sampling_rate):
     ]
     return outputs
 
-
-path = "/data/jtes_v1.1/wav/f01/ang/f01_ang_01.wav"
+emo = load_dataset('csv', data_files='data/transcriptions.csv', split='train', sep = ';')
+# emo = emo.cast_column("audio", Audio(sampling_rate=16000))
+sampling_rate=16000
+print(emo)
+path = "data/wav_corpus/" + str(emo['audio'][0])
 outputs = predict(path, sampling_rate)
+print(outputs)

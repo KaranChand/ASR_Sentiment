@@ -30,15 +30,8 @@ df = df_en.append(df_es)
 df = df.append(df_it)
 
 df = df.assign(emotion=lambda x: x.audio.str[2:5])
-df.to_csv(Path("data/test.csv"), index=False, header=True, sep=";")
+df.to_csv(Path("data/transcriptions.csv"), index=False, header=True, sep=";")
 
-# df = df.assign(path=lambda x: 'atcosim/WAVdata/' + x.directory + '/' + x.subdirectory + '/' + x.filename + '.wav')
-# df = df.drop(columns = ["directory", "subdirectory", "filename"])
-
-# df.to_csv(Path("data/newdata.csv"), index = False, header=True)
-# atcosim = load_dataset('csv', data_files='data/newdata.csv', split='train')
-
-# atcosim = atcosim.rename_column("path", "audio")
 # atcosim.to_csv("data/newdata.csv", index = False, header=True)
 
 # # remove rows that contain unusable information
