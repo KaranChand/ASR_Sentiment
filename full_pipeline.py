@@ -4,7 +4,8 @@ import torch.nn.functional as F
 import torchaudio
 from transformers import (
     AutoConfig,
-    Wav2Vec2FeatureExtractor, AutoModelForCTC
+    Wav2Vec2FeatureExtractor,
+    AutoModelForAudioClassification,
 )
 import librosa
 import IPython.display as ipd
@@ -17,7 +18,7 @@ model_name_or_path = "harshit345/xlsr-wav2vec-speech-emotion-recognition"
 config = AutoConfig.from_pretrained(model_name_or_path)
 feature_extractor = Wav2Vec2FeatureExtractor.from_pretrained(model_name_or_path)
 sampling_rate = feature_extractor.sampling_rate
-model = AutoModelForCTC.from_pretrained(model_name_or_path).to(device)
+model = AutoModelForAudioClassification.from_pretrained(model_name_or_path).to(device)
 
 
 def speech_file_to_array_fn(path, sampling_rate):
@@ -37,15 +38,16 @@ def predict(path, sampling_rate):
         logits = model(**inputs).logits
     scores = F.softmax(logits, dim=1).detach().cpu().numpy()[0]
     outputs = [
-        {"Emotion": config.id2label[i], "Score": f"{round(score * 100, 3):.1f}%"}
+        {"Emotion": config.id2label[i], "Score": f"{np.round(score * 100, 3)}"}
         for i, score in enumerate(scores)
     ]
     return outputs
 
-emo = load_dataset('csv', data_files='data/transcriptions.csv', split='train', sep = ';')
+
+emo = load_dataset("csv", data_files="data/transcriptions.csv", split="train", sep=";")
 # emo = emo.cast_column("audio", Audio(sampling_rate=16000))
-sampling_rate=16000
+sampling_rate = 16000
 print(emo)
-path = "data/wav_corpus/" + str(emo['audio'][0])
+path = "data/wav_corpus/" + str(emo["audio"][1])
 outputs = predict(path, sampling_rate)
 print(outputs)
