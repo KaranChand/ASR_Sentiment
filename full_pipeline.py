@@ -49,3 +49,11 @@ data_en = emo.filter(lambda x: x['language']== 'en')
 path = "data/wav_corpus/" + str(data_en["audio"][2])
 outputs = predict(path, sampling_rate)
 print(outputs)
+
+
+# import required module
+from playsound import playsound
+ 
+# for playing note.wav file
+playsound("data/wav_corpus/" + str(data_en["audio"][2]))
+print('playing sound using  playsound')
