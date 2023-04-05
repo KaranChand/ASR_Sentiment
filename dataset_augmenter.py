@@ -30,6 +30,14 @@ df = df_en.append(df_es)
 df = df.append(df_it)
 
 df = df.assign(emotion=lambda x: x.audio.str[2:5])
+mapping = {
+    "ans": "fear",
+    "dis": "disgust",
+    "gio": "happiness",
+    "rab": "anger",
+    "tri": "sadness",
+}
+df = df.replace({"emotion": mapping})
 df.to_csv(Path("data/transcriptions.csv"), index=False, header=True, sep=";")
 
 # atcosim.to_csv("data/newdata.csv", index = False, header=True)
