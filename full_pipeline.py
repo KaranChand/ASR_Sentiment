@@ -41,3 +41,7 @@ def predict(path, sampling_rate):
         for i, score in enumerate(scores)
     ]
     return outputs
+
+
+path = "/data/jtes_v1.1/wav/f01/ang/f01_ang_01.wav"
+outputs = predict(path, sampling_rate)
