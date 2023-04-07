@@ -40,7 +40,6 @@ mapping = {
 df = df.replace({"emotion": mapping})
 df.to_csv(Path("data/transcriptions.csv"), index=False, header=True, sep=";")
 
-# atcosim.to_csv("data/newdata.csv", index = False, header=True)
 
 # # remove rows that contain unusable information
 # import re
