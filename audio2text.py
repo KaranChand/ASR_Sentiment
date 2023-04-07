@@ -27,4 +27,4 @@ def prepare_dataset(x):
 filename = "test"
 atcosim = emo.map(prepare_dataset, remove_columns='audio')
 atcosim = atcosim.remove_columns(['input_values'])
-atcosim.to_csv("output/"+filename+".csv", index = False, header=True)
+atcosim.to_csv("output/"+filename+".csv", index = False, header=True, sep =';')
