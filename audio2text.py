@@ -12,14 +12,12 @@ device = "cuda:0" if torch.cuda.is_available() else "cpu"
 model.to(device)
 
 # loading data
-emo = load_dataset('csv', data_files='data/transcriptions.csv', split='train', sep=';')      # for making a full dataset with input values
+emo = load_dataset('csv', data_files='data/transcriptions/transcriptions.csv', split='train', sep=';')      # for making a full dataset with input values
 emo = emo.cast_column("audio", Audio(sampling_rate=16000))
 
 def prepare_dataset(x):
   input_values = processor(x['audio']["array"], return_tensors="pt", padding=True, sampling_rate=x['audio']["sampling_rate"]).to(device).input_values
   x['input_values'] = input_values[0]
-  with processor.as_target_processor():
-        x["labels"] = processor(x["transcription"]).input_ids
   logits = model(input_values).logits
   pred_id = torch.argmax(logits, dim=-1)[0]
   x['model_transcription'] = processor.decode(pred_id)
