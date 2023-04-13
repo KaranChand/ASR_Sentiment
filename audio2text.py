@@ -16,6 +16,7 @@ model.to(device)
 
 # loading data
 emo = load_dataset('csv', data_files='data/transcriptions/transcriptions.csv', split='train', sep=';')      # for making a full dataset with input values
+emo = emo.filter(lambda x: x["language"] == language)
 emo = emo.cast_column("audio", Audio(sampling_rate=16000))
 
 def prepare_dataset(x):
