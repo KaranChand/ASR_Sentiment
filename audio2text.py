@@ -1,13 +1,13 @@
-from transformers import AutoModelForCTC, Wav2Vec2Processor, AutoProcessor
+from transformers import AutoModelForCTC, Wav2Vec2Processor, AutoProcessor, WhisperProcessor, WhisperForConditionalGeneration
 from datasets import Audio, load_dataset, load_from_disk
 import torch
 
 torch.cuda.empty_cache()
 
-# define pipeline
-checkpoint = "jonatasgrosman/wav2vec2-large-xlsr-53-english"
-model = AutoModelForCTC.from_pretrained(checkpoint, local_files_only=True)
-processor = Wav2Vec2Processor.from_pretrained(checkpoint)
+# load model and processor
+processor = WhisperProcessor.from_pretrained("openai/whisper-medium")
+model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-medium")
+model.config.forced_decoder_ids = None
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 model.to(device)
 
@@ -17,10 +17,8 @@ emo = emo.cast_column("audio", Audio(sampling_rate=16000))
 
 def prepare_dataset(x):
   input_values = processor(x['audio']["array"], return_tensors="pt", padding=True, sampling_rate=x['audio']["sampling_rate"]).to(device).input_values
-  x['input_values'] = input_values[0]
-  logits = model(input_values).logits
-  pred_id = torch.argmax(logits, dim=-1)[0]
-  x['model_transcription'] = processor.decode(pred_id)
+  predicted_ids = model.generate(input_values)
+  x['model_transcription'] = processor.decode(predicted_ids, skip_special_tokens=True)
   return x
 
 # choose how to save
