@@ -69,7 +69,7 @@ def getCombinedModel(
     model = keras.Model([textModel.input, acousticModel.input], combinedModel_output)
 
     model.compile(
-        loss="categorical_crossentropy", optimizer="Adam", metrics=["accuracy"]
+        loss="categorical_crossentropy", optimizer="Adam", metrics=["categorical_accuracy"]
     )
     model.summary()
 

@@ -77,7 +77,9 @@ def getAcousticModel(x_train, y_train):
 
     # Compile the model
     lstm_model.compile(
-        loss="categorical_crossentropy", optimizer="Adam", metrics=["accuracy"]
+        loss="categorical_crossentropy",
+        optimizer="Adam",
+        metrics=["categorical_accuracy"],
     )
 
     lstm_model.summary()

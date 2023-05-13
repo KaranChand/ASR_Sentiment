@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from sklearn.metrics import confusion_matrix
 
 from sklearn.model_selection import train_test_split
 
@@ -27,26 +28,39 @@ x_train, x_test, y_train, y_test = train_test_split(
 # Text Model
 x_text_test, x_text_train, embedding_matrix, vocab_length = getTextData(x_train, x_test)
 textModel = getTextModel(x_text_train, y_train, embedding_matrix, vocab_length)
-scoreTextModel = textModel.evaluate(x_text_test, y_test, verbose=1)
+# scoreTextModel = textModel.evaluate(x_text_test, y_test, verbose=1)
+scoreTextModel = textModel.predict(x_text_test)
 
-
+# https://www.tensorflow.org/guide/keras/save_and_serialize
 # Acoustic Model
 x_acoustic_train, x_acoustic_test = getAcousticData(x_train, x_test)
 acousticModel = getAcousticModel(x_acoustic_train, y_train)
-scoreAcousticModel = acousticModel.evaluate(x_acoustic_test, y_test, verbose=1)
-
+# scoreAcousticModel = acousticModel.evaluate(x_acoustic_test, y_test, verbose=1)
+scoreAcousticModel = acousticModel.predict(x_acoustic_test)
 
 # Combined Model
 combinedModel = getCombinedModel(
     vocab_length, embedding_matrix, x_text_train, x_acoustic_train, y, y_train
 )
-scoreCombinedModel = combinedModel.evaluate(
-    [x_text_test, x_acoustic_test], np.array(y_test), verbose=1
-)
+# scoreCombinedModel = combinedModel.evaluate(
+#     [x_text_test, x_acoustic_test], np.array(y_test), verbose=1
+# )
+combinedModelPrediction = combinedModel.predict([x_text_test, x_acoustic_test])
 
-print("Text Model Test Score:", scoreTextModel[0])
-print("Text Model Test Accuracy:", scoreTextModel[1])
-print("Acoustic Model Test Score:", scoreAcousticModel[0])
-print("Acoustic Model Test Accuracy:", scoreAcousticModel[1])
-print("Combined Model Test Score:", scoreCombinedModel[0])
-print("Combined Model Test Accuracy:", scoreCombinedModel[1])
+print("Predict: ")
+print("==============================================================================")
+y_prediction = np.argmax(combinedModelPrediction, axis=1)
+y_test = np.argmax(y_test, axis=1)
+# Create confusion matrix and normalizes it over predicted (columns)
+result = confusion_matrix(y_test, y_prediction, normalize="pred")
+print(result)
+
+
+# print("Evaluate the models: Returns the loss value & metrics values for the model in test mode.")
+# print("=========================================================================================")
+# print("Text Model Test Score:", scoreTextModel[0])
+# print("Text Model Test Accuracy:", scoreTextModel[1])
+# print("Acoustic Model Test Score:", scoreAcousticModel[0])
+# print("Acoustic Model Test Accuracy:", scoreAcousticModel[1])
+# print("Combined Model Test Score:", scoreCombinedModel[0])
+# print("Combined Model Test Accuracy:", scoreCombinedModel[1])

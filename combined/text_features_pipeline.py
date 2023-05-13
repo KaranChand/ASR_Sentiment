@@ -126,7 +126,7 @@ def getTextModel(x_text_train, y_train, embedding_matrix, vocab_length):
 
     # Compile the model
     lstm_model.compile(
-        optimizer="adam", loss="categorical_crossentropy", metrics=["accuracy"]
+        optimizer="adam", loss="categorical_crossentropy", metrics=["categorical_accuracy"]
     )
     print(lstm_model.summary())
 
@@ -135,6 +135,3 @@ def getTextModel(x_text_train, y_train, embedding_matrix, vocab_length):
     return lstm_model
 
 
-# unseen_sentiments = lstm_model.predict(X_test)
-# matrix = metrics.confusion_matrix(y_test, unseen_sentiments)
-# print(matrix)
