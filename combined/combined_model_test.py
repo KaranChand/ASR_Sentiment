@@ -210,7 +210,9 @@ combinedModel_output = combinedModel(x)
 
 model = keras.Model([textModel.input, speechModel.input], combinedModel_output)
 
-model.compile(loss="categorical_crossentropy", optimizer="Adam", metrics=["accuracy"])
+model.compile(
+    loss="categorical_crossentropy", optimizer="Adam", metrics=["categorical_accuracy"]
+)
 
 speechModel.summary()
 textModel.summary()
