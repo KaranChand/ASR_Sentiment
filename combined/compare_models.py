@@ -70,25 +70,6 @@ plt.tight_layout()
 plt.show()
 
 
-plt.figure(figsize=(20, 5))
-for i, language in enumerate(["english", "italian", "spanish"]):
-    df = pd.read_csv(
-        f"output/text2emotion/transcription_emotion_{language}.csv", sep=";"
-    )
-    y_pred = df["model_emotion"]
-    y_true = df["emotion"]
-    labels = df["emotion"].unique()
-    array = confusion_matrix(y_true, y_pred, labels=labels)
-
-    df_cm = pd.DataFrame(array, labels, labels)
-    plt.subplot(1, 3, i + 1)
-    sn.heatmap(df_cm, annot=True, cmap="BuPu")  # font size
-    plt.xlabel("True")
-    plt.ylabel("Predicted")
-    plt.title(language)
-plt.tight_layout()
-plt.show()
-
 # print("Evaluate the models: Returns the loss value & metrics values for the model in test mode.")
 # print("=========================================================================================")
 # print("Text Model Test Score:", scoreTextModel[0])
