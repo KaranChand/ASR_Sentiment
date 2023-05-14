@@ -1,3 +1,4 @@
+from matplotlib import pyplot as plt
 import pandas as pd
 import numpy as np
 from sklearn.metrics import confusion_matrix
@@ -9,7 +10,7 @@ from acoustic_features_pipeline import getAcousticModel
 
 from text_features_pipeline import getTextData, getTextModel
 from combined_model import getCombinedModel
-
+import seaborn as sn
 
 # Read the csv file with data to a data frame
 df = pd.read_csv("../output/audio2text/" + "Whisper_english.csv", sep=";")
@@ -51,10 +52,42 @@ print("Predict: ")
 print("==============================================================================")
 y_prediction = np.argmax(combinedModelPrediction, axis=1)
 y_test = np.argmax(y_test, axis=1)
-# Create confusion matrix and normalizes it over predicted (columns)
-result = confusion_matrix(y_test, y_prediction, normalize="pred")
-print(result)
 
+labels = df["emotion"].astype(str).unique()
+print(labels)
+print(y_prediction)
+print(y_test)
+matrix = confusion_matrix(y_test, y_prediction, normalize="pred")
+
+df_cm = pd.DataFrame(matrix, labels, labels)
+# plt.figure(figsize=(20, 5))
+# plt.subplot(1, 3, 1)
+sn.heatmap(df_cm, annot=True, cmap="BuPu")  # font size
+plt.xlabel("True")
+plt.ylabel("Predicted")
+plt.title("Combined Model")
+plt.tight_layout()
+plt.show()
+
+
+plt.figure(figsize=(20, 5))
+for i, language in enumerate(["english", "italian", "spanish"]):
+    df = pd.read_csv(
+        f"output/text2emotion/transcription_emotion_{language}.csv", sep=";"
+    )
+    y_pred = df["model_emotion"]
+    y_true = df["emotion"]
+    labels = df["emotion"].unique()
+    array = confusion_matrix(y_true, y_pred, labels=labels)
+
+    df_cm = pd.DataFrame(array, labels, labels)
+    plt.subplot(1, 3, i + 1)
+    sn.heatmap(df_cm, annot=True, cmap="BuPu")  # font size
+    plt.xlabel("True")
+    plt.ylabel("Predicted")
+    plt.title(language)
+plt.tight_layout()
+plt.show()
 
 # print("Evaluate the models: Returns the loss value & metrics values for the model in test mode.")
 # print("=========================================================================================")
