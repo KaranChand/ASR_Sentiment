@@ -1,29 +1,21 @@
-import pandas as pd
 import numpy as np
-from keras_preprocessing.sequence import pad_sequences
 from keras.models import Sequential
 import keras
 from keras.layers.core import Activation, Dropout, Dense
-
 from keras.layers import LSTM, Embedding, LSTM, Flatten
-
-import nltk
-
-from acoustic_features_pipeline import getAcousticData, getAcousticModel
-
-from text_features_pipeline import getTextData, getTextModel
-
+from keras.optimizers import Adam
 
 # --------------------------------------------------------------------------#
-# Data                                                                      #
+# Concat the text model and speech model                                    #
+# Used some code and inspiration from the following sources:                #
+# - Paper: https://arxiv.org/pdf/1804.05788.pdf                             #
+# - Code https://github.com/Samarth-Tripathi/IEMOCAP-Emotion-Detection      #
 # --------------------------------------------------------------------------#
 embedding_max_length = 100
 embedding_dimension = 100
 
 
-def getCombinedModel(
-    vocab_length, embedding_matrix, x_text_train, x_acoustic_train, y, y_train
-):
+def getCombinedModel(x_text, x_acoustic, y, vocab_length, embedding_matrix):
     # text model
     textModel = Sequential()
     textModel.add(
@@ -35,15 +27,13 @@ def getCombinedModel(
             trainable=True,
         )
     )
-    textModel.add(
-        LSTM(256, return_sequences=True, input_shape=(x_text_train.shape[1], 1))
-    )
+    textModel.add(LSTM(256, return_sequences=True, input_shape=(x_text.shape[1], 1)))
     textModel.add(LSTM(256, return_sequences=False))
     textModel.add(Dense(256))
 
     # Speech model
     acousticModel = Sequential()
-    acousticModel.add(Flatten(input_shape=(x_acoustic_train.shape[1], 1)))
+    acousticModel.add(Flatten(input_shape=(x_acoustic.shape[1], 1)))
     acousticModel.add(Dense(1024))
     acousticModel.add(Activation("relu"))
     acousticModel.add(Dropout(0.2))
@@ -69,16 +59,8 @@ def getCombinedModel(
     model = keras.Model([textModel.input, acousticModel.input], combinedModel_output)
 
     model.compile(
-        loss="categorical_crossentropy", optimizer="Adam", metrics=["categorical_accuracy"]
+        loss="categorical_crossentropy",
+        optimizer="adam",
+        metrics=["accuracy"],
     )
-    model.summary()
-
-    model.fit(
-        [x_text_train, x_acoustic_train],
-        np.array(y_train),
-        batch_size=128,
-        epochs=6,
-        verbose=1,
-    )
-
     return model

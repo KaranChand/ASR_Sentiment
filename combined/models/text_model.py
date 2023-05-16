@@ -7,10 +7,9 @@ from nltk.corpus import stopwords
 from keras.preprocessing.text import Tokenizer
 from keras_preprocessing.sequence import pad_sequences
 from keras.models import Sequential
-from keras.layers.core import Activation, Dropout, Dense
+from keras.layers.core import Activation, Dense
 from keras.layers import Embedding, LSTM
-from keras.layers import LSTM, SpatialDropout1D
-from sklearn.model_selection import train_test_split
+from keras.layers import LSTM
 import nltk
 from numpy import asarray
 from numpy import zeros
@@ -99,13 +98,13 @@ def getTextData(x_train, x_test):
         embedding_vector = embeddings_dictionary.get(word)
         if embedding_vector is not None:
             embedding_matrix[index] = embedding_vector
-    return x_text_test, x_text_train, embedding_matrix, vocab_length
+    return x_text_train, x_text_test, embedding_matrix, vocab_length
 
 
 # --------------------------------------------------------------------------#
 # LSTM                                                                      #
 # --------------------------------------------------------------------------#
-def getTextModel(x_text_train, y_train, embedding_matrix, vocab_length):
+def getTextModel(x_text_train, y_train, vocab_length, embedding_matrix):
     lstm_model = Sequential()
     lstm_model.add(
         Embedding(
@@ -113,7 +112,7 @@ def getTextModel(x_text_train, y_train, embedding_matrix, vocab_length):
             embedding_dimension,
             weights=[embedding_matrix],
             input_length=embedding_max_length,
-            trainable=False,
+            trainable=True,
         )
     )
     lstm_model.add(
@@ -126,12 +125,9 @@ def getTextModel(x_text_train, y_train, embedding_matrix, vocab_length):
 
     # Compile the model
     lstm_model.compile(
-        optimizer="adam", loss="categorical_crossentropy", metrics=["categorical_accuracy"]
+        optimizer="adam",
+        loss="categorical_crossentropy",
+        metrics=["accuracy"],
     )
-    print(lstm_model.summary())
 
-    # Train the model
-    lstm_model.fit(x_text_train, y_train, batch_size=128, epochs=6, verbose=1)
     return lstm_model
-
-
