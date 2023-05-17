@@ -1,9 +1,7 @@
-import numpy as np
 from keras.models import Sequential
 import keras
 from keras.layers.core import Activation, Dropout, Dense
 from keras.layers import LSTM, Embedding, LSTM, Flatten
-from keras.optimizers import Adam
 
 # --------------------------------------------------------------------------#
 # Concat the text model and speech model                                    #

@@ -1,6 +1,7 @@
 from matplotlib import pyplot as plt
 import pandas as pd
 import numpy as np
+from sklearn import metrics
 from sklearn.metrics import confusion_matrix
 
 from sklearn.model_selection import train_test_split
@@ -10,6 +11,12 @@ from models.combined_model import getCombinedModel
 from models.text_model import getTextData, getTextModel
 from models.acoustic_model import getAcousticData, getAcousticModel
 import seaborn as sn
+
+test_size = 0.20
+random_state = 42
+batch_size = 128
+epochs = 3
+verbose = 0
 
 # Read the csv file with data to a data frame
 df = pd.read_csv("../output/audio2text/" + "Whisper_english.csv", sep=";")
@@ -22,7 +29,7 @@ y = pd.get_dummies(df["emotion"]).values
 
 # Train test split
 x_train, x_test, y_train, y_test = train_test_split(
-    x, y, test_size=0.20, random_state=42
+    x, y, test_size=test_size, random_state=random_state
 )
 
 # https://www.tensorflow.org/guide/keras/save_and_serialize
@@ -34,9 +41,9 @@ text_model = getTextModel(x_text_train, y_train, vocab_length, embedding_matrix)
 text_model.fit(
     x_text_train,
     y_train,
-    batch_size=128,
-    epochs=3,
-    verbose=0,
+    batch_size=batch_size,
+    epochs=epochs,
+    verbose=verbose,
 )
 text_model_prediction = text_model.predict(x_text_test)
 
@@ -45,9 +52,9 @@ acoustic_model = getAcousticModel(x_acoustic_train, y_train)
 acoustic_model.fit(
     x_acoustic_train,
     y_train,
-    batch_size=128,
-    epochs=3,
-    verbose=0,
+    batch_size=batch_size,
+    epochs=epochs,
+    verbose=verbose,
 )
 acoustic_model_prediction = acoustic_model.predict(x_acoustic_test)
 
@@ -59,9 +66,9 @@ combined_model = getCombinedModel(
 combined_model.fit(
     [x_text_train, x_acoustic_train],
     np.array(y_train),
-    batch_size=128,
-    epochs=3,
-    verbose=0,
+    batch_size=batch_size,
+    epochs=epochs,
+    verbose=verbose,
 )
 
 combined_model_prediction = combined_model.predict([x_text_test, x_acoustic_test])
@@ -72,7 +79,7 @@ combined_model_prediction = np.argmax(combined_model_prediction, axis=1)
 predictions = [
     text_model_prediction,
     acoustic_model_prediction,
-    acoustic_model_prediction,
+    combined_model_prediction,
 ]
 y_test = np.argmax(y_test, axis=1)
 
@@ -91,8 +98,6 @@ for i, prediction in enumerate(predictions):
 plt.tight_layout()
 plt.show()
 
-
-# y_test = np.argmax(y_test, axis=1)
 
 # labels = df["emotion"].astype(str).unique()
 # matrix = confusion_matrix(y_test, combined_model_prediction, normalize="pred")

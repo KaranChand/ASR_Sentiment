@@ -1,14 +1,9 @@
 import librosa as lb
 import librosa.core.pitch as lbcp
 from keras.layers import Flatten
-
 import numpy as np
-from scikeras.wrappers import KerasClassifier
-import pandas as pd
-
 from keras.models import Sequential
 from keras.layers.core import Activation, Dense, Dropout
-from keras.optimizers import Adam
 
 # get the transcription for the text model and file name for speech model
 
@@ -64,22 +59,21 @@ def getAcousticData(x_train, x_test):
 
 
 def getAcousticModel(x_train, y_train):
-    lstm_model = Sequential()
+    model = Sequential()
 
-    lstm_model.add(Flatten(input_shape=(x_train.shape[1], 1)))
-    lstm_model.add(Dense(1024))
-    lstm_model.add(Activation("relu"))
-    lstm_model.add(Dropout(0.2))
-    lstm_model.add(Dense(256))
+    model.add(Flatten(input_shape=(x_train.shape[1], 1)))
+    model.add(Dense(1024))
+    model.add(Activation("relu"))
+    model.add(Dense(256))
 
-    lstm_model.add(Dense(y_train.shape[1], activation="softmax"))  # 5 for each label
-    lstm_model.add(Activation("softmax"))
+    model.add(Dense(y_train.shape[1]))  # 5 for each label
+    model.add(Activation("softmax"))
 
     # Compile the model
-    lstm_model.compile(
+    model.compile(
         loss="categorical_crossentropy",
-        optimizer="adam",
+        optimizer="adadelta",
         metrics=["accuracy"],
     )
 
-    return lstm_model
+    return model

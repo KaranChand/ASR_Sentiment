@@ -1,4 +1,3 @@
-import pandas as pd
 import numpy as np
 import re
 import nltk
@@ -105,8 +104,8 @@ def getTextData(x_train, x_test):
 # LSTM                                                                      #
 # --------------------------------------------------------------------------#
 def getTextModel(x_text_train, y_train, vocab_length, embedding_matrix):
-    lstm_model = Sequential()
-    lstm_model.add(
+    model = Sequential()
+    model.add(
         Embedding(
             vocab_length,
             embedding_dimension,
@@ -115,19 +114,17 @@ def getTextModel(x_text_train, y_train, vocab_length, embedding_matrix):
             trainable=True,
         )
     )
-    lstm_model.add(
-        LSTM(256, return_sequences=True, input_shape=(x_text_train.shape[1], 1))
-    )
-    lstm_model.add(LSTM(256, return_sequences=False))
-    lstm_model.add(Dense(256))
-    lstm_model.add(Dense(y_train.shape[1], activation="softmax"))  # for each label
-    lstm_model.add(Activation("softmax"))
 
-    # Compile the model
-    lstm_model.compile(
+    model.add(LSTM(256, return_sequences=True, input_shape=(x_text_train.shape[1], 1)))
+    model.add(LSTM(256, return_sequences=False))
+    model.add(Dense(256))
+    model.add(Dense(y_train.shape[1]))  # for each label
+    model.add(Activation("softmax"))
+
+    model.compile(
         optimizer="adam",
         loss="categorical_crossentropy",
         metrics=["accuracy"],
     )
 
-    return lstm_model
+    return model
