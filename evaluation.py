@@ -28,8 +28,8 @@ for i, language in enumerate(["english", "italian", "spanish"]):
     df_cm = pd.DataFrame(array, labels, labels)
     plt.subplot(1, 3, i + 1)
     sn.heatmap(df_cm, annot=True, cmap="BuPu")  # font size
-    plt.xlabel("True")
-    plt.ylabel("Predicted")
+    plt.ylabel("True")
+    plt.xlabel("Predicted")
     plt.title(f"{language} with accuracy of {acc*100:.0f}%")
 plt.suptitle("Emotion")
 plt.tight_layout()
@@ -50,8 +50,8 @@ for i, language in enumerate(["english", "italian", "spanish"]):
     df_cm = pd.DataFrame(array, labels, labels)
     plt.subplot(1, 3, i + 1)
     sn.heatmap(df_cm, annot=True, cmap="BuPu")  # font size
-    plt.xlabel("True")
-    plt.ylabel("Predicted")
+    plt.ylabel("True")
+    plt.xlabel("Predicted")
     plt.title(f"{language} with accuracy of {acc*100:.0f}%")
 plt.suptitle("Sentiment")
 plt.tight_layout()
