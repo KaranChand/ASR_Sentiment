@@ -1,7 +1,8 @@
 from keras.models import Sequential
 import keras
 from keras.layers.core import Activation, Dropout, Dense
-from keras.layers import LSTM, Embedding, LSTM, Flatten
+from keras.layers import LSTM, Embedding, Flatten
+from keras.optimizers import Adam
 
 # --------------------------------------------------------------------------#
 # Concat the text model and speech model                                    #
@@ -9,11 +10,11 @@ from keras.layers import LSTM, Embedding, LSTM, Flatten
 # - Paper: https://arxiv.org/pdf/1804.05788.pdf                             #
 # - Code https://github.com/Samarth-Tripathi/IEMOCAP-Emotion-Detection      #
 # --------------------------------------------------------------------------#
-embedding_max_length = 100
-embedding_dimension = 100
+embedding_max_length = 50
+embedding_dimension = 300
 
 
-def getCombinedModel(x_text, x_acoustic, y, vocab_length, embedding_matrix):
+def getCombinedModel(x_acoustic, labels, vocab_length, embedding_matrix):
     # text model
     textModel = Sequential()
     textModel.add(
@@ -25,22 +26,27 @@ def getCombinedModel(x_text, x_acoustic, y, vocab_length, embedding_matrix):
             trainable=True,
         )
     )
-    textModel.add(LSTM(256, return_sequences=True, input_shape=(x_text.shape[1], 1)))
-    textModel.add(LSTM(256, return_sequences=False))
+    textModel.add(LSTM(256, return_sequences=True, recurrent_dropout=0.2))
+    textModel.add(Dropout(0.2))
+    textModel.add(LSTM(256, return_sequences=False, recurrent_dropout=0.2))
+    textModel.add(Dropout(0.2))
     textModel.add(Dense(256))
 
     # Speech model
     acousticModel = Sequential()
-    acousticModel.add(Flatten(input_shape=(x_acoustic.shape[1], 1)))
-    acousticModel.add(Dense(1024))
-    acousticModel.add(Activation("relu"))
+    acousticModel.add(
+        LSTM(
+            256,
+            return_sequences=True,
+            input_shape=(x_acoustic.shape[1], 1),
+            recurrent_dropout=0.2,
+        )
+    )
     acousticModel.add(Dropout(0.2))
+    acousticModel.add(Flatten())
     acousticModel.add(Dense(256))
 
-    # Concatonate the text and speech model
-    x = keras.layers.add([textModel.output, acousticModel.output])
-
-    # Concatonate the text and speech model
+    # Concatenate the text and speech model https://github.com/keras-team/keras/issues/3921#issuecomment-335457553
     x = keras.layers.add([textModel.output, acousticModel.output])
 
     combinedModel = Sequential()
@@ -50,7 +56,7 @@ def getCombinedModel(x_text, x_acoustic, y, vocab_length, embedding_matrix):
     combinedModel.add(Dense(256))
     combinedModel.add(Activation("relu"))
 
-    combinedModel.add(Dense(y.shape[1]))
+    combinedModel.add(Dense(labels.shape[0]))
     combinedModel.add(Activation("softmax"))
     combinedModel_output = combinedModel(x)
 

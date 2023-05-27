@@ -6,30 +6,32 @@ from nltk.corpus import stopwords
 from keras.preprocessing.text import Tokenizer
 from keras_preprocessing.sequence import pad_sequences
 from keras.models import Sequential
-from keras.layers.core import Activation, Dense
+from keras.layers.core import Activation, Dense, Dropout
 from keras.layers import Embedding, LSTM
 from keras.layers import LSTM
 import nltk
 from numpy import asarray
 from numpy import zeros
+import contractions
 
-
-embedding_dimension = 100
-embedding_max_length = 100
-
-# get the transcription for the text model and file name for speech model
-
+embedding_max_length = 50
+embedding_dimension = 300
 
 # --------------------------------------------------------------------------#
 # Preprocessing                                                            #
 # --------------------------------------------------------------------------#
-
 nltk.download("stopwords")
 
 
 def preprocess_text(text):
+    expanded_words = []
+    for word in text.split():
+        # using contractions.fix to expand the shortened words
+        expanded_words.append(contractions.fix(word))
+
+    sentence = " ".join(expanded_words)
     # Set all words in the sentence to lower case
-    sentence = text.lower()
+    sentence = sentence.lower()
 
     # Remove punctuations and numbers, this leaves only letters of the english alphabet
     sentence = re.sub("[^a-zA-Z]", " ", sentence)
@@ -40,10 +42,16 @@ def preprocess_text(text):
     # Remove dubble white spaces, when we remove single characters an extra white space gets left
     sentence = re.sub(r"\s+", " ", sentence)
 
-    # Remove Stopwords
-    pattern = re.compile(r"\b(" + r"|".join(stopwords.words("english")) + r")\b\s*")
-    sentence = pattern.sub("", sentence)
+    # # Remove Stopwords
+    # pattern_stopwords = re.compile(
+    #     r"\b(" + r"|".join(stopwords.words("english")) + r")\b\s*"
+    # )
+    # sentence = pattern_stopwords.sub("", sentence)
 
+    # Remove the word non-verbal, this occurs when the transcription model can not transcribe the speech segment
+    pattern_non_verbal = re.compile("(\s*)non-verbal(\s*)")
+    sentence = pattern_non_verbal.sub("", sentence)
+    print("s:" + sentence)
     return sentence
 
 
@@ -70,7 +78,6 @@ def getTextData(x_train, x_test):
     vocab_length = len(word_tokenizer.word_index) + 1
 
     # Set a max length
-
     x_text_train = pad_sequences(
         x_text_train, padding="post", maxlen=embedding_max_length
     )
@@ -81,7 +88,7 @@ def getTextData(x_train, x_test):
     # Load GloVe word embeddings and create an Embeddings Dictionary
     embeddings_dictionary = dict()
     glove_file = open(
-        "../data/pretrained_glove_embedding/glove.6B.100d.txt", encoding="utf8"
+        "../data/pretrained_glove_embedding/glove.42B.300d.txt", encoding="utf8"
     )
 
     for line in glove_file:
@@ -91,19 +98,19 @@ def getTextData(x_train, x_test):
         embeddings_dictionary[word] = vector_dimensions
     glove_file.close()
 
-    # Create an embedding Matrix with 100-dimensional word embeddings
+    # Create an embedding Matrix
     embedding_matrix = zeros((vocab_length, embedding_dimension))
     for word, index in word_tokenizer.word_index.items():
         embedding_vector = embeddings_dictionary.get(word)
         if embedding_vector is not None:
             embedding_matrix[index] = embedding_vector
-    return x_text_train, x_text_test, embedding_matrix, vocab_length
+    return (x_text_train, x_text_test, embedding_matrix, vocab_length)
 
 
 # --------------------------------------------------------------------------#
-# LSTM                                                                      #
+# Model                                                                     #
 # --------------------------------------------------------------------------#
-def getTextModel(x_text_train, y_train, vocab_length, embedding_matrix):
+def getTextModel(labels, vocab_length, embedding_matrix):
     model = Sequential()
     model.add(
         Embedding(
@@ -115,10 +122,12 @@ def getTextModel(x_text_train, y_train, vocab_length, embedding_matrix):
         )
     )
 
-    model.add(LSTM(256, return_sequences=True, input_shape=(x_text_train.shape[1], 1)))
-    model.add(LSTM(256, return_sequences=False))
+    model.add(LSTM(256, return_sequences=True, recurrent_dropout=0.2))
+    model.add(Dropout(0.2))
+    model.add(LSTM(256, return_sequences=False, recurrent_dropout=0.2))
+    model.add(Dropout(0.2))
     model.add(Dense(256))
-    model.add(Dense(y_train.shape[1]))  # for each label
+    model.add(Dense(labels.shape[0]))  # for each label
     model.add(Activation("softmax"))
 
     model.compile(
