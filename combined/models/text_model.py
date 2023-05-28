@@ -14,7 +14,7 @@ from numpy import asarray
 from numpy import zeros
 import contractions
 
-embedding_max_length = 50
+embedding_max_length = 30  # max words in sentence
 embedding_dimension = 300
 
 # --------------------------------------------------------------------------#
@@ -42,7 +42,7 @@ def preprocess_text(text):
     # Remove dubble white spaces, when we remove single characters an extra white space gets left
     sentence = re.sub(r"\s+", " ", sentence)
 
-    # # Remove Stopwords
+    # Remove Stopwords
     # pattern_stopwords = re.compile(
     #     r"\b(" + r"|".join(stopwords.words("english")) + r")\b\s*"
     # )
@@ -51,6 +51,7 @@ def preprocess_text(text):
     # Remove the word non-verbal, this occurs when the transcription model can not transcribe the speech segment
     pattern_non_verbal = re.compile("(\s*)non-verbal(\s*)")
     sentence = pattern_non_verbal.sub("", sentence)
+
     print("s:" + sentence)
     return sentence
 

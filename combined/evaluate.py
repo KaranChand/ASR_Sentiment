@@ -26,7 +26,7 @@ y = df["emotion"]
 encoder = LabelEncoder()
 
 
-names = ["Acoustic Model", "Combined Model"]
+names = ["Text Model"]
 text_acc_per_fold = []
 acoustic_acc_per_fold = []
 combined_acc_per_fold = []

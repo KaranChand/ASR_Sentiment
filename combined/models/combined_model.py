@@ -2,7 +2,6 @@ from keras.models import Sequential
 import keras
 from keras.layers.core import Activation, Dropout, Dense
 from keras.layers import LSTM, Embedding, Flatten
-from keras.optimizers import Adam
 
 # --------------------------------------------------------------------------#
 # Concat the text model and speech model                                    #
@@ -10,7 +9,8 @@ from keras.optimizers import Adam
 # - Paper: https://arxiv.org/pdf/1804.05788.pdf                             #
 # - Code https://github.com/Samarth-Tripathi/IEMOCAP-Emotion-Detection      #
 # --------------------------------------------------------------------------#
-embedding_max_length = 50
+
+embedding_max_length = 30  # max words in sentence
 embedding_dimension = 300
 
 
