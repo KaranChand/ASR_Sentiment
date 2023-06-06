@@ -14,5 +14,5 @@ The evaluate.py can be ran to see the performance of all 3 models.
 The predict.py can be ran to see the confusion matrices of all 3 models.
 
 ### Architecture of the combined model:
-![Alt text](combined\images\combined_model.png)
+![Alt text](combined/images/combined_model.png)
 
