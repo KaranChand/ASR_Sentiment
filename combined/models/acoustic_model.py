@@ -37,7 +37,7 @@ def getAcousticData(x_train, x_test):
 # Feature extraction                                                        #
 # --------------------------------------------------------------------------#
 def extract_feature(file_name, mfcc, chroma, mel, magnitudes, pitches, contrast):
-    sr = 16000
+    sr = 48000
     audio, sample_rate = lb.load(file_name, sr=sr)
 
     intervals = lb.effects.split(audio, top_db=20)
@@ -45,14 +45,7 @@ def extract_feature(file_name, mfcc, chroma, mel, magnitudes, pitches, contrast)
     for sliced in intervals:
         wav_output.extend(audio[sliced[0] : sliced[1]])
     audio = np.array(wav_output)
-    ### makes it worse
-    # audio, _ = lb.effects.trim(audio)
-    # audio = lb.effects.split(audio)
-    # audio = lb.effects.preemphasis(audio)
-    ###
 
-    # play with duration only load up to this much audio (in seconds)
-    # remove kaiser fast
     pitches, magnitudes = lbcp.piptrack(y=audio, sr=sample_rate)
     result = np.array([])
 

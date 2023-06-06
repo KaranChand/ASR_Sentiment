@@ -1,13 +1,13 @@
 import numpy as np
 import pandas as pd
 from sklearn.calibration import LabelEncoder
-from sklearn.model_selection import StratifiedKFold, KFold
+from sklearn.model_selection import KFold
 from models.combined_model import getCombinedModel
 from keras.utils import np_utils
 from models.text_model import getTextData, getTextModel
 from models.acoustic_model import getAcousticData, getAcousticModel
 
-n_splits = 3
+n_splits = 5
 random_state = 42
 batch_size = 128
 epochs = 10
@@ -26,7 +26,7 @@ y = df["emotion"]
 encoder = LabelEncoder()
 
 
-names = ["Text Model"]
+names = ["Text Model", "Acoustic Model", "Combined Model"]
 text_acc_per_fold = []
 acoustic_acc_per_fold = []
 combined_acc_per_fold = []
