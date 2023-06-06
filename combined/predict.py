@@ -14,8 +14,8 @@ import seaborn as sn
 
 test_size = 0.25
 random_state = 42
-batch_size = 64
-epochs = 20
+batch_size = 128
+epochs = 10
 verbose = 0
 
 # Read the csv file with data to a data frame
@@ -43,8 +43,6 @@ y_train = np_utils.to_categorical(y_train)
 y_test = encoder.transform(y_test)
 y_test = np_utils.to_categorical(y_test)
 
-# https://www.tensorflow.org/guide/keras/save_and_serialize
-
 x_text_train, x_text_test, embedding_matrix, vocab_length = getTextData(x_train, x_test)
 x_acoustic_train, x_acoustic_test = getAcousticData(x_train, x_test)
 
@@ -69,7 +67,6 @@ acoustic_model.fit(
 )
 acoustic_model_prediction = acoustic_model.predict(x_acoustic_test)
 
-# Combined Model
 combined_model = getCombinedModel(
     x_acoustic_train, labels, vocab_length, embedding_matrix
 )
@@ -95,6 +92,7 @@ predictions = [
 y_test = np.argmax(y_test, axis=1)
 
 
+names = ["Text Model", "Acoustic Model", "Combined Model"]
 plt.figure(figsize=(20, 5))
 for i, prediction in enumerate(predictions):
     labels = df["emotion"].unique()
@@ -102,9 +100,9 @@ for i, prediction in enumerate(predictions):
 
     df_cm = pd.DataFrame(array, labels, labels)
     plt.subplot(1, 3, i + 1)
-    sn.heatmap(df_cm, annot=True, cmap="BuPu")  # font size
+    sn.heatmap(df_cm, annot=True, cmap="BuPu")
     plt.xlabel("Predicted")
     plt.ylabel("True")
-    plt.title(i + 1)
+    plt.title(names[i])
 plt.tight_layout()
 plt.show()
