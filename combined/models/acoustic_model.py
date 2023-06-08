@@ -15,12 +15,12 @@ def load_speech_data(data):
     for file_name in data:
         feature = extract_feature(
             "../data/wav_corpus/" + file_name + ".wav",
-            mfcc=True,
-            chroma=True,
-            mel=True,
+            extract_mfcc=True,
+            extract_chroma=True,
+            extract_melspectogram=True,
             magnitudes=True,
             pitches=True,
-            contrast=True,
+            extract_contrast=True,
         )
         x.append(feature)
 
@@ -36,7 +36,15 @@ def getAcousticData(x_train, x_test):
 # --------------------------------------------------------------------------#
 # Feature extraction                                                        #
 # --------------------------------------------------------------------------#
-def extract_feature(file_name, mfcc, chroma, mel, magnitudes, pitches, contrast):
+def extract_feature(
+    file_name,
+    extract_mfcc,
+    extract_chroma,
+    extract_melspectogram,
+    extract_magnitudes,
+    extract_pitches,
+    extract_contrast,
+):
     sr = 48000
     audio, sample_rate = lb.load(file_name, sr=sr)
 
@@ -47,37 +55,41 @@ def extract_feature(file_name, mfcc, chroma, mel, magnitudes, pitches, contrast)
     audio = np.array(wav_output)
 
     pitches, magnitudes = lbcp.piptrack(y=audio, sr=sample_rate)
+
+    stft = np.abs(lb.stft(audio))  # convert a signal into its frequency
+
     result = np.array([])
 
-    if mfcc:
+    if extract_mfcc:
         mfccs = np.mean(lb.feature.mfcc(y=audio, sr=sample_rate, n_mfcc=40).T, axis=0)
         result = np.hstack((result, mfccs))
         mfcc_std = np.std(lb.feature.mfcc(y=audio, sr=sample_rate, n_mfcc=40).T, axis=0)
         result = np.hstack((result, mfcc_std))
-    if chroma:
-        stft = np.abs(lb.stft(audio))  # is this chroma or not?
+    if extract_chroma:
         chroma = np.mean(lb.feature.chroma_stft(S=stft, sr=sample_rate).T, axis=0)
         result = np.hstack((result, chroma))
         chroma_std = np.std(lb.feature.chroma_stft(S=stft, sr=sample_rate).T, axis=0)
         result = np.hstack((result, chroma_std))
-    if mel:
+    if extract_melspectogram:
         mel = np.mean(lb.feature.melspectrogram(y=audio, sr=sample_rate).T, axis=0)
         result = np.hstack((result, mel))
         mel_std = np.std(lb.feature.melspectrogram(y=audio, sr=sample_rate).T, axis=0)
         result = np.hstack((result, mel_std))
-
-    magnitudes = np.trim_zeros(np.mean(magnitudes, axis=1))[:20]
-    result = np.hstack((result, magnitudes))
-
-    pitches = np.trim_zeros(np.mean(pitches, axis=1))[:20]
-    result = np.hstack((result, pitches))
-
-    contrast = np.mean(lb.feature.spectral_contrast(S=stft, sr=sample_rate).T, axis=0)
-    result = np.hstack((result, contrast))
-    contrast_std = np.std(
-        lb.feature.spectral_contrast(S=stft, sr=sample_rate).T, axis=0
-    )
-    result = np.hstack((result, contrast_std))
+    if extract_contrast:
+        contrast = np.mean(
+            lb.feature.spectral_contrast(S=stft, sr=sample_rate).T, axis=0
+        )
+        result = np.hstack((result, contrast))
+        contrast_std = np.std(
+            lb.feature.spectral_contrast(S=stft, sr=sample_rate).T, axis=0
+        )
+        result = np.hstack((result, contrast_std))
+    if extract_magnitudes:
+        magnitudes = np.trim_zeros(np.mean(magnitudes, axis=1))[:20]
+        result = np.hstack((result, magnitudes))
+    if extract_pitches:
+        pitches = np.trim_zeros(np.mean(pitches, axis=1))[:20]
+        result = np.hstack((result, pitches))
 
     # todo: librosa noise reduction, silence removal, pre-emphasis from paper: https://link.springer.com/article/10.1007/s11042-020-09874-7#Sec34
     # https://www.kaggle.com/code/jaseemck/audio-processing-using-librosa-for-beginners
@@ -87,26 +99,11 @@ def extract_feature(file_name, mfcc, chroma, mel, magnitudes, pitches, contrast)
 
     # https://link.springer.com/article/10.1007/s11042-020-09874-7#Sec34
 
-    # preprocess : https://github.com/micmarty/audio-preprocessing-exercises-with-librosa/blob/master/librosa_preprocessing_audio.ipynb
-
-    # resample https://github.com/russellgeum/Speech-Preprocessing/blob/master/preprocessing/resample.py maybe handy idk
-
-    # tonnetz gives n_fft=1024 is too large for input signal of length=753
-    # maybe my files are too short as this is only used with music
-
-    # tonnetz = np.mean(
-    #     lb.feature.tonnetz(y=lb.effects.harmonic(y=audio), sr=sample_rate).T, axis=0
-    # )
-    # result = np.hstack((result, tonnetz))
-    # tonnetz_std = np.std(
-    #     lb.feature.tonnetz(y=lb.effects.harmonic(y=audio), sr=sample_rate).T, axis=0
-    # )
-    # result = np.hstack((result, tonnetz_std))
     return result
 
 
 # --------------------------------------------------------------------------#
-# Mode                                                                      #
+# Model                                                                      #
 # --------------------------------------------------------------------------#
 def getAcousticModel(x_train, labels):
     model = Sequential()
@@ -126,7 +123,6 @@ def getAcousticModel(x_train, labels):
     model.add(Dense(labels.shape[0]))  # 5 for each label
     model.add(Activation("softmax"))
 
-    # Compile the model
     model.compile(
         loss="categorical_crossentropy",
         optimizer="adadelta",
