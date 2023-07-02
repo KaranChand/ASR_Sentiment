@@ -1,11 +1,11 @@
 transcription;audio;language;emotion
-[non-verbal] I don't know what's happening, I'm sorry.;data/wav_corpus/f_ans001aen.wav;english;fear
+ I don't know what's happening, I'm sorry.;data/wav_corpus/f_ans001aen.wav;english;fear
 It's more like having a presentiment, do you know what I'm saying?;data/wav_corpus/f_ans003aen.wav;english;fear
 Don't touch me, better if you don't.;data/wav_corpus/f_ans004aen.wav;english;fear
 In Wellfleet, you were there, we were all there.;data/wav_corpus/f_ans005aen.wav;english;fear
-Yes, but they were new arrivals. New women were arriving all the time. So the [non-verbal] ...;data/wav_corpus/f_ans007sen.wav;english;fear
+Yes, but they were new arrivals. New women were arriving all the time. So the  ;data/wav_corpus/f_ans007sen.wav;english;fear
 I got really scared.;data/wav_corpus/f_ans009ben.wav;english;fear
-You're not doing this move just for me, are you? I mean ...;data/wav_corpus/f_ans010aen.wav;english;fear
+You're not doing this move just for me, are you? I mean ;data/wav_corpus/f_ans010aen.wav;english;fear
 Please, talk to me, tell me what happened.;data/wav_corpus/f_ans012aen.wav;english;fear
 I can't tell you. Someone might get hurt.;data/wav_corpus/f_ans019aen.wav;english;fear
 It was once, it's not anymore.;data/wav_corpus/f_ans021aen.wav;english;fear
@@ -32,14 +32,14 @@ With strange eyes she was imitating my daughter's voice.;data/wav_corpus/f_ans90
 I'd swear to God that it wasn't my daughter.;data/wav_corpus/f_ans902den.wav;english;fear
 Oh God, God help me.;data/wav_corpus/f_ans902een.wav;english;fear
 I don't know what's the matter with me.;data/wav_corpus/f_ans902fen.wav;english;fear
-They know I'd never hurt them, I [non-verbal] ...;data/wav_corpus/f_ans903aen.wav;english;fear
+They know I'd never hurt them, I  ;data/wav_corpus/f_ans903aen.wav;english;fear
 It's in the hands of some physician I have never even met.;data/wav_corpus/f_ans999aen.wav;english;fear
 I mean, of course I'm worried about Ray.;data/wav_corpus/f_ans999ben.wav;english;fear
-If anything, he's not good with this stuff. [non-verbal];data/wav_corpus/f_ans999cen.wav;english;fear
+If anything, he's not good with this stuff. ;data/wav_corpus/f_ans999cen.wav;english;fear
 Telling me that she's always complaining, that's not picking on her? I think so.;data/wav_corpus/f_dis008aen.wav;english;disgust
 I'm saying, Vanessa, that even crazy people like to be asked.;data/wav_corpus/f_dis010aen.wav;english;disgust
 Yeah, whoopee.;data/wav_corpus/f_dis016aen.wav;english;disgust
-Sweetheart, I do love you, but sometimes I have to wonder if you really are my ...;data/wav_corpus/f_dis024aen.wav;english;disgust
+Sweetheart, I do love you, but sometimes I have to wonder if you really are my ;data/wav_corpus/f_dis024aen.wav;english;disgust
 You've always been more like your father.;data/wav_corpus/f_dis025aen.wav;english;disgust
 What is it exactly that you want?;data/wav_corpus/f_dis026aen.wav;english;disgust
 You can give me the gun or give me back the money.;data/wav_corpus/f_dis027aen.wav;english;disgust
@@ -61,9 +61,9 @@ Oh you'd have saved your heads being chopped off by the Romans, that's true.;dat
 So you both would have lied to the point of denying Christ?;data/wav_corpus/f_dis902aen.wav;english;disgust
 I just want you to come to California with me.;data/wav_corpus/f_gio009aen.wav;english;happiness
 Congratulations on your unfettered ascendancy at Wyant Wheeler.;data/wav_corpus/f_gio011aen.wav;english;happiness
-Oh thank you Miss Burton, now ...;data/wav_corpus/f_gio012aen.wav;english;happiness
+Oh thank you Miss Burton, now ;data/wav_corpus/f_gio012aen.wav;english;happiness
 Take that note under consideration.;data/wav_corpus/f_gio012ben.wav;english;happiness
-Well that's a big surprise. [non-verbal];data/wav_corpus/f_gio014aen.wav;english;happiness
+Well that's a big surprise. ;data/wav_corpus/f_gio014aen.wav;english;happiness
 I'm not a psycho.;data/wav_corpus/f_gio016aen.wav;english;happiness
 She didn't call me Emily, isn't that great?;data/wav_corpus/f_gio017aen.wav;english;happiness
 It is you.;data/wav_corpus/f_gio030aen.wav;english;happiness
@@ -73,13 +73,13 @@ This is wonderful.;data/wav_corpus/f_gio045aen.wav;english;happiness
 I told them I had to spend the evening with him.;data/wav_corpus/f_gio049aen.wav;english;happiness
 Britain's premier equestrian journalist.;data/wav_corpus/f_gio049ben.wav;english;happiness
 It's just hot in here, that's all.;data/wav_corpus/f_gio101aen.wav;english;happiness
-Oh, I thought you meant the judge! [non-verbal];data/wav_corpus/f_gio120aen.wav;english;happiness
+Oh, I thought you meant the judge! ;data/wav_corpus/f_gio120aen.wav;english;happiness
 Thanks a lot!;data/wav_corpus/f_gio123aen.wav;english;happiness
 Will you relax? I know it's a big deal day.;data/wav_corpus/f_gio125aen.wav;english;happiness
 Oh that's all.;data/wav_corpus/f_gio126aen.wav;english;happiness
 I thought you might be in the middle of some tempestuous romance.;data/wav_corpus/f_gio133aen.wav;english;happiness
-Happy Birthday! [non-verbal];data/wav_corpus/f_gio144aen.wav;english;happiness
-No ... [non-verbal] yeah!;data/wav_corpus/f_gio162aen.wav;english;happiness
+Happy Birthday! ;data/wav_corpus/f_gio144aen.wav;english;happiness
+No   yeah!;data/wav_corpus/f_gio162aen.wav;english;happiness
 Do you write about Sister Drummond?;data/wav_corpus/f_gio202aen.wav;english;happiness
 Do you write about me?;data/wav_corpus/f_gio203aen.wav;english;happiness
 Can I look?;data/wav_corpus/f_gio204aen.wav;english;happiness
@@ -90,7 +90,7 @@ Thirty-one until my next birthday.;data/wav_corpus/f_gio209aen.wav;english;happi
 Beautiful.;data/wav_corpus/f_gio210aen.wav;english;happiness
 I love London.;data/wav_corpus/f_gio211aen.wav;english;happiness
 What's it mean?;data/wav_corpus/f_gio212aen.wav;english;happiness
-... wait until he got around to it.;data/wav_corpus/f_gio214aen.wav;english;happiness
+ wait until he got around to it.;data/wav_corpus/f_gio214aen.wav;english;happiness
 I seem to be in some strange sort of mood.;data/wav_corpus/f_gio999ben.wav;english;happiness
 Where are you?;data/wav_corpus/f_rab003aen.wav;english;anger
 My two little daughters singing stupid fucking songs from those stupid fucking commercials.;data/wav_corpus/f_rab007aen.wav;english;anger
@@ -134,7 +134,7 @@ The case is over.;data/wav_corpus/f_rab099aen.wav;english;anger
 Bullshit John, it is splashed all over you. It's gonna follow you around forever.;data/wav_corpus/f_rab102aen.wav;english;anger
 But that seems hard for you.;data/wav_corpus/f_rab104aen.wav;english;anger
 I could have stopped him.;data/wav_corpus/f_tri002aen.wav;english;sadness
-I was aware that he would sometimes ...;data/wav_corpus/f_tri004aen.wav;english;sadness
+I was aware that he would sometimes ;data/wav_corpus/f_tri004aen.wav;english;sadness
 Wake up.;data/wav_corpus/f_tri004ben.wav;english;sadness
 Crawl out of bed.;data/wav_corpus/f_tri005aen.wav;english;sadness
 And walk about.;data/wav_corpus/f_tri005ben.wav;english;sadness
@@ -147,14 +147,14 @@ And he's got a train to catch.;data/wav_corpus/f_tri039cen.wav;english;sadness
 I'm very, very sorry.;data/wav_corpus/f_tri040aen.wav;english;sadness
 For the terrible distress that I've caused.;data/wav_corpus/f_tri040ben.wav;english;sadness
 I'm very, very sorry.;data/wav_corpus/f_tri040cen.wav;english;sadness
-He said that if you said that ...;data/wav_corpus/f_tri046aen.wav;english;sadness
+He said that if you said that ;data/wav_corpus/f_tri046aen.wav;english;sadness
 He has commitment papers for me to sign.;data/wav_corpus/f_tri046ben.wav;english;sadness
 Would you have hurt me, John?;data/wav_corpus/f_tri047aen.wav;english;sadness
-But my, my girls, I just ...;data/wav_corpus/f_tri049aen.wav;english;sadness
-It's great here, it's really great. [non-verbal];data/wav_corpus/f_tri055aen.wav;english;sadness
+But my, my girls, I just ;data/wav_corpus/f_tri049aen.wav;english;sadness
+It's great here, it's really great. ;data/wav_corpus/f_tri055aen.wav;english;sadness
 I don't know, I went to this shrine today.;data/wav_corpus/f_tri055ben.wav;english;sadness
 There were these monks and they were chanting.;data/wav_corpus/f_tri056aen.wav;english;sadness
-And ... I didn't feel anything.;data/wav_corpus/f_tri056ben.wav;english;sadness
+And  I didn't feel anything.;data/wav_corpus/f_tri056ben.wav;english;sadness
 Nothing, it's okay. I'll call you later, okay?;data/wav_corpus/f_tri057aen.wav;english;sadness
 Do I make her proud?;data/wav_corpus/f_tri071aen.wav;english;sadness
 Jim, you didn't see.;data/wav_corpus/f_tri081aen.wav;english;sadness
@@ -202,27 +202,27 @@ Lawrence, get up!;data/wav_corpus/m_ans150aen.wav;english;fear
 You know it's like saying: 'It's not a riot, it's rage. It's not crime, it's poverty.';data/wav_corpus/m_dis001aen.wav;english;disgust
 Look at this sorry, miserable, squashed thing.;data/wav_corpus/m_dis002aen.wav;english;disgust
 Can anybody tell me what's wrong with this picture?;data/wav_corpus/m_dis002ben.wav;english;disgust
-Well, [non-verbal], let's see.;data/wav_corpus/m_dis003aen.wav;english;disgust
+Well, , let's see.;data/wav_corpus/m_dis003aen.wav;english;disgust
 On my sixth birthday, my best friend at the time, Scott Tibbs, stabbed me with a rusty nail.;data/wav_corpus/m_dis003ben.wav;english;disgust
 What I saw was you get into your car. That's it.;data/wav_corpus/m_dis004aen.wav;english;disgust
 I don't know how I got here, I don't know how you got here.;data/wav_corpus/m_dis004cen.wav;english;disgust
 Really? Obviously this cop thinks you are the one behind it all.;data/wav_corpus/m_dis005aen.wav;english;disgust
-I keep regular office hours if there's any further information you might need on sayings, common phrases ...;data/wav_corpus/m_dis008ben.wav;english;disgust
+I keep regular office hours if there's any further information you might need on sayings, common phrases ;data/wav_corpus/m_dis008ben.wav;english;disgust
 My door's wide open.;data/wav_corpus/m_dis008cen.wav;english;disgust
 Well, I'll make a note of it. Anything else I can do for you?;data/wav_corpus/m_dis011aen.wav;english;disgust
 You include me out. I've had enough of the convocations.;data/wav_corpus/m_dis013aen.wav;english;disgust
 And it seems you do too.;data/wav_corpus/m_dis014aen.wav;english;disgust
 Mother, I'm a very busy man.;data/wav_corpus/m_dis015aen.wav;english;disgust
-I do not have time to help ... it pursue some ridiculous lawsuit.;data/wav_corpus/m_dis015ben.wav;english;disgust
+I do not have time to help  it pursue some ridiculous lawsuit.;data/wav_corpus/m_dis015ben.wav;english;disgust
 Well, that's mutation, Mother. The miracle of genetics is I'm not you.;data/wav_corpus/m_dis016aen.wav;english;disgust
 So you'd be gone for quite a long time.;data/wav_corpus/m_dis017aen.wav;english;disgust
 I live with you. I know how much you study, or I should say don't study. And you do better than me.;data/wav_corpus/m_dis018ben.wav;english;disgust
 I will save lives that could have otherwise not been saved.;data/wav_corpus/m_dis020aen.wav;english;disgust
-You know, maybe I am. But you ask the average person ...;data/wav_corpus/m_dis021aen.wav;english;disgust
-When death comes knocking at their door ... whether they want a prick on their side.;data/wav_corpus/m_dis021ben.wav;english;disgust
+You know, maybe I am. But you ask the average person ;data/wav_corpus/m_dis021aen.wav;english;disgust
+When death comes knocking at their door  whether they want a prick on their side.;data/wav_corpus/m_dis021ben.wav;english;disgust
 Is it because your father was a doctor and his father was a doctor, some sort of genetic thing?;data/wav_corpus/m_dis023ben.wav;english;disgust
 People are good. Trust people?;data/wav_corpus/m_dis027ben.wav;english;disgust
-Maybe you got a bunch of fat and happy fighters at home ... can afford to rest a month between bouts. I don't know. Lucky you! ;data/wav_corpus/m_dis031ben.wav;english;disgust
+Maybe you got a bunch of fat and happy fighters at home  can afford to rest a month between bouts. I don't know. Lucky you! ;data/wav_corpus/m_dis031ben.wav;english;disgust
 Saddam. His, his name's Saddam? Well that's, that's real good Bruce.;data/wav_corpus/m_dis035aen.wav;english;disgust
 I misplaced an important complaint. That's their story.;data/wav_corpus/m_dis044aen.wav;english;disgust
 Wanna hear mine?;data/wav_corpus/m_dis044ben.wav;english;disgust
@@ -234,7 +234,7 @@ On for a video fest tonight?;data/wav_corpus/m_gio003aen.wav;english;happiness
 I got some absolute classics.;data/wav_corpus/m_gio003ben.wav;english;happiness
 Come on, one dance!;data/wav_corpus/m_gio005aen.wav;english;happiness
 You told me every other fucking thing.;data/wav_corpus/m_gio010aen.wav;english;happiness
-Everybody has their own idea of what they think paradise is. [non-verbal];data/wav_corpus/m_gio014aen.wav;english;happiness
+Everybody has their own idea of what they think paradise is. ;data/wav_corpus/m_gio014aen.wav;english;happiness
 Relax, it's okay. There is no point in being nuts if you can't have a little fun.;data/wav_corpus/m_gio018aen.wav;english;happiness
 Gee, I love you guys.;data/wav_corpus/m_gio022aen.wav;english;happiness
 For the first time in eighteen years I'm going to be able to call the shots in my own life. Oh my God!;data/wav_corpus/m_gio023aen.wav;english;happiness
@@ -256,9 +256,9 @@ I lost count, man.;data/wav_corpus/m_gio108aen.wav;english;happiness
 Doesn't matter, man.;data/wav_corpus/m_gio108ben.wav;english;happiness
 Make that second most beautiful invention!;data/wav_corpus/m_gio111aen.wav;english;happiness
 I'd feel a bit of a fool handing it over myself.;data/wav_corpus/m_gio129aen.wav;english;happiness
-[non-verbal] I just use it for clean-up.;data/wav_corpus/m_gio130aen.wav;english;happiness
-[non-verbal] I gotta go see about a girl.;data/wav_corpus/m_gio135aen.wav;english;happiness
-Everybody has their own idea of what they think paradise is. [non-verbal];data/wav_corpus/m_gio140aen.wav;english;happiness
+ I just use it for clean-up.;data/wav_corpus/m_gio130aen.wav;english;happiness
+ I gotta go see about a girl.;data/wav_corpus/m_gio135aen.wav;english;happiness
+Everybody has their own idea of what they think paradise is. ;data/wav_corpus/m_gio140aen.wav;english;happiness
 The wife thinks it's paradise.;data/wav_corpus/m_gio140ben.wav;english;happiness
 So I shared that with you.;data/wav_corpus/m_gio144aen.wav;english;happiness
 And one night it was so loud it woke the dog up.;data/wav_corpus/m_gio144ben.wav;english;happiness
@@ -280,7 +280,7 @@ Why do you think he does that, Gerry? Do you have any fucking clue why?;data/wav
 It's not about you, you mathematical dick!;data/wav_corpus/m_rab055aen.wav;english;anger
 He is a good kid!;data/wav_corpus/m_rab055den.wav;english;anger
 Did you hear me? Shut up!;data/wav_corpus/m_rab064aen.wav;english;anger
-Now you either tell me what is really going on or I'll cut you with this, you hear me? I'll cut ...;data/wav_corpus/m_rab067aen.wav;english;anger
+Now you either tell me what is really going on or I'll cut you with this, you hear me? I'll cut ;data/wav_corpus/m_rab067aen.wav;english;anger
 Well then don't keep me in the dark about what you're thinking!;data/wav_corpus/m_rab070aen.wav;english;anger
 Does that mean you saw what happened to me?;data/wav_corpus/m_rab072aen.wav;english;anger
 You goddamn well should!;data/wav_corpus/m_rab084aen.wav;english;anger
@@ -299,12 +299,12 @@ How hard can that be?;data/wav_corpus/m_rab102aen.wav;english;anger
 Fights being stopped by referees? He's pathetic!;data/wav_corpus/m_rab115aen.wav;english;anger
 What does that mean?;data/wav_corpus/m_rab121aen.wav;english;anger
 If she's not guilty, why am I?;data/wav_corpus/m_rab121ben.wav;english;anger
-Makes you feel ...;data/wav_corpus/m_tri002aen.wav;english;sadness
-... alian.;data/wav_corpus/m_tri002ben.wav;english;sadness
-You know, after ...;data/wav_corpus/m_tri004ben.wav;english;sadness
-... then I ever was of being in ...;data/wav_corpus/m_tri004een.wav;english;sadness
+Makes you feel ;data/wav_corpus/m_tri002aen.wav;english;sadness
+ alian.;data/wav_corpus/m_tri002ben.wav;english;sadness
+You know, after ;data/wav_corpus/m_tri004ben.wav;english;sadness
+ then I ever was of being in ;data/wav_corpus/m_tri004een.wav;english;sadness
 I loved her.;data/wav_corpus/m_tri005aen.wav;english;sadness
-When we were sitting in that kitchen that night ...;data/wav_corpus/m_tri005cen.wav;english;sadness
+When we were sitting in that kitchen that night ;data/wav_corpus/m_tri005cen.wav;english;sadness
 I don't want it.;data/wav_corpus/m_tri005een.wav;english;sadness
 She had to go meet Eve and Diane.;data/wav_corpus/m_tri007cen.wav;english;sadness
 We were gonna leave Sunday.;data/wav_corpus/m_tri008aen.wav;english;sadness
@@ -312,7 +312,7 @@ We were gonna get married when we got there.;data/wav_corpus/m_tri008ben.wav;eng
 I loved her so much.;data/wav_corpus/m_tri009aen.wav;english;sadness
 It doesn't happen twice.;data/wav_corpus/m_tri009cen.wav;english;sadness
 But now she wants to die.;data/wav_corpus/m_tri011aen.wav;english;sadness
-And I swear to God, Father ...;data/wav_corpus/m_tri011cen.wav;english;sadness
+And I swear to God, Father ;data/wav_corpus/m_tri011cen.wav;english;sadness
 It's comitting a sin by doing it.;data/wav_corpus/m_tri011den.wav;english;sadness
 By keeping her alive I'm killing her.;data/wav_corpus/m_tri011een.wav;english;sadness
 Do you know what I mean?;data/wav_corpus/m_tri011fen.wav;english;sadness
@@ -332,27 +332,27 @@ Couldn't help that one.;data/wav_corpus/m_tri025ben.wav;english;sadness
 And he can't stop thinking about Annie.;data/wav_corpus/m_tri026aen.wav;english;sadness
 Ever since then, things have been different.;data/wav_corpus/m_tri027aen.wav;english;sadness
 He is not the same person that he used to be.;data/wav_corpus/m_tri028aen.wav;english;sadness
-And his wife ... doesn't like the person that he's become.;data/wav_corpus/m_tri028ben.wav;english;sadness
+And his wife  doesn't like the person that he's become.;data/wav_corpus/m_tri028ben.wav;english;sadness
 And then one day Malcom meets this wonderful little boy.;data/wav_corpus/m_tri029ben.wav;english;sadness
 And Malcom decides to try and help this new boy.;data/wav_corpus/m_tri030aen.wav;english;sadness
-Cause he feels that ...;data/wav_corpus/m_tri030ben.wav;english;sadness
-... it would be like ... helping that other one too.;data/wav_corpus/m_tri030cen.wav;english;sadness
+Cause he feels that ;data/wav_corpus/m_tri030ben.wav;english;sadness
+ it would be like  helping that other one too.;data/wav_corpus/m_tri030cen.wav;english;sadness
 You have to understand. When I was growing up, he was gone more than he was there.;data/wav_corpus/m_tri038aen.wav;english;sadness
 Maybe he never wanted a family.;data/wav_corpus/m_tri040aen.wav;english;sadness
-Whatever it is, he likes his second life ...;data/wav_corpus/m_tri041aen.wav;english;sadness
-... better and the reason that he tells his stories is because he can't stand this boring place.;data/wav_corpus/m_tri041ben.wav;english;sadness
+Whatever it is, he likes his second life ;data/wav_corpus/m_tri041aen.wav;english;sadness
+ better and the reason that he tells his stories is because he can't stand this boring place.;data/wav_corpus/m_tri041ben.wav;english;sadness
 What's true?;data/wav_corpus/m_tri042aen.wav;english;sadness
 No sé lo que me pasa, lo siento.;data/wav_corpus/f_ans001aes.wav;spanish;fear
 Lo siento, he sido muy grosera.;data/wav_corpus/f_ans002aes.wav;spanish;fear
 Es como si tuviera un presentimiento, ¿sabes a qué me refiero?;data/wav_corpus/f_ans003aes.wav;spanish;fear
 No me toques, por Dios.;data/wav_corpus/f_ans004aes.wav;spanish;fear
-Sí, pero llegaban otras, llegaban mujeres constantemente así que ...;data/wav_corpus/f_ans007aes.wav;spanish;fear
-No lo sé. Estaba envolviendo unos ... unos vasos y unas cosas y ...;data/wav_corpus/f_ans009aes.wav;spanish;fear
+Sí, pero llegaban otras, llegaban mujeres constantemente así que ;data/wav_corpus/f_ans007aes.wav;spanish;fear
+No lo sé. Estaba envolviendo unos  unos vasos y unas cosas y ;data/wav_corpus/f_ans009aes.wav;spanish;fear
 Me ha … me ha entrado mucho miedo.;data/wav_corpus/f_ans009bes.wav;spanish;fear
-No harás lo de la mudanza solo por mí, ¿verdad? En fin ...;data/wav_corpus/f_ans010aes.wav;spanish;fear
-Tú... tú deseas realmente hacerlo, ¿no?;data/wav_corpus/f_ans010bes.wav;spanish;fear
+No harás lo de la mudanza solo por mí, ¿verdad? En fin ;data/wav_corpus/f_ans010aes.wav;spanish;fear
+Tú tú deseas realmente hacerlo, ¿no?;data/wav_corpus/f_ans010bes.wav;spanish;fear
 Por favor, háblame, dime qué ha pasado.;data/wav_corpus/f_ans012aes.wav;spanish;fear
-No estoy ... no estoy mintiendo. Fuí a pedirle ayuda.;data/wav_corpus/f_ans018aes.wav;spanish;fear
+No estoy  no estoy mintiendo. Fuí a pedirle ayuda.;data/wav_corpus/f_ans018aes.wav;spanish;fear
 No puedo decírtelo. Harían daño a alguien.;data/wav_corpus/f_ans019aes.wav;spanish;fear
 ¿Quién es usted?;data/wav_corpus/f_ans024aes.wav;spanish;fear
 Yo me había acostado con él y estaba sentada en el porche.;data/wav_corpus/f_ans030aes.wav;spanish;fear
@@ -366,7 +366,7 @@ He oído que ha habido disturbios en Hooverville.;data/wav_corpus/f_ans044aes.wa
 No pasaría tanto tiempo sin vernos a mí y a la niña.;data/wav_corpus/f_ans044bes.wav;spanish;fear
 No sabía a quién acudir, Jim.;data/wav_corpus/f_ans045aes.wav;spanish;fear
 Porque no creía que hubiese motivo.;data/wav_corpus/f_ans049aes.wav;spanish;fear
-Era ... y no sabía lo que significaba.;data/wav_corpus/f_ans050aes.wav;spanish;fear
+Era  y no sabía lo que significaba.;data/wav_corpus/f_ans050aes.wav;spanish;fear
 Pero es imposible.;data/wav_corpus/f_ans901aes.wav;spanish;fear
 El señor nunca permitiría semejante aberración.;data/wav_corpus/f_ans901bes.wav;spanish;fear
 Sólo se reunirán al final de los tiempos.;data/wav_corpus/f_ans901ces.wav;spanish;fear
@@ -386,7 +386,7 @@ Has tropezado y te has golpeada la cabecita contra la acera.;data/wav_corpus/f_d
 ¿Compartirlo?;data/wav_corpus/f_dis019ces.wav;spanish;disgust
 "
 ¿Hay alguien que tenga algo que yo pueda usar?";data/wav_corpus/f_dis020aes.wav;spanish;disgust
-Lloyd, cariño, te quiero con toda mi alma ...;data/wav_corpus/f_dis024aes.wav;spanish;disgust
+Lloyd, cariño, te quiero con toda mi alma ;data/wav_corpus/f_dis024aes.wav;spanish;disgust
 Pero a veces tengo que preguntarme si realmente eres mi hijo.;data/wav_corpus/f_dis024bes.wav;spanish;disgust
 Siempre has sido más como tu padre.;data/wav_corpus/f_dis025aes.wav;spanish;disgust
 Puede darme la pistola o devolverme el dinero.;data/wav_corpus/f_dis027aes.wav;spanish;disgust
@@ -426,7 +426,7 @@ Les he dicho que tenía que pasar la tarde con un periodista ecuestre muy import
 ¡Muchas gracias!;data/wav_corpus/f_gio123aes.wav;spanish;happiness
 Creí que estabas viviendo un tórrido romance.;data/wav_corpus/f_gio133aes.wav;spanish;happiness
 ¡Feliz cumpleaños!  [no verbal];data/wav_corpus/f_gio144aes.wav;spanish;happiness
-No ... [no verbal] ¡sí!;data/wav_corpus/f_gio162aes.wav;spanish;happiness
+No  [no verbal] ¡sí!;data/wav_corpus/f_gio162aes.wav;spanish;happiness
 [no verbal] caray.;data/wav_corpus/f_gio189aes.wav;spanish;happiness
 Es que aquí hace calor.;data/wav_corpus/f_gio201aes.wav;spanish;happiness
 ¿Y sobre mí?;data/wav_corpus/f_gio203aes.wav;spanish;happiness
@@ -484,8 +484,8 @@ Estoy harta tí.;data/wav_corpus/f_rab901aes.wav;spanish;anger
 Fue culpa mía.;data/wav_corpus/f_tri001aes.wav;spanish;sadness
 Podía haberlo impedido.;data/wav_corpus/f_tri002aes.wav;spanish;sadness
 No sabías que últimamente se despertaba.;data/wav_corpus/f_tri003aes.wav;spanish;sadness
-Y yo sabía que algunas veces ...;data/wav_corpus/f_tri004aes.wav;spanish;sadness
-... se levantaba de la cama.;data/wav_corpus/f_tri005aes.wav;spanish;sadness
+Y yo sabía que algunas veces ;data/wav_corpus/f_tri004aes.wav;spanish;sadness
+ se levantaba de la cama.;data/wav_corpus/f_tri005aes.wav;spanish;sadness
 Y andaba por ahí.;data/wav_corpus/f_tri005bes.wav;spanish;sadness
 Se despertaba.;data/wav_corpus/f_tri006aes.wav;spanish;sadness
 Y se sentía confuso.;data/wav_corpus/f_tri007aes.wav;spanish;sadness
@@ -496,7 +496,7 @@ Será mucho peor.;data/wav_corpus/f_tri010aes.wav;spanish;sadness
 Mami te envía millones y millones de besos.;data/wav_corpus/f_tri018aes.wav;spanish;sadness
 Excepto lo que más deseo.;data/wav_corpus/f_tri023aes.wav;spanish;sadness
 Estoy preocupada por Ray.;data/wav_corpus/f_tri026aes.wav;spanish;sadness
-No se si él podrá soportarlo [non-verbal];data/wav_corpus/f_tri027aes.wav;spanish;sadness
+No se si él podrá soportarlo ;data/wav_corpus/f_tri027aes.wav;spanish;sadness
 En esas cosas.;data/wav_corpus/f_tri032ces.wav;spanish;sadness
 Y lo que parecía una estúpida sesión de fotos es una peli porno.;data/wav_corpus/f_tri037aes.wav;spanish;sadness
 Briony, no queda mucho tiempo.;data/wav_corpus/f_tri039aes.wav;spanish;sadness
@@ -513,7 +513,7 @@ Sólo está en tu mente.;data/wav_corpus/f_tri044bes.wav;spanish;sadness
 No es real.;data/wav_corpus/f_tri045bes.wav;spanish;sadness
 Estás enfermo, John.;data/wav_corpus/f_tri045ces.wav;spanish;sadness
 ¿Intentarías hacerme daño?;data/wav_corpus/f_tri047aes.wav;spanish;sadness
-Pero mis ... mis hijas, ellas.;data/wav_corpus/f_tri049aes.wav;spanish;sadness
+Pero mis  mis hijas, ellas.;data/wav_corpus/f_tri049aes.wav;spanish;sadness
 Otra decepción.;data/wav_corpus/f_tri054aes.wav;spanish;sadness
 Que se va.;data/wav_corpus/f_tri054ces.wav;spanish;sadness
 Lo siento.;data/wav_corpus/f_tri059aes.wav;spanish;sadness
@@ -526,7 +526,7 @@ Sin esa familia, nunca podrías haber escrito nada igual.;data/wav_corpus/f_tri0
 Les necesitas.;data/wav_corpus/f_tri096bes.wav;spanish;sadness
 Y que cuando vuelvas me cuentes hasta el último detalle. ;data/wav_corpus/f_tri097bes.wav;spanish;sadness
 Es sólo que sangra mucho.;data/wav_corpus/m_ans001aes.wav;spanish;fear
-Un tipo trató de atracarme, me ... me defendí y me rajó.;data/wav_corpus/m_ans002aes.wav;spanish;fear
+Un tipo trató de atracarme, me  me defendí y me rajó.;data/wav_corpus/m_ans002aes.wav;spanish;fear
 Iba tranquilamente hacia mi coche.;data/wav_corpus/m_ans003aes.wav;spanish;fear
 Le digo no fumo y me dice yo tampoco, así que.;data/wav_corpus/m_ans003bes.wav;spanish;fear
 Claro por eso crees que la maté yo.;data/wav_corpus/m_ans007aes.wav;spanish;fear
@@ -562,7 +562,7 @@ Mira esta triste, miserable y aplastada cosa.;data/wav_corpus/m_dis002aes.wav;sp
 Bueno, pues, quizás.;data/wav_corpus/m_dis003aes.wav;spanish;disgust
 Al cumplir seis años, mi mejor amigo, Scott Tibbs, me pinchó con un clavo, eso te no había contado.;data/wav_corpus/m_dis003bes.wav;spanish;disgust
 ¿A sí? Pues, ese poli piensa que tú estás detrás de todo.;data/wav_corpus/m_dis005aes.wav;spanish;disgust
-Tengo horas de consulta. Si necesitas más información sobre refranes, expresiones ...;data/wav_corpus/m_dis008bes.wav;spanish;disgust
+Tengo horas de consulta. Si necesitas más información sobre refranes, expresiones ;data/wav_corpus/m_dis008bes.wav;spanish;disgust
 Y al parecer, tú también.;data/wav_corpus/m_dis014aes.wav;spanish;disgust
 Bueno, eso se llama mutación, madre. El milagro de la genética es que yo no soy tú.;data/wav_corpus/m_dis016aes.wav;spanish;disgust
 Vivo contigo. Sé cuanto estudias, o debería decir no estudias. Y sacas mejores notas que yo.;data/wav_corpus/m_dis018bes.wav;spanish;disgust
@@ -600,7 +600,7 @@ No comprenderá que se trata de un negro.;data/wav_corpus/m_gio049aes.wav;spanis
 Gracias, no hay más preguntas.;data/wav_corpus/m_gio056aes.wav;spanish;happiness
 Sr. Wheeler, es usted magnífico.;data/wav_corpus/m_gio058aes.wav;spanish;happiness
 [No verbal] eso es lógico. Medio capuchino marchando.;data/wav_corpus/m_gio062aes.wav;spanish;happiness
-Esa mierda es lo mejor que he oído salir ...;data/wav_corpus/m_gio100aes.wav;spanish;happiness
+Esa mierda es lo mejor que he oído salir ;data/wav_corpus/m_gio100aes.wav;spanish;happiness
 Por favor, déjadle en paz.;data/wav_corpus/m_gio101aes.wav;spanish;happiness
 No sé. A las chicas les gusta.;data/wav_corpus/m_gio102aes.wav;spanish;happiness
 ¿Es esa la forma de hablarle a un invitado? ¿A un amigo de la familia?;data/wav_corpus/m_gio103aes.wav;spanish;happiness
@@ -612,7 +612,7 @@ He perdido la cuenta tío.;data/wav_corpus/m_gio108aes.wav;spanish;happiness
 Da igual, colega.;data/wav_corpus/m_gio108bes.wav;spanish;happiness
 Te vendría bien, un bien [no verbal].;data/wav_corpus/m_gio110aes.wav;spanish;happiness
 ¡Y ese es el segundo mejor invento!;data/wav_corpus/m_gio111aes.wav;spanish;happiness
-Pero tú, Jimmy, le miras como si fueras a arrancarle la nariz y obligar ...;data/wav_corpus/m_gio119aes.wav;spanish;happiness
+Pero tú, Jimmy, le miras como si fueras a arrancarle la nariz y obligar ;data/wav_corpus/m_gio119aes.wav;spanish;happiness
 ¿Verdad que es extraño? [no verbal] tener muchos hijos.;data/wav_corpus/m_gio123aes.wav;spanish;happiness
 Preferiría no hacerlo yo mismo. ;data/wav_corpus/m_gio129aes.wav;spanish;happiness
 Cada uno tiene su propia idea de lo que es el paraíso. [no verbal];data/wav_corpus/m_gio140aes.wav;spanish;happiness
@@ -628,7 +628,7 @@ Se hizo por amor.;data/wav_corpus/m_rab006ces.wav;spanish;anger
 ¡Cerrad el pico!;data/wav_corpus/m_rab021des.wav;spanish;anger
 ¿Por qué coño crees que estaba allí?;data/wav_corpus/m_rab022aes.wav;spanish;anger
 "Vamos, responde: ""¿Qué hay que comprender?";data/wav_corpus/m_rab027aes.wav;spanish;anger
-... y las procesas.;data/wav_corpus/m_rab029aes.wav;spanish;anger
+ y las procesas.;data/wav_corpus/m_rab029aes.wav;spanish;anger
 "Dices: ""Las malvadas fueron ellas, ellas son las culpables"".";data/wav_corpus/m_rab029bes.wav;spanish;anger
 Porque por casualidad una de las víctimas escribió un libro.;data/wav_corpus/m_rab029ces.wav;spanish;anger
 ¿Quién lo sabía?;data/wav_corpus/m_rab030ces.wav;spanish;anger
@@ -657,16 +657,16 @@ Cierto, no me caes bien.;data/wav_corpus/m_rab095aes.wav;spanish;anger
 No estamos en el recreo.;data/wav_corpus/m_rab097aes.wav;spanish;anger
 ¡Esto es un asunto serio!;data/wav_corpus/m_rab097bes.wav;spanish;anger
 ¿Dices que soy un capullo?;data/wav_corpus/m_rab099aes.wav;spanish;anger
-Que no está preparado para ser médico y bajo mi responsabilidad ...;data/wav_corpus/m_rab110bes.wav;spanish;anger
+Que no está preparado para ser médico y bajo mi responsabilidad ;data/wav_corpus/m_rab110bes.wav;spanish;anger
 ¡Joder!;data/wav_corpus/m_rab119ces.wav;spanish;anger
 Uno se siente muy …;data/wav_corpus/m_tri001aes.wav;spanish;sadness
 Sólo cuando le hace daño a alguien.;data/wav_corpus/m_tri001bes.wav;spanish;sadness
-Te sientes como ...;data/wav_corpus/m_tri002aes.wav;spanish;sadness
-... un extraño.;data/wav_corpus/m_tri002bes.wav;spanish;sadness
+Te sientes como ;data/wav_corpus/m_tri002aes.wav;spanish;sadness
+ un extraño.;data/wav_corpus/m_tri002bes.wav;spanish;sadness
 La quería.;data/wav_corpus/m_tri005aes.wav;spanish;sadness
 Muchísimo.;data/wav_corpus/m_tri005bes.wav;spanish;sadness
-Por la noche nos sentábamos en la cocina ...;data/wav_corpus/m_tri005ces.wav;spanish;sadness
-... que éramos las dos únicas personas sobre la tierra.;data/wav_corpus/m_tri005des.wav;spanish;sadness
+Por la noche nos sentábamos en la cocina ;data/wav_corpus/m_tri005ces.wav;spanish;sadness
+ que éramos las dos únicas personas sobre la tierra.;data/wav_corpus/m_tri005des.wav;spanish;sadness
 Rechazado.;data/wav_corpus/m_tri005ees.wav;spanish;sadness
 Sobre las ocho.;data/wav_corpus/m_tri007aes.wav;spanish;sadness
 Se fue a ver a Eve y Diane.;data/wav_corpus/m_tri007ces.wav;spanish;sadness
@@ -678,7 +678,7 @@ Tiene nada igual.;data/wav_corpus/m_tri009bes.wav;spanish;sadness
 Nunca en la vida.;data/wav_corpus/m_tri009ces.wav;spanish;sadness
 Pero ahora quiere morir.;data/wav_corpus/m_tri011aes.wav;spanish;sadness
 Y yo quiero que se quede conmigo.;data/wav_corpus/m_tri011bes.wav;spanish;sadness
-Lo juro por Dios, Padre...;data/wav_corpus/m_tri011ces.wav;spanish;sadness
+Lo juro por Dios, Padre;data/wav_corpus/m_tri011ces.wav;spanish;sadness
 Es cometer un pecado el que haga.;data/wav_corpus/m_tri011des.wav;spanish;sadness
 Manteniéndola viva la estoy matando.;data/wav_corpus/m_tri011ees.wav;spanish;sadness
 Lo entiendes.;data/wav_corpus/m_tri011fes.wav;spanish;sadness
@@ -696,12 +696,12 @@ Tú tienes ese don.;data/wav_corpus/m_tri020aes.wav;spanish;sadness
 Sabes tratar a la gente.;data/wav_corpus/m_tri020bes.wav;spanish;sadness
 Les caes bien.;data/wav_corpus/m_tri021aes.wav;spanish;sadness
 Y si te vas, no aprenderé a hacerlo.;data/wav_corpus/m_tri021bes.wav;spanish;sadness
-Hasta que una noche se enteró de que se había ...;data/wav_corpus/m_tri025aes.wav;spanish;sadness
+Hasta que una noche se enteró de que se había ;data/wav_corpus/m_tri025aes.wav;spanish;sadness
 Él no es la misma persona que era antes.;data/wav_corpus/m_tri028aes.wav;spanish;sadness
 Apenas se hablan. Son como extraños.;data/wav_corpus/m_tri029aes.wav;spanish;sadness
-Porque siente que ...;data/wav_corpus/m_tri030bes.wav;spanish;sadness
-... sería ... como ayudar también al otro.;data/wav_corpus/m_tri030ces.wav;spanish;sadness
-Otra familia, otra ...;data/wav_corpus/m_tri039aes.wav;spanish;sadness
+Porque siente que ;data/wav_corpus/m_tri030bes.wav;spanish;sadness
+ sería  como ayudar también al otro.;data/wav_corpus/m_tri030ces.wav;spanish;sadness
+Otra familia, otra ;data/wav_corpus/m_tri039aes.wav;spanish;sadness
 Non so che cosa mi succede scusami.;data/wav_corpus/f_ans001ait.wav;italian;fear
 Scusa è davvero scortese da parte mia.;data/wav_corpus/f_ans002ait.wav;italian;fear
 Non toccarmi Dio.;data/wav_corpus/f_ans004ait.wav;italian;fear
@@ -791,7 +791,7 @@ Tu e mio figlio portate la stessa taglia.;data/wav_corpus/f_gio108ait.wav;italia
 Oh, mi scusi io … mi scusi.;data/wav_corpus/f_gio109ait.wav;italian;happiness
 Ah mio dio Peter, siamo stati bambini in queste stanze.;data/wav_corpus/f_gio110ait.wav;italian;happiness
 È sempre stato il mio nome preferito.;data/wav_corpus/f_gio111ait.wav;italian;happiness
-E solo che … [non-verbal];data/wav_corpus/f_gio112ait.wav;italian;happiness
+E solo che … ;data/wav_corpus/f_gio112ait.wav;italian;happiness
 Che splendida idea.;data/wav_corpus/f_gio113ait.wav;italian;happiness
 Ah questa casa! È questa casa che mi prende.;data/wav_corpus/f_gio115ait.wav;italian;happiness
 Uno che lavora qui mi sembra un po' strano.;data/wav_corpus/f_gio115bit.wav;italian;happiness
@@ -806,8 +806,8 @@ Sei splendente come un panno illustrato.;data/wav_corpus/f_gio126ait.wav;italian
 Credevo che fossi prestato ad un amore tempestoso.;data/wav_corpus/f_gio133ait.wav;italian;happiness
 Mio Dio guarda, mi sono ricoperta.;data/wav_corpus/f_gio134ait.wav;italian;happiness
 CioÈ, tutto qua.;data/wav_corpus/f_gio136ait.wav;italian;happiness
-No! [non-verbal] Sí! ;data/wav_corpus/f_gio162bit.wav;italian;happiness
-[non-verbal] bene.;data/wav_corpus/f_gio189ait.wav;italian;happiness
+No!  Sí! ;data/wav_corpus/f_gio162bit.wav;italian;happiness
+ bene.;data/wav_corpus/f_gio189ait.wav;italian;happiness
 Stai arteggiando qualcosa.;data/wav_corpus/f_gio200ait.wav;italian;happiness
 È un fochettone da cucina.;data/wav_corpus/f_gio203ait.wav;italian;happiness
 Che cosa hai detto.;data/wav_corpus/f_gio218ait.wav;italian;happiness
@@ -855,7 +855,7 @@ E saltava giù dal latto.;data/wav_corpus/f_tri005ait.wav;italian;sadness
 Se ne andava in giro.;data/wav_corpus/f_tri005bit.wav;italian;sadness
 Si svegliava.;data/wav_corpus/f_tri006ait.wav;italian;sadness
 Ed era confuso.;data/wav_corpus/f_tri007ait.wav;italian;sadness
-[non-verbal] lo sono.;data/wav_corpus/f_tri007bit.wav;italian;sadness
+ lo sono.;data/wav_corpus/f_tri007bit.wav;italian;sadness
 Voglio morire anche io.;data/wav_corpus/f_tri008ait.wav;italian;sadness
 Io che credevo di essere incinta.;data/wav_corpus/f_tri014ait.wav;italian;sadness
 Una caramella ce l’ha?;data/wav_corpus/f_tri017ait.wav;italian;sadness
@@ -881,7 +881,7 @@ Sei malato John.;data/wav_corpus/f_tri045cit.wav;italian;sadness
 Ha detto che se tu avessi detto questo …;data/wav_corpus/f_tri046ait.wav;italian;sadness
 Ha dei documenti per il ricovero coatto da farmi firmare.;data/wav_corpus/f_tri046bit.wav;italian;sadness
 Peró le mie, le mie figlie.;data/wav_corpus/f_tri049ait.wav;italian;sadness
-È così ingiusto per le babine [non-verbal];data/wav_corpus/f_tri049bit.wav;italian;sadness
+È così ingiusto per le babine ;data/wav_corpus/f_tri049bit.wav;italian;sadness
 Comunque non ho …;data/wav_corpus/f_tri052ait.wav;italian;sadness
 Ma in parte molto di quello che scrivono su di me.;data/wav_corpus/f_tri052bit.wav;italian;sadness
 Un’alta delusione.;data/wav_corpus/f_tri054ait.wav;italian;sadness
@@ -916,7 +916,7 @@ Ti ammazzo figlio di puttana!;data/wav_corpus/m_ans020dit.wav;italian;fear
 Chi è che parla?;data/wav_corpus/m_ans021ait.wav;italian;fear
 Piccola sono io. Ti sento.;data/wav_corpus/m_ans022ait.wav;italian;fear
 William io non pensavo di dover fare questo.;data/wav_corpus/m_ans023ait.wav;italian;fear
-... hai svolto un incarico top secret per il governo.;data/wav_corpus/m_ans024ait.wav;italian;fear
+ hai svolto un incarico top secret per il governo.;data/wav_corpus/m_ans024ait.wav;italian;fear
 Esiste la minaccia di un disastro di proporzioni catastrofiche.;data/wav_corpus/m_ans024bit.wav;italian;fear
 Con tutto il rispetto, questo è assolutamente ridicolo. Non ha alcun senso!;data/wav_corpus/m_ans030ait.wav;italian;fear
 Accendi la luce!;data/wav_corpus/m_ans100ait.wav;italian;fear
@@ -974,7 +974,7 @@ Ma Gerry non può obbligarci a fare cose vietate dalla legge.;data/wav_corpus/m_
 Della morte di un pedofilo non frega niente a nessuno. Perché non dire la verità.;data/wav_corpus/m_dis108ait.wav;italian;disgust
 Oh, ne possiamo parlare, ma non andiamo avanti con il lavoro.;data/wav_corpus/m_dis109ait.wav;italian;disgust
 Martin scusa non puoi occupartene tu.;data/wav_corpus/m_dis110ait.wav;italian;disgust
-[non-verbal] è un'idiota.;data/wav_corpus/m_gio001ait.wav;italian;happiness
+ è un'idiota.;data/wav_corpus/m_gio001ait.wav;italian;happiness
 È sempre stato un ideota.;data/wav_corpus/m_gio001bit.wav;italian;happiness
 Fammi gli auguri.;data/wav_corpus/m_gio002bit.wav;italian;happiness
 Ho dei veri e propri classici.;data/wav_corpus/m_gio003bit.wav;italian;happiness
@@ -986,13 +986,13 @@ Cristo santo.;data/wav_corpus/m_gio010bit.wav;italian;happiness
 Tutti hanno un’idea personale di quello che credono sia il paradiso.;data/wav_corpus/m_gio014ait.wav;italian;happiness
 Accidenti che signora simpatica.;data/wav_corpus/m_gio015ait.wav;italian;happiness
 Noioso da morire.;data/wav_corpus/m_gio016ait.wav;italian;happiness
-[non-verbal] è meraviglioso ;data/wav_corpus/m_gio017ait.wav;italian;happiness
+ è meraviglioso ;data/wav_corpus/m_gio017ait.wav;italian;happiness
 Rilassati lo so. A che scopo essere matto se non ti puoi divertire.;data/wav_corpus/m_gio018ait.wav;italian;happiness
-Dio ... vi voglio bene.;data/wav_corpus/m_gio022ait.wav;italian;happiness
+Dio  vi voglio bene.;data/wav_corpus/m_gio022ait.wav;italian;happiness
 E poi mangiava una montagna di pure di patate.;data/wav_corpus/m_gio044ait.wav;italian;happiness
 Potrai anche rimediare una trombetta e correrli indiatro intorno al ring.;data/wav_corpus/m_gio046ait.wav;italian;happiness
 La gente non lo identificherà come personaggio di colore.;data/wav_corpus/m_gio049ait.wav;italian;happiness
-[non-verbal] andiamo.;data/wav_corpus/m_gio049bit.wav;italian;happiness
+ andiamo.;data/wav_corpus/m_gio049bit.wav;italian;happiness
 Grazie non ho altre domande.;data/wav_corpus/m_gio056ait.wav;italian;happiness
 Signor Wheeler è magnifico e straordinario.;data/wav_corpus/m_gio058ait.wav;italian;happiness
 Capisco la tua logica. Mezzo cappucino in arrivo.;data/wav_corpus/m_gio062ait.wav;italian;happiness
@@ -1000,7 +1000,7 @@ Queste sono le parole migliori che potevano uscire.;data/wav_corpus/m_gio100ait.
 È questo il modo di parlare a unospite?;data/wav_corpus/m_gio103ait.wav;italian;happiness
 Ho perso il conto.;data/wav_corpus/m_gio108ait.wav;italian;happiness
 Arriverai, certo.;data/wav_corpus/m_gio109ait.wav;italian;happiness
-Non sei meno [non-verbal];data/wav_corpus/m_gio110ait.wav;italian;happiness
+Non sei meno ;data/wav_corpus/m_gio110ait.wav;italian;happiness
 Ecco la seconda più grande invenzione.;data/wav_corpus/m_gio111ait.wav;italian;happiness
 Fantastico Larry. È meraviglioso, andremo daccordo vedrai.;data/wav_corpus/m_gio113ait.wav;italian;happiness
 È un piacere vederti.;data/wav_corpus/m_gio114ait.wav;italian;happiness
@@ -1009,7 +1009,7 @@ L’hai centrato!;data/wav_corpus/m_gio116ait.wav;italian;happiness
 Sei un grande!;data/wav_corpus/m_gio117ait.wav;italian;happiness
 Dave tu hai una vaga idea di che storia di successo sei diventato.;data/wav_corpus/m_gio118ait.wav;italian;happiness
 Però tu Jimmy, guardi Brenda come se volessi staccarli il naso e farglielo mangiare.;data/wav_corpus/m_gio119ait.wav;italian;happiness
-Non no no, stai fresca figurati [non-verbal];data/wav_corpus/m_gio120ait.wav;italian;happiness
+Non no no, stai fresca figurati ;data/wav_corpus/m_gio120ait.wav;italian;happiness
 Stava andando verso la sua macchina per tornare a casa.;data/wav_corpus/m_gio121ait.wav;italian;happiness
 Forse c'è una critica.;data/wav_corpus/m_gio122ait.wav;italian;happiness
 Credevo che il paradiso fosse avere dei bambini.;data/wav_corpus/m_gio123ait.wav;italian;happiness
@@ -1020,11 +1020,11 @@ No lo so perché.;data/wav_corpus/m_gio128ait.wav;italian;happiness
 Mi sente un po' sciocco a dargliela di persona.;data/wav_corpus/m_gio129ait.wav;italian;happiness
 Non è così, l’ho usato, soltanto per ripulire.;data/wav_corpus/m_gio130ait.wav;italian;happiness
 Te ricordi che stavo solo scherzando.;data/wav_corpus/m_gio132ait.wav;italian;happiness
-C’ha creduto eh! non era male [non-verbal];data/wav_corpus/m_gio133ait.wav;italian;happiness
+C’ha creduto eh! non era male ;data/wav_corpus/m_gio133ait.wav;italian;happiness
 Ok lo conosco il tipo.;data/wav_corpus/m_gio134ait.wav;italian;happiness
 Ah  devo occuparmi di una ragazza.;data/wav_corpus/m_gio135ait.wav;italian;happiness
 Senza cielo ciò ne doveo immaginarme.;data/wav_corpus/m_gio136ait.wav;italian;happiness
-[non-verbal] grazie signora.;data/wav_corpus/m_gio137ait.wav;italian;happiness
+ grazie signora.;data/wav_corpus/m_gio137ait.wav;italian;happiness
 Su questo non ci piove.;data/wav_corpus/m_gio138ait.wav;italian;happiness
 Il vecchio Don è inutile come le tete su un cinghiale maschio.;data/wav_corpus/m_gio139ait.wav;italian;happiness
 Tutti hanno un’idea personale di quello che credono sia il paradiso.;data/wav_corpus/m_gio140ait.wav;italian;happiness
@@ -1071,7 +1071,7 @@ Così solo, sai fare del male a qualcuno.;data/wav_corpus/m_tri001bit.wav;italia
 Ti fà sentire e come.;data/wav_corpus/m_tri002ait.wav;italian;sadness
 Un alieno.;data/wav_corpus/m_tri002bit.wav;italian;sadness
 Quando sono uscito di galera.;data/wav_corpus/m_tri004ait.wav;italian;sadness
-Sai dopo ...;data/wav_corpus/m_tri004bit.wav;italian;sadness
+Sai dopo ;data/wav_corpus/m_tri004bit.wav;italian;sadness
 Che per me quando ero in prigione.;data/wav_corpus/m_tri004eit.wav;italian;sadness
 Le volevo bene.;data/wav_corpus/m_tri005ait.wav;italian;sadness
 Soprattutto.;data/wav_corpus/m_tri005bit.wav;italian;sadness

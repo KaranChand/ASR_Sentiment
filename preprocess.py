@@ -47,6 +47,8 @@ mapping = {
     "es": "spanish",
 }
 df = df.replace({"language": mapping})
+df['transcription'] = df['transcription'].str.replace('...', '', regex=False)
+df['transcription'] = df['transcription'].str.replace('[non-verbal]', '', regex=False)
 df.to_csv(
     Path("data/transcriptions/transcriptions.csv"), index=False, header=True, sep=";"
 )

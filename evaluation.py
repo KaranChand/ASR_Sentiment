@@ -19,6 +19,50 @@ for i, language in enumerate(["english", "italian", "spanish"]):
     df = pd.read_csv(
         f"output/text2emotion/transcription_emotion_{language}.csv", sep=";"
     )
+    y_pred = df["model_emotion_nowhisper"]
+    y_true = df["emotion"]
+    acc = accuracy_score(y_true, y_pred)
+    labels = df["emotion"].unique()
+    array = confusion_matrix(y_true, y_pred, labels=labels)
+
+    df_cm = pd.DataFrame(array, labels, labels)
+    plt.subplot(1, 3, i + 1)
+    sn.heatmap(df_cm, annot=True, cmap="BuPu", fmt='g')  # font size
+    plt.ylabel("True")
+    plt.xlabel("Predicted")
+    plt.title(f"{language} with accuracy of {acc*100:.0f}%")
+plt.suptitle("Emotion Recognition on Real Transcriptions")
+plt.tight_layout()
+plt.show()
+
+
+plt.figure(figsize=(20, 5))
+for i, language in enumerate(["english", "italian", "spanish"]):
+    df = pd.read_csv(
+        f"output/text2sentiment/transcription_sentiment_{language}.csv", sep=";"
+    )
+    y_pred = df["model_emotion_nowhisper"]
+    y_true = df["emotion"]
+    acc = accuracy_score(y_true, y_pred)
+    labels = df["emotion"].unique()
+    array = confusion_matrix(y_true, y_pred, labels=labels)
+
+    df_cm = pd.DataFrame(array, labels, labels)
+    plt.subplot(1, 3, i + 1)
+    sn.heatmap(df_cm, annot=True, cmap="BuPu", fmt='g')  # font size
+    plt.ylabel("True")
+    plt.xlabel("Predicted")
+    plt.title(f"{language} with accuracy of {acc*100:.0f}%")
+plt.suptitle("Sentiment Analysis on Real Transcriptions")
+plt.tight_layout()
+plt.show()
+
+# evaluate model predictions using Whisper
+plt.figure(figsize=(20, 5))
+for i, language in enumerate(["english", "italian", "spanish"]):
+    df = pd.read_csv(
+        f"output/text2emotion/transcription_emotion_{language}.csv", sep=";"
+    )
     y_pred = df["model_emotion"]
     y_true = df["emotion"]
     acc = accuracy_score(y_true, y_pred)
@@ -27,11 +71,11 @@ for i, language in enumerate(["english", "italian", "spanish"]):
 
     df_cm = pd.DataFrame(array, labels, labels)
     plt.subplot(1, 3, i + 1)
-    sn.heatmap(df_cm, annot=True, cmap="BuPu")  # font size
+    sn.heatmap(df_cm, annot=True, cmap="BuPu", fmt='g')  # font size
     plt.ylabel("True")
     plt.xlabel("Predicted")
     plt.title(f"{language} with accuracy of {acc*100:.0f}%")
-plt.suptitle("Emotion")
+plt.suptitle("Emotion Recognition using Whisper")
 plt.tight_layout()
 plt.show()
 
@@ -49,10 +93,10 @@ for i, language in enumerate(["english", "italian", "spanish"]):
 
     df_cm = pd.DataFrame(array, labels, labels)
     plt.subplot(1, 3, i + 1)
-    sn.heatmap(df_cm, annot=True, cmap="BuPu")  # font size
+    sn.heatmap(df_cm, annot=True, cmap="BuPu", fmt='g')  # font size
     plt.ylabel("True")
     plt.xlabel("Predicted")
     plt.title(f"{language} with accuracy of {acc*100:.0f}%")
-plt.suptitle("Sentiment")
+plt.suptitle("Sentiment Analysis using Whisper")
 plt.tight_layout()
 plt.show()

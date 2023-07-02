@@ -19,7 +19,7 @@ epochs = 10
 verbose = 0
 
 # Read the csv file with data to a data frame
-df = pd.read_csv("../output/audio2text/" + "Whisper_english.csv", sep=";")
+df = pd.read_csv("output/audio2text/" + "Whisper_english.csv", sep=";")
 
 labels = df["emotion"].unique()
 

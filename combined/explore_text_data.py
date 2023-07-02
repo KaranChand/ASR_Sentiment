@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 nltk.download("stopwords")
 # Read the csv file with data to a data frame
-df = pd.read_csv("../output/audio2text/" + "Whisper_english.csv", sep=";")
+df = pd.read_csv("output/audio2text/" + "Whisper_english.csv", sep=";")
 
 print(df["emotion"].value_counts())
 
@@ -30,7 +30,7 @@ def preprocess_text(text):
     # Remove single characters, because we remove all the punctuations, we are sometimes left with a 's' (Mel's)
     sentence = re.sub(r"\s+[a-zA-Z]\s+", " ", sentence)
 
-    # Remove dubble white spaces, when we remove single characters an extra white space gets left
+    # Remove double white spaces, when we remove single characters an extra white space gets left
     sentence = re.sub(r"\s+", " ", sentence)
 
     # Remove Stopwords
