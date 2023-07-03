@@ -89,7 +89,7 @@ def getTextData(x_train, x_test):
     # Load GloVe word embeddings and create an Embeddings Dictionary
     embeddings_dictionary = dict()
     glove_file = open(
-        "../data/pretrained_glove_embedding/glove.42B.300d.txt", encoding="utf8"
+        "data/pretrained_glove_embedding/italian.txt", encoding="utf8"
     )
 
     for line in glove_file:

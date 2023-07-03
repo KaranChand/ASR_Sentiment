@@ -19,11 +19,11 @@ epochs = 10
 verbose = 0
 
 # Read the csv file with data to a data frame
-df = pd.read_csv("output/audio2text/" + "Whisper_english.csv", sep=";")
+df = pd.read_csv("output/audio2text/" + "Whisper_italian.csv", sep=";")
 
 labels = df["emotion"].unique()
 
-# Get the transcription andfor the text model and file name for acoustic model
+# Get the transcription for the text model and file name for acoustic model
 x = df[["model_transcription", "file_name"]]
 
 # Get the emotion labels
