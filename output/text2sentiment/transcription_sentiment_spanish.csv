@@ -1,361 +1,361 @@
-transcription;language;emotion;model_transcription;model_emotion;model_emotion_nowhisper
-No sé lo que me pasa, lo siento.;spanish;negative; No, no sé lo que me pasa, lo siento.;negative;negative
-Lo siento, he sido muy grosera.;spanish;negative; Lo siento, he sido muy grosera.;negative;negative
-Es como si tuviera un presentimiento, ¿sabes a qué me refiero?;spanish;negative; Es como si tuviera un presentimiento. ¿Sabes a qué me refiero?;negative;negative
-No me toques, por Dios.;spanish;negative; No me toques, por Dios.;negative;negative
-Sí, pero llegaban otras, llegaban mujeres constantemente así que ...;spanish;negative; Sí, pero llegaban otras. Llegaban mujeres constantemente, así que...;negative;negative
-No lo sé. Estaba envolviendo unos ... unos vasos y unas cosas y ...;spanish;negative; No lo sé, estaban volviendo unos vasos y unas cosas y...;negative;negative
-Me ha … me ha entrado mucho miedo.;spanish;negative; Me ha... me ha entrado mucho miedo.;negative;negative
-No harás lo de la mudanza solo por mí, ¿verdad? En fin ...;spanish;negative; No harás lo de la mudanza solo por mí, ¿verdad? En fin...;negative;negative
-Tú... tú deseas realmente hacerlo, ¿no?;spanish;negative; Tú deseas realmente hacerlo, ¿no?;negative;negative
-Por favor, háblame, dime qué ha pasado.;spanish;negative; Por favor, háblame. Dime qué ha pasado.;negative;negative
-No estoy ... no estoy mintiendo. Fuí a pedirle ayuda.;spanish;negative; No estoy, no estoy mintiendo, fui a pedirle ayuda.;negative;negative
-No puedo decírtelo. Harían daño a alguien.;spanish;negative; No puedo decírtelo, harían daño a alguien.;negative;negative
-¿Quién es usted?;spanish;negative; ¿Quién es usted?;negative;negative
-Yo me había acostado con él y estaba sentada en el porche.;spanish;negative; Yo me había acostado con él y estaba sentada en el porche.;negative;negative
-Nunca se calla. Se mete en líos.;spanish;negative; Nunca se calla, se meten líos.;negative;negative
-Pasaba todas las noches en Hooverville.;spanish;negative; pasaba todas las noches en Hooverby.;positive;positive
-Mi hermano no tenía sitio para los dos.;spanish;negative; Mi hermano no tenía sitio para los dos.;negative;negative
-Mike dijo que si no había más remedio y tenía que vivir allí. ;spanish;negative; Dijo que si no había más remedio y tenía que vivir allí...;negative;negative
-Intentaría convencer a todos para que se organizaran.;spanish;negative; intentaría convencer a todos para que se organizaran.;negative;negative
-Le ha pasado algo a Jim, estoy segura.;spanish;negative; Le ha pasado algo, Jim. Estoy segura.;positive;negative
-He oído que ha habido disturbios en Hooverville.;spanish;negative; He oído que ha habido disturbios en Hooverville.;negative;negative
-No pasaría tanto tiempo sin vernos a mí y a la niña.;spanish;negative; No pasaría tanto tiempo sin vernos a mí y a la niña.;positive;positive
-No sabía a quién acudir, Jim.;spanish;negative; No sabía quién acudir siempre.;negative;negative
-Porque no creía que hubiese motivo.;spanish;negative; ¿Por qué no creía que hubiese motivo?;negative;negative
-Era ... y no sabía lo que significaba.;spanish;negative; Era... y no sabía lo que significaba.;negative;negative
-Pero es imposible.;spanish;negative; Pero es imposible.;negative;negative
-El señor nunca permitiría semejante aberración.;spanish;negative; El señor nunca permitiría ese vegano de aberración.;negative;negative
-Sólo se reunirán al final de los tiempos.;spanish;negative; Solo se reunirán al final de los tiempos.;negative;negative
-No era ella.;spanish;negative; No era ella.;negative;negative
-Era esa anciana.;spanish;negative; Era esa anciana.;negative;negative
-De ojos extraños estaba imitando la voz de mi hija.;spanish;negative; De ojos extraños se estaba inminando la voz de mi hija.;negative;negative
-Le juro por Dios que no era mi hija.;spanish;negative; le juro por dios que no era mi hija.;negative;negative
-La guerra ha acabado.;spanish;negative; ¡La guerra ha escapado!;negative;negative
-¿Decir que es una quejica para ti no es meterte con ella? Creo que sí. ;spanish;negative; Decir que es una quejica para ti no es meterte con ella, creo que sí.;negative;negative
-Vaya, que raro.;spanish;negative; Mmm, vaya, qué raro.;negative;negative
-Genial.;spanish;negative; Crenia.;negative;positive
-En recursos humanos tienen un sentido del humor muy raro.;spanish;negative; En recursos humanos tienen un sentido del humor muy raro.;negative;negative
-Yay, whoopee.;spanish;negative; Sí, ñope.;negative;positive
-Has tropezado y te has golpeada la cabecita contra la acera.;spanish;negative; ¿Has tropezado y te has golpeado la cabecita contra la acera?;negative;negative
- Una sola copia.;spanish;negative; Una sola copia.;negative;negative
-¿Qué harán mis gemelas con esto?;spanish;negative; ¿Qué harán mis gemelas con esto?;negative;negative
-¿Compartirlo?;spanish;negative; compartirlo.;positive;negative
-"
+file_name;transcription;language;emotion;model_transcription;model_emotion;model_emotion_nowhisper
+f_ans001aes;No sé lo que me pasa, lo siento.;spanish;negative; No, no sé lo que me pasa, lo siento.;negative;negative
+f_ans002aes;Lo siento, he sido muy grosera.;spanish;negative; Lo siento, he sido muy grosera.;negative;negative
+f_ans003aes;Es como si tuviera un presentimiento, ¿sabes a qué me refiero?;spanish;negative; Es como si tuviera un presentimiento. ¿Sabes a qué me refiero?;negative;negative
+f_ans004aes;No me toques, por Dios.;spanish;negative; No me toques, por Dios.;negative;negative
+f_ans007aes;Sí, pero llegaban otras, llegaban mujeres constantemente así que ;spanish;negative; Sí, pero llegaban otras. Llegaban mujeres constantemente, así que...;negative;negative
+f_ans009aes;No lo sé. Estaba envolviendo unos  unos vasos y unas cosas y ;spanish;negative; No lo sé, estaban volviendo unos vasos y unas cosas y...;negative;negative
+f_ans009bes;Me ha … me ha entrado mucho miedo.;spanish;negative; Me ha... me ha entrado mucho miedo.;negative;negative
+f_ans010aes;No harás lo de la mudanza solo por mí, ¿verdad? En fin ;spanish;negative; No harás lo de la mudanza solo por mí, ¿verdad? En fin...;negative;negative
+f_ans010bes;Tú tú deseas realmente hacerlo, ¿no?;spanish;negative; Tú deseas realmente hacerlo, ¿no?;negative;negative
+f_ans012aes;Por favor, háblame, dime qué ha pasado.;spanish;negative; Por favor, háblame. Dime qué ha pasado.;negative;negative
+f_ans018aes;No estoy  no estoy mintiendo. Fuí a pedirle ayuda.;spanish;negative; No estoy, no estoy mintiendo, fui a pedirle ayuda.;negative;negative
+f_ans019aes;No puedo decírtelo. Harían daño a alguien.;spanish;negative; No puedo decírtelo, harían daño a alguien.;negative;negative
+f_ans024aes;¿Quién es usted?;spanish;negative; ¿Quién es usted?;negative;negative
+f_ans030aes;Yo me había acostado con él y estaba sentada en el porche.;spanish;negative; Yo me había acostado con él y estaba sentada en el porche.;negative;negative
+f_ans040aes;Nunca se calla. Se mete en líos.;spanish;negative; Nunca se calla, se meten líos.;negative;negative
+f_ans041aes;Pasaba todas las noches en Hooverville.;spanish;negative; pasaba todas las noches en Hooverby.;positive;positive
+f_ans041bes;Mi hermano no tenía sitio para los dos.;spanish;negative; Mi hermano no tenía sitio para los dos.;negative;negative
+f_ans042aes;Mike dijo que si no había más remedio y tenía que vivir allí. ;spanish;negative; Dijo que si no había más remedio y tenía que vivir allí...;negative;negative
+f_ans042bes;Intentaría convencer a todos para que se organizaran.;spanish;negative; intentaría convencer a todos para que se organizaran.;negative;negative
+f_ans043aes;Le ha pasado algo a Jim, estoy segura.;spanish;negative; Le ha pasado algo, Jim. Estoy segura.;positive;negative
+f_ans044aes;He oído que ha habido disturbios en Hooverville.;spanish;negative; He oído que ha habido disturbios en Hooverville.;negative;negative
+f_ans044bes;No pasaría tanto tiempo sin vernos a mí y a la niña.;spanish;negative; No pasaría tanto tiempo sin vernos a mí y a la niña.;positive;positive
+f_ans045aes;No sabía a quién acudir, Jim.;spanish;negative; No sabía quién acudir siempre.;negative;negative
+f_ans049aes;Porque no creía que hubiese motivo.;spanish;negative; ¿Por qué no creía que hubiese motivo?;negative;negative
+f_ans050aes;Era  y no sabía lo que significaba.;spanish;negative; Era... y no sabía lo que significaba.;negative;negative
+f_ans901aes;Pero es imposible.;spanish;negative; Pero es imposible.;negative;negative
+f_ans901bes;El señor nunca permitiría semejante aberración.;spanish;negative; El señor nunca permitiría ese vegano de aberración.;negative;negative
+f_ans901ces;Sólo se reunirán al final de los tiempos.;spanish;negative; Solo se reunirán al final de los tiempos.;negative;negative
+f_ans902aes;No era ella.;spanish;negative; No era ella.;negative;negative
+f_ans902bes;Era esa anciana.;spanish;negative; Era esa anciana.;negative;negative
+f_ans902ces;De ojos extraños estaba imitando la voz de mi hija.;spanish;negative; De ojos extraños se estaba inminando la voz de mi hija.;negative;negative
+f_ans902des;Le juro por Dios que no era mi hija.;spanish;negative; le juro por dios que no era mi hija.;negative;negative
+f_ans905aes;La guerra ha acabado.;spanish;negative; ¡La guerra ha escapado!;negative;negative
+f_dis008aes;¿Decir que es una quejica para ti no es meterte con ella? Creo que sí. ;spanish;negative; Decir que es una quejica para ti no es meterte con ella, creo que sí.;negative;negative
+f_dis009aes;Vaya, que raro.;spanish;negative; Mmm, vaya, qué raro.;negative;negative
+f_dis014aes;Genial.;spanish;negative; Crenia.;negative;positive
+f_dis014bes;En recursos humanos tienen un sentido del humor muy raro.;spanish;negative; En recursos humanos tienen un sentido del humor muy raro.;negative;negative
+f_dis016aes;Yay, whoopee.;spanish;negative; Sí, ñope.;negative;positive
+f_dis017aes;Has tropezado y te has golpeada la cabecita contra la acera.;spanish;negative; ¿Has tropezado y te has golpeado la cabecita contra la acera?;negative;negative
+f_dis019aes; Una sola copia.;spanish;negative; Una sola copia.;negative;negative
+f_dis019bes;¿Qué harán mis gemelas con esto?;spanish;negative; ¿Qué harán mis gemelas con esto?;negative;negative
+f_dis019ces;¿Compartirlo?;spanish;negative; compartirlo.;positive;negative
+f_dis020aes;"
 ¿Hay alguien que tenga algo que yo pueda usar?";spanish;negative; ¿Hay alguien que tenga algo que yo pueda usar?;negative;negative
-Lloyd, cariño, te quiero con toda mi alma ...;spanish;negative; Lloyd, cariño, te quiero con toda mi alma.;positive;positive
-Pero a veces tengo que preguntarme si realmente eres mi hijo.;spanish;negative; Pero a veces tengo que preguntarme si realmente eres mi hijo.;negative;negative
-Siempre has sido más como tu padre.;spanish;negative; Siempre has sido más como tu padre.;negative;negative
-Puede darme la pistola o devolverme el dinero.;spanish;negative; ¿Puede darme la pistola o devolverme el dinero?;negative;negative
-La verdad es que prefiero recuperar el dinero.;spanish;negative; Y la verdad es que prefiero recuperar el dinero.;negative;negative
-¿Me da la caja sí o no?;spanish;negative; ¿Me da la caja sí o no?;negative;negative
-Nos iban a matar en ventura boulevard.;spanish;negative; Nos iban a matar en Ventura Boulevard.;negative;negative
-Mi padre es de Puerto Rico, mi madre es de El Salvador.;spanish;negative; Mi padre es de Puerto Rico, mi madre es del Salvador.;negative;negative
-Y ningún sitio de esos es México.;spanish;negative; y ningún sitio de esos es México.;negative;negative
- No lo sé. ¿No está enferma?;spanish;negative; No lo sé. ¿No está enferma?;negative;negative
-Creía que los enfermos se inventaban cosas a menudo.;spanish;negative; Creía que los enfermos inventaban cosas a menudo.;negative;negative
-¿Por qué compra esta tierra, Sr. Bloom?;spanish;negative; ¿Por qué compré esta tierra, señor Bloom?;negative;negative
-¿En vez  de comprarse un descapotable, se compra un pueblo? ;spanish;negative; En vez de comprarse un descapotable, ¿se compra un pueblo?;negative;negative
-Estoy a favor de la paz, Sr. Lud. Por eso estoy en la ONU. Para apoyar la diplomacia.;spanish;negative; Estoy a favor de la paz, señor Lat. Por eso estoy en la ONU para apoyar la diplomacia.;positive;positive
-No era una pregunta.;spanish;negative; No era una pregunta.;negative;negative
-Y tú puedes hacer lo todo, ¿no?;spanish;negative; Y tú puedes hacerlo todo, ¿no?;positive;positive
-Pero si ya lo hiciste.;spanish;negative; Pero si ya lo hiciste.;negative;negative
-Y antes de hoy, ¿no habías oído nunca hablar de mí? ;spanish;negative; ¿Y antes de hoy no habías oído nunca hablar de mí?;negative;negative
-¿Se ha muerto, o qué?;spanish;negative; si ha muerto o qué.;negative;negative
-Una vez un ayudante dejó su mesa porque se rebanó la mano con un abrecartas.;spanish;negative; Una vez un ayudante dejó su mesa porque se rebanó la mano con un abre cartas.;negative;negative
-Jamás creí que diría esto.;spanish;negative; Jamás creí que diría esto.;negative;negative
-Oh, os habríais librado de que los romanos os cortaran la cabeza, claro. ;spanish;negative; ¿Os habríais librado de que los romanos os cortaran la cabeza?;negative;negative
-¿Así que los dos habríais mentido hasta el punto de negar a Cristo?;spanish;negative; Así que los dos habríais mentido hasta el punto de negar a Cristo.;negative;negative
-Estoy curada.;spanish;positive; Estoy curada.;positive;positive
-Gracias señorita Burton.;spanish;positive; Gracias, señorita Burton.;positive;positive
-Tomaré nota de su consideración.;spanish;positive; Tomaré nota de su consideración.;positive;positive
-Eso es genial. Perfecto, sí.;spanish;positive; Eso es genial. Perfecto, sí.;positive;positive
-¡Eres tú!;spanish;positive; Eres tú.;positive;positive
-A veces, pero soy más discreta.;spanish;positive; A veces, pero soy más discreta.;negative;negative
-No, necesito un luchador con un master.;spanish;positive; No, necesito un luchador con un máster.;negative;negative
-Una noche saltó la barra y se ofreció a enseñarme a prepararlos. ;spanish;positive; Una noche saltó la barra y se ofreció a enseñarme a prepararlos.;positive;positive
-Vuelve a la cama tesoro.;spanish;positive; Vuelve a la cama, tesoro.;negative;negative
-Eso es estupendo.;spanish;positive; ¡Eso es estupendo!;positive;positive
-Al contrario.;spanish;positive; Al contrario.;negative;negative
-El otro día emprendimos una exploración a lo más recóndito de África en nuestro jardín.;spanish;positive; El otro día emprendimos una exploración al más recóndito de África en nuestro jardín.;positive;positive
-Les he dicho que tenía que pasar la tarde con un periodista ecuestre muy importante.;spanish;positive; Les he dicho que tenía que pasar la tarde con un periodista ecuestre muy importante.;negative;negative
-¡Oh, creía que se refería al juez!;spanish;positive; Creía que se refería al juez.;negative;negative
-¡Muchas gracias!;spanish;positive; Muchas gracias.;positive;positive
-Creí que estabas viviendo un tórrido romance.;spanish;positive; Creí que estabas viviendo un torrido romance.;negative;negative
-¡Feliz cumpleaños!  [no verbal];spanish;positive; ¡Feliz cumpleaños!;positive;positive
-No ... [no verbal] ¡sí!;spanish;positive; No...;negative;negative
-[no verbal] caray.;spanish;positive; caray;negative;negative
-Es que aquí hace calor.;spanish;positive; Es que aquí hace calor.;negative;negative
-¿Y sobre mí?;spanish;positive; ¿Y sobre mí?;negative;negative
-¿Puedo verla?;spanish;positive; ¿Puedo verla?;negative;negative
-Que acogedora.;spanish;positive; Qué acogedora.;positive;negative
-Se lo agradecería.;spanish;positive; Se lo agradecería.;positive;positive
-No me siento tan mayor.;spanish;positive; Me siento tan mayor.;positive;negative
-Treinta y uno hasta mi próximo cumpleaños.;spanish;positive; 30 y 1. Hasta mi próximo cumpleaños.;positive;positive
-Es preciosa.;spanish;positive; ¡Es preciosa!;positive;positive
-[No verbal] ¿Qué significa?;spanish;positive; ¿Qué significa?;negative;negative
-Me esperara que llegara eso.;spanish;positive; Esperara que llegara eso.;negative;negative
-¿Dónde estás?;spanish;negative; ¿Dónde estás?;negative;negative
-Semejante obligación no existe.;spanish;negative; ¡Semejante obligación no existe!;negative;negative
-A todas horas soy atendida por médicos que me informan de mis propios intereses.;spanish;negative; A todas horas soy atendida por médicos que me informan de mis propios intereses.;positive;positive
-Este pueblo me está afixiando.;spanish;negative; ¡Este pueblo me está asfixiando!;negative;negative
-¡No lo es! Es la mía.;spanish;negative; ¡No lo es! ¡Es la mía!;positive;positive
-¡Por el amor de Dios, Dave!;spanish;negative; ¡Por el amor de Dios, Dave!;positive;positive
-¿Por qué no dijiste lo de ese hombre?;spanish;negative; ¿Por qué no dijiste lo de ese hombre?;negative;negative
-"Toda la prensa británica se ha levantado pensado: ""Sé dónde está Anna Scott"".";spanish;negative; Toda la prensa británica se ha levantado pensando, sé dónde está Ana Scott.;negative;negative
-En esa casa de la puerta azul en Notting Hill.;spanish;negative; en esa casa de la puerta azul en Nothing Hill.;negative;negative
-Y luego tú sales con tus ridículos calzoncillos.;spanish;negative; Y luego tú sales con tu ridículo, los calzoncillos.;negative;negative
-Por el amor de Dios, tengo novio.;spanish;negative; ¡Por el amor de Dios tengo novio!;positive;positive
-Pero mañana saldrá tu foto en cada periódico de aquí a Tombuctú.;spanish;negative; Pero mañana saldrá tu foto en cada periódico de aquí a... Donbuktu.;positive;positive
-Bueno, esta situación es perfecta para ti.;spanish;negative; Bueno, esta situación es perfecta para ti.;positive;positive
-Mínima inversión, máxima publicidad.;spanish;negative; Mínima inversión, máxima publicidad.;positive;positive
-"Vayas donde vayas la gente dirá: ""Oh, bien hecho, te has tirado a esa actriz"".";spanish;negative; Vayas donde vayas, la gente dirá ¡Oh, bien hecho! ¡Te has tirado a esa actriz!;positive;positive
-Hemos visto las fotos.;spanish;negative; ¡Hemos visto las fotos!;positive;positive
-Te da miedo que yo no te ame.;spanish;negative; ¿Te da miedo que yo no te ame?;negative;negative
-Y sabes que yo también tengo miedo.;spanish;negative; Y sabes que yo también tengo miedo.;negative;negative
-Pero joder, debemos intentarlo, al menos habré sido honesta contigo.;spanish;negative; ¡Pero, joder, debemos intentarlo! ¡Al menos habré sido honesta contigo!;positive;positive
-Pues mal hecho, deberías haberme consultado.;spanish;negative; Pues mal hecho. Deberías haberme consultado.;negative;negative
-Puede ser el objeto más valioso que tenemos.;spanish;negative; ¡Puede ser el objeto más valioso que tenemos!;positive;positive
-¡Y quiero que me digas inmediatamente cuándo vas a venir a casa!;spanish;negative; ¡Que quiero que me digas inmediatamente cuándo vas a venir a casa!;positive;positive
-Es que me gustaría que se me reconociera el hecho de que me mato intentándolo.;spanish;negative; Es que me gustaría que se me reconociera el hecho de que me mato intentándola.;negative;negative
-¡No se acerque a ella!;spanish;negative; No se acerque a ella.;negative;negative
-No quiero decir por fuera, ¡cambia por dentro!;spanish;negative; No quiero decir por fuera, cambia por centro.;negative;positive
-¡Corre riesgos, comete errores!;spanish;negative; ¡Corre riesgos, comete errores!;negative;negative
-¡Sí! En ocasiones es importante no ser perfecto, ¿vale? Es importante equivocarse.;spanish;negative; Sí, en ocasiones. Es importante no ser perfecto, ¿vale? Es importante equivocarse.;negative;positive
-No, para cometerlos.;spanish;negative; ¡Y no para cometerlos!;negative;negative
-Y se acabó el boxear fuera.;spanish;negative; ¡Y se acabó el boxear fuera!;negative;negative
-¿Entendido? No se boxea. ¡Punto!;spanish;negative; Entendido, no se boxea. Punto.;negative;negative
-Seguiréis yendo al colegio.;spanish;negative; ¡Seguiréis yendo al colegio!;positive;negative
-Estudiaréis en la universidad y tendréis una profesión.;spanish;negative; que estudiaréis en la universidad y tendréis una profesión.;positive;positive
-Porque no quiero que también os machaquen el cráneo.;spanish;negative; ¿Por qué no quiero que también os machacen el cráneo?;negative;negative
-¿Lo habéis entendido?;spanish;negative; ¿Lo habéis entendido?;negative;negative
-¿Queda claro?;spanish;negative; ¿Qué es la clara?;negative;negative
-Pero evita como sea ese combate. Si es necesario, rómpete la mano.;spanish;negative; Pero evita como sea ese combate. Si es necesario, rompete la mano.;negative;negative
-Pues me he asustado y no he dicho nada y a los diez segundos tenía un arma en mi cara. ;spanish;negative; Pues me he asustado y no he dicho nada, ya los diez segundos tenía un arma en mi cara.;negative;negative
-Y te aseguro que tu amigo, el de ahí, va a vender nuestra llave a uno de sus colegas.;spanish;negative; Y te aseguro que tu amigo el de ahí va a vender nuestra llave a uno de sus colegas.;negative;negative
-Y esta vez sería de puta madre que actuaras como si te importara algo.;spanish;negative; Y esta vez sería de puta madre que actuaras como si te importara algo.;negative;negative
-Teniendo las manos de ese cerdo por todas partes.;spanish;negative; Teniendo las manos de ese cerdo por todas partes.;negative;negative
-Que no se quede quieto mientras me meten mano.;spanish;negative; ¡Que no se quede quieto mientras me mete en mano!;negative;negative
-No tiene sentido que pases todo el día aquí encerrado. ;spanish;negative; No tiene sentido que pases todo el día aquí encerrado.;negative;negative
-Estoy harta tí.;spanish;negative; ¡Estoy horta de ti!;positive;negative
-Fue culpa mía.;spanish;negative; Fue culpa mí.;negative;negative
-Podía haberlo impedido.;spanish;negative; Pude haberlo impedido.;negative;negative
-No sabías que últimamente se despertaba.;spanish;negative; No sabías que últimamente se despertaba.;negative;negative
-Y yo sabía que algunas veces ...;spanish;negative; Yo sabía que algunas veces...;negative;negative
-... se levantaba de la cama.;spanish;negative; se levantaba de la cama.;negative;negative
-Y andaba por ahí.;spanish;negative; y andaba por ahí.;negative;negative
-Se despertaba.;spanish;negative; ¡Se despertaba!;positive;negative
-Y se sentía confuso.;spanish;negative; Yo se sentía confuso.;negative;negative
-También me quiero morir.;spanish;negative; Me quiero morir.;negative;negative
-¿El dolor seguirá siempre igual?;spanish;negative; El dolor seguirá siempre igual.;negative;negative
-Será mucho peor.;spanish;negative; Será mucho peor.;negative;negative
-¿Tiene un caramelo?;spanish;negative; Tiene un caramelo.;positive;negative
-Mami te envía millones y millones de besos.;spanish;negative; Mami te envía millones y millones de besos.;positive;positive
-Excepto lo que más deseo.;spanish;negative; excepto lo que más deseo.;negative;negative
-Estoy preocupada por Ray.;spanish;negative; ¡Ya estoy preocupada por Ray!;negative;negative
-No se si él podrá soportarlo [non-verbal];spanish;negative; No sé si él podrá soportarlo.;negative;negative
-En esas cosas.;spanish;negative; en esas cosas.;positive;positive
-Y lo que parecía una estúpida sesión de fotos es una peli porno.;spanish;negative; Y lo que parecía una estúpida sesión de fotos es una peliporno.;negative;negative
-Briony, no queda mucho tiempo.;spanish;negative; Rione, no queda mucho tiempo.;positive;positive
-Robbie tiene que presentarse a las seis.;spanish;negative; Robby tiene que presentarse a las 6.;negative;negative
-Para coger el tren.;spanish;negative; para coger el tren.;negative;negative
-Así que siéntate.;spanish;negative; Así que siéntate.;negative;negative
-Siento muchisimo.;spanish;negative; Lo siento muchísimo.;negative;negative
-El terrible dolor que os he causado.;spanish;negative; el terrible dolor que os he causado.;negative;negative
-Lo siento mucho.;spanish;negative; Lo siento mucho.;negative;negative
-Lo siento tanto.;spanish;negative; Lo siento tanto.;negative;negative
-No hay ningún William Parcher. ;spanish;negative; No hay ningún William Parcher.;negative;negative
-Sólo está en tu mente.;spanish;negative; solo está en tu mente.;negative;negative
-¿Lo entiendes, mi amor?;spanish;negative; Lo entiendes, mi amor.;positive;positive
-No es real.;spanish;negative; ¡No es real!;negative;negative
-Estás enfermo, John.;spanish;negative; ¿Estás enfermo, Jordan?;negative;negative
-¿Intentarías hacerme daño?;spanish;negative; ¿Intentarías hacerme daño?;negative;negative
-Pero mis ... mis hijas, ellas.;spanish;negative; Pero mis... mis hijas ellas...;negative;negative
-Otra decepción.;spanish;negative; Otra decepción.;negative;negative
-Que se va.;spanish;negative; Qué sé yo.;negative;negative
-Lo siento.;spanish;negative; Y lo siento.;negative;negative
-¿Te sientes orgullosa de mí?;spanish;negative; ¿Te sientes orgullosa de mí?;positive;positive
-Jim, tú no lo has visto.;spanish;negative; Jim, ¿tú no lo has visto?;negative;negative
-Se lo han dado al tío de city core;spanish;negative; se lo han dado al tío de CityCorp.;negative;negative
-De que me llevarías contigo.;spanish;negative; ¿De qué me llevarías contigo?;negative;negative
-Ojalá pudiera formar parte de el.;spanish;negative; Ojalá pudiera formar parte de él.;positive;positive
-Sin esa familia, nunca podrías haber escrito nada igual.;spanish;negative; Sin esa familia nunca podrías haber escrito nada igual.;negative;negative
-Les necesitas.;spanish;negative; las necesitas.;negative;negative
-Y que cuando vuelvas me cuentes hasta el último detalle. ;spanish;negative; y que cuando vuelvas me cuentes hasta el último detalle.;positive;positive
-Es sólo que sangra mucho.;spanish;negative; Eso es lo que sangra mucho.;negative;negative
-Un tipo trató de atracarme, me ... me defendí y me rajó.;spanish;negative; Un tío trató de atracarme, me defendí, me rajó.;negative;negative
-Iba tranquilamente hacia mi coche.;spanish;negative; y va tranquilamente a la fiamincoche.;negative;positive
-Le digo no fumo y me dice yo tampoco, así que.;spanish;negative; Le digo, no fumó y me dice, yo tampoco, así que...;negative;negative
-Claro por eso crees que la maté yo.;spanish;negative; Claro, por eso crees que la maté yo.;negative;negative
-Por llegar a casa manchado de sangre la noche que matan a Katie.;spanish;negative; Por llegar a casa manchado de sangre la noche que matan a Katie.;negative;negative
-Por tanto debo haber sido yo, ¿verdad?;spanish;negative; Por tanto, debo haber sido yo, ¿verdad?;negative;negative
-No puedo seguir confiando en mi mente, Celeste. No puedo más.;spanish;negative; No puedo seguir confiando en mi mente, Ceste. No puedo más.;negative;negative
-¿Qué coño está pasando? ¿Dónde estoy?;spanish;negative; ¿Qué coño está pasando? ¿Dónde estoy?;negative;negative
-No lo sé.;spanish;negative; ¡LOROSÉ!;negative;negative
-¿Y eso qué importa? Ahora estoy confundido. ¿Cómo te llamas tú?;spanish;negative; Y eso que importa, ahora estoy confundido, ¿cómo te llamas tú?;negative;negative
-¿Qué coño pasa aquí?;spanish;negative; ¿Qué coño pasa aquí?;negative;negative
-Fuí a dormir a mi apartamento y me he despertado en este lugar asqueroso.;spanish;negative; Fui a dormir a mi apartamento y me he despertado en este lugar asqueroso.;negative;negative
-Es lo que suelen hacer. Te secuestran, te drogan.;spanish;negative; ¿Y eso que suelen hacer? ¿Te secuestran? ¿Te drogan?;negative;negative
-Y antes de que te des cuenta, tú estás en una bañera y tus riñones en otra persona.;spanish;negative; Y antes de que te des cuenta, tú estás en una bañera y tú riñones en otra persona.;negative;negative
-¡¿Quién anda ahí?!;spanish;negative; ¡Que nada!;positive;negative
-¡Sal!;spanish;negative; ¡San!;positive;positive
-¡Te mataré, cabrón!;spanish;negative; ¡Te mataré, cabrón!;negative;negative
-¿Quién es?;spanish;negative; ¿Tienes?;negative;negative
-Sí, cariño, soy yo. Estoy aquí.;spanish;negative; Sí, cariño, yo estoy aquí.;positive;positive
-Esto no formaba parte del trato.;spanish;negative; Esto no formaba parte del trato.;negative;negative
-Alicia estaba trabajando para el gobierno.;spanish;negative; Alicia estaba trabajando para el gobierno.;negative;negative
-Existe una amenaza de proporciones catastróficas.;spanish;negative; Existe una amenaza de proporciones catastróficas.;negative;negative
-Con el debido respeto, esto … esto es ridículo. ¡No tiene ningún sentido!;spanish;negative; Con el debido respeto, esto... Esto reciclo no tiene ningún sentido.;negative;negative
-¿Qué es ese olor?;spanish;negative; ¿Qué es ese olor?;negative;negative
-Sí, te lo dije. A mí me hizo lo mismo.;spanish;negative; ¡Sí, te lo dije! ¡A mí me hizo lo mismo!;positive;positive
-Lo es, no te mentía.;spanish;negative; ¡Lo ves, no te mentías!;positive;positive
-Me, me está electrocutando.;spanish;negative; Me... Me está electrocutando...;negative;negative
-¡Socorro, que alguien me ayude!;spanish;negative; Socorro! ¡Que alguien me ayude!;negative;negative
-¿Quién eres?;spanish;negative; ¿Quién eres?;positive;positive
-¿Quién eres?;spanish;negative; ¿Quién eres?;positive;positive
-"Es como decir: ""No es un revuelta, es rabia. No es un crimen, es pobreza"".";spanish;negative; Es como decir, no es una revuelta, es rabia, no es un crimen, es pobreza.;negative;negative
-Mira esta triste, miserable y aplastada cosa.;spanish;negative; Mira esta triste, miserable y aplastada cosa.;negative;negative
-¿Alguien puede decirme dónde está el fallo de esa fotografía?;spanish;negative; ¿Alguien puede decirme dónde está el fallo de esa fotografía?;negative;negative
-Bueno, pues, quizás.;spanish;negative; Bueno pues quizás...;positive;positive
-Al cumplir seis años, mi mejor amigo, Scott Tibbs, me pinchó con un clavo, eso te no había contado.;spanish;negative; Al cumplir seis años, mi mejor amigo Scott Pipps me pinchó con un clavo. Eso no te lo había contado.;negative;negative
-¿A sí? Pues, ese poli piensa que tú estás detrás de todo.;spanish;negative; ¿Ah, sí? Pues ese poli piensa que tú estás detrás de todo.;negative;negative
-Tengo horas de consulta. Si necesitas más información sobre refranes, expresiones ...;spanish;negative; Tengo horas de consulta. Si necesitas más información sobre refranes, expresiones...;positive;positive
-Y al parecer, tú también.;spanish;negative; Y al parecer tú también.;negative;negative
-Bueno, eso se llama mutación, madre. El milagro de la genética es que yo no soy tú.;spanish;negative; Bueno, eso se llama mutación, madre. El milagro de la genética es que yo no soy tú.;positive;positive
-Vivo contigo. Sé cuanto estudias, o debería decir no estudias. Y sacas mejores notas que yo.;spanish;negative; Vivo contigo, sé cuánto estudias o debería decir no estudias y sacas mejores notas que yo.;positive;positive
-¿Es porque tu padre era médico y tu abuelo era médico?;spanish;negative; ¿Es porque tu padre era médico y tu abuelo era médico?;negative;negative
-¿Es un asunto genético quizá?;spanish;negative; ¿Es un asunto genético, quizá?;negative;negative
-Saddam. ¿Se llama Saddam? Genial, estupendo, Bruce.;spanish;negative; ¿Sadam? ¿Se llama Sadam? ¡Genial! ¡Estupendo, Bruce!;positive;positive
-¡Concédete un ascenso por favor!;spanish;negative; ¡Concédate un ascenso, por favor!;positive;positive
-Construye barrios, no los destruye evidentemente.;spanish;negative; Construye barrios, no los destruye evidentemente.;negative;negative
-Extravié una importante demanda. Esa es su versión.;spanish;negative; extravió una importante demanda, esa es su versión.;negative;negative
-¿Te cuento la mía?;spanish;negative; ¿Te cuento la mía?;negative;negative
-[no verbal] es un idiota.;spanish;positive; Es un idiota.;negative;negative
-Siempre ha sido un idiota.;spanish;positive; Siempre ha sido una idiota.;negative;negative
-Guay. Gracias.;spanish;positive; ¡Guay! Gracias.;positive;positive
-Deséame suerte.;spanish;positive; ¡Déciame suerte!;positive;positive
-¿Hace una sesión de video esta noche?;spanish;positive; ¿Hace una sesión de vídeo esta noche?;positive;positive
-Tengo unos clásicos cojonudos.;spanish;positive; Tengo unos clásicos cojonudos.;negative;negative
-Pero sería emocionante, ¿verdad? Alguien famoso en la tienda [no verbal].;spanish;positive; Pero sería emocionante, ¿verdad? Alguien famoso en la tienda.;positive;positive
-¡Venga, un baile!;spanish;positive; Venga, un baile!;positive;positive
-Ya me lo has contado todo.;spanish;positive; Ya me lo has contado todo.;negative;negative
-Ve a patita cabrón. Will se lleva el coche.;spanish;positive; Ve a patita, cabrón. Will se lleva el coche.;negative;negative
-Vaya, que encanto de mujer.;spanish;positive; ¡Qué encanto de mujer!;positive;positive
-Porque son aburridas, insoportables.;spanish;positive; Porque son aburridas, insoportables.;negative;negative
-Eso es maravilloso.;spanish;positive; Eso es maravilloso.;positive;positive
-Tranquilo es broma. De qué sirve estar chalado msi no puedes divertirte.;spanish;positive; Tranquilo, es broma de que sirve estar chalado si no puedes divertirte.;negative;negative
-Como os quiero, chicos.;spanish;positive; Como os quiero chicos;positive;positive
-Por primera vez en dieciocho años voy a poder estar al mando de mi propia vida. ¡Ay, Dios mío!;spanish;positive; Y por primera vez en 18 años voy a poder estar al mando de mi propia vida ¡Ay, Dios mío!;positive;positive
-Pues en realidad tantas veces como puede.;spanish;positive; Pues en realidad tantas veces como puede.;negative;negative
-Santo Dios bendito.;spanish;positive; ¡Santo Dios bendito!;positive;positive
-Santo Dios, la Virgen y San José.;spanish;positive; ¡Santo Dios la Virgen y San José!;positive;positive
-Tú podrías salir con una bocina y perseguirle por el ring.;spanish;positive; ...tú podrías salir con una bocina y perseguirle por el ring.;negative;negative
-No comprenderá que se trata de un negro.;spanish;positive; ¿No comprenderá que se trata de un negro?;negative;negative
-[no verbal] por favor.;spanish;positive; Por favor.;negative;negative
-¿Cómo está?;spanish;positive; ¿Cómo está?;positive;positive
-¿Qué le pasa en la cara?;spanish;positive; ¿Qué le pasa en la cara?;negative;negative
-Gracias, no hay más preguntas.;spanish;positive; Gracias, no hay más preta.;positive;positive
-Sr. Wheeler, es usted magnífico.;spanish;positive; Señor Wheeler, es usted magnífico.;positive;positive
-[No verbal] eso es lógico. Medio capuchino marchando.;spanish;positive; Oh, eso es lógica. Medio capuchino marchando.;negative;negative
-Esa mierda es lo mejor que he oído salir ...;spanish;positive; Esa mierda es lo mejor que he oído salir.;negative;negative
-Por favor, déjadle en paz.;spanish;positive; Por favor, dejadle en paz.;negative;negative
-No sé. A las chicas les gusta.;spanish;positive; No sé, a las chicas les gusta.;negative;positive
-¿Es esa la forma de hablarle a un invitado? ¿A un amigo de la familia?;spanish;positive; Eso de hablarles a un invitado, a un amigo de la familia.;negative;negative
-¿Estás enfermo?;spanish;positive; Estás enfermo.;negative;negative
-De puta madre. Ha resucitado.;spanish;positive; ¡De puta madre ha resucitado!;negative;negative
-Seis putos kilos.;spanish;positive; ¡6 putos kilos!;negative;negative
-De verdad tío este chaval es una pasada.;spanish;positive; De verdad tío, este chaval es una pasada.;positive;positive
-He perdido la cuenta tío.;spanish;positive; He perdido la cuenta, tío.;negative;negative
-Da igual, colega.;spanish;positive; No me importa que le diga.;negative;positive
-Te vendría bien, un bien [no verbal].;spanish;positive; ¡Te vendría bien! ¡Un bien go!;positive;positive
-¡Y ese es el segundo mejor invento!;spanish;positive; ¡Y ese es el segundo mejor invento!;positive;positive
-Pero tú, Jimmy, le miras como si fueras a arrancarle la nariz y obligar ...;spanish;positive; Pero, tú, Jimmy, le miras como si fueras a arrancarle la nariz y obligar...;negative;negative
-¿Verdad que es extraño? [no verbal] tener muchos hijos.;spanish;positive; ¿Verdad que es extraño? Tener muchos hijos.;negative;negative
-Preferiría no hacerlo yo mismo. ;spanish;positive; Preferiría no hacerlo yo mismo.;negative;negative
-Cada uno tiene su propia idea de lo que es el paraíso. [no verbal];spanish;positive; Cada uno tiene su propia idea de lo que es el paraíso.;positive;negative
-Pero a la parienta, a la parienta le parece el paraíso. [no verbal];spanish;positive; Pero a la parienta, a la parienta le parece el paraíso.;positive;negative
-[No verbal] bien. Como le he dicho me obligan a preguntar si lo entiende.;spanish;positive; Bien, como le he dicho, me obligan a preguntárselo, ¿entiendes?;negative;negative
-¿Qué tiene de malo reírse del secretario general del partido? [no verbal];spanish;positive; ¿Qué tiene de malo reírse del secretario general del partido?;negative;negative
-Además, seguro de que ya me lo sé. [no verbal];spanish;positive; además seguro que ya me lo sé;negative;negative
-¡Todo se hizo por ti!;spanish;negative; ¡Todo se hizo por ti!;positive;positive
-¡Se hizo para que mejoraras!;spanish;negative; ¡Se hizo para que mejoraras!;positive;positive
-Se hizo por amor.;spanish;negative; ¡Se hizo por amor!;positive;positive
-¡Es de mi hija de quien estoy hablando!;spanish;negative; ¡Es de mi hija! ¿De quién estoy hablando?;positive;positive
-¡Que todo el mundo cierre el pico!;spanish;negative; ¡Que todo el mundo cierre el pico!;negative;negative
-¡Cerrad el pico!;spanish;negative; ¡Cerrad el pico!;negative;negative
-¿Por qué coño crees que estaba allí?;spanish;negative; ¿Por qué coño crees que estaba allí?;negative;negative
-"Vamos, responde: ""¿Qué hay que comprender?";spanish;negative; ¡Vamos, responde! ¡Que hay que comprender!;positive;negative
-... y las procesas.;spanish;negative; y las procesas.;negative;positive
-"Dices: ""Las malvadas fueron ellas, ellas son las culpables"".";spanish;negative; Dices las malvadas fueron ellas, ellas son las culpables.;negative;negative
-Porque por casualidad una de las víctimas escribió un libro.;spanish;negative; Porque por casualidad una de las víctimas escribió un libro.;negative;negative
-¿Quién lo sabía?;spanish;negative; ¿Quién lo sabía?;negative;negative
-¿Qué sabían?;spanish;negative; ¿Qué sabían?;negative;negative
-Pues, ¿lo sabían todos?;spanish;negative; ¡Pues lo sabían todos!;positive;negative
-Mírate, jodida ruina humana.;spanish;negative; ¡Mirá, te jodida ruina humana!;negative;negative
-Exacto, está muerta joder. ¿Ella la palma y tú recoges tus fichas y te das el piro?;spanish;negative; ¡Exacto! ¡Está muerta, joder! Ella la palma y tú recoges tus fichas y te das el piro.;negative;negative
-Te perdiste una mano de cojones. Hay gente que pierde una mano como esa y tiene los huevos de volver a apostar.;spanish;negative; ¡Perdiste una mano de cojones! Hay gente que pierde una mano como esa y tiene los huevos de volver a apostar.;negative;negative
-¿Por qué crees que hace eso, Gerry? ¿Tienes alguna puta idea?;spanish;negative; ¿Por qué crees que haces eso, Sherry? ¿Tienes alguna puta idea?;negative;negative
-Tú y todos los tuyos me consideráis un caso lamentable.;spanish;negative; Tú y todos los tuyos me consideráis un caso lamentable.;negative;negative
-No se trata de ti, matemático gilipollas.;spanish;negative; ¡No se trata de ti, matemático gilipollas!;negative;negative
-¡Se trata del chico!;spanish;negative; ¡Se trata del chico!;positive;positive
-Y no voy a dejar que le jodas como estás intentando joderme a mí.;spanish;negative; No voy a dejar que le jodas como estás intentando joderme a mí.;negative;negative
-¿Me has oído? ¡Cállate!;spanish;negative; ¿Me has oído? ¡Cállate!;negative;negative
-O te corto en mil pedazos con esto.;spanish;negative; ¡Te corto en mil pedazos con esto!;negative;negative
-Pues, no me tengas en ascuas sobre lo que piensas.;spanish;negative; ¡Pues no me tengas en asco a sobre lo que piensas!;negative;negative
-Claro que es él, ¿qué aspecto tenía?;spanish;negative; ¡Claro que es él! ¿Qué aspecto tenís?;positive;negative
-¡Pues deberías maldita sea!;spanish;negative; ¡Pues te verías, maldita sea!;negative;negative
-¡Me da igual que le ames!;spanish;negative; ¡Me da igual que le ames!;positive;positive
-Hazme caso!;spanish;negative; Hazme caso.;negative;positive
-¡Hay un autobús lleno de muertos!;spanish;negative; Hay un autobús lleno de muertos.;negative;negative
-¡¿Y podrían hacer daño a alguien?!;spanish;negative; ¿Y podrían hacer daño a alguien?;negative;negative
-¿A quién? ¿A un amigo tuyo?;spanish;negative; ¿A quién? ¿A un amigo tuyo?;negative;negative
-No, esa eres tú.;spanish;negative; No, esa eres tú.;negative;negative
-Cierto, no me caes bien.;spanish;negative; ¡Cierto! ¡No me caes bien!;negative;negative
-No estamos en el recreo.;spanish;negative; ¡No estamos en el recreo!;negative;negative
-¡Esto es un asunto serio!;spanish;negative; Esto es un asunto serio.;negative;negative
-¿Dices que soy un capullo?;spanish;negative; ¿Dices que soy un capullo?;negative;negative
-Que no está preparado para ser médico y bajo mi responsabilidad ...;spanish;negative; que no está preparado para ser médico y bajo mi responsabilidad.;negative;negative
-¡Joder!;spanish;negative; ¡Joder!;negative;negative
-Uno se siente muy …;spanish;negative; No se siente muy bien.;negative;negative
-Sólo cuando le hace daño a alguien.;spanish;negative; Solo cuando le haces daño a alguien.;negative;negative
-Te sientes como ...;spanish;negative; Te es bien descomodado.;negative;negative
-... un extraño.;spanish;negative; Un extraño.;negative;negative
-La quería.;spanish;negative; A que ría.;negative;negative
-Muchísimo.;spanish;negative; muchísimo.;positive;positive
-Por la noche nos sentábamos en la cocina ...;spanish;negative; Por la noche nos sentábamos en la cocina.;negative;negative
-... que éramos las dos únicas personas sobre la tierra.;spanish;negative; que éramos las dos únicas personas sobre la Tierra.;negative;negative
-Rechazado.;spanish;negative; Rechazado.;negative;negative
-Sobre las ocho.;spanish;negative; sobre las ocho.;negative;negative
-Se fue a ver a Eve y Diane.;spanish;negative; Se fue a ver a Ify a dayar.;negative;negative
-Nos íbamos el domingo.;spanish;negative; Nos llevamos el domingo.;positive;negative
-Pensábamos casarnos allí.;spanish;negative; Pensábamos casarnos allí.;negative;negative
-Ese era el plan saben.;spanish;negative; Ese era el plan, ¿saben?;negative;negative
-La quería tanto.;spanish;negative; La que riga tanto.;negative;positive
-Tiene nada igual.;spanish;negative; No tiene nada igual.;negative;negative
-Nunca en la vida.;spanish;negative; Nunca en la vida.;negative;negative
-Pero ahora quiere morir.;spanish;negative; Pero ahora quiere morir.;negative;negative
-Y yo quiero que se quede conmigo.;spanish;negative; y yo quiero que se quede conmigo.;negative;negative
-Lo juro por Dios, Padre...;spanish;negative; Lo juro por Dios, padre.;positive;positive
-Es cometer un pecado el que haga.;spanish;negative; es cometer un pecado el que lo haga.;negative;negative
-Manteniéndola viva la estoy matando.;spanish;negative; manteniendo la viva, la estoy empatando.;positive;negative
-Lo entiendes.;spanish;negative; ¿Me entiendes?;negative;positive
-Cómo lo resumido;spanish;negative; como lo resuelvo.;negative;negative
-Fui a ver a Maggie esta mañana.;spanish;negative; fui a ver a Magui esta mañana.;positive;positive
-Debías de haber salido.;spanish;negative; debías de haber salido.;negative;negative
-Puede que no la firmes.;spanish;negative; Puede que no la firmes.;negative;negative
-Y me das un poco más de tiempo.;spanish;negative; y me das un poco más de tiempo.;positive;positive
-Hagas lo que hagas, Rosen tiene razón en una cosa.;spanish;negative; Hagas lo que hagas. Rosentía tiene razón en una cosa.;positive;negative
-No debes quedarte.;spanish;negative; No debes quedarte.;negative;negative
-Ya no soy de fiar.;spanish;negative; Ya no soy de fiar.;negative;negative
-No lo sé.;spanish;negative; No lo sé.;negative;negative
-Que el Dr. Rosen te lleve a casa de tu madre.;spanish;negative; que el Dr. Rosen te lleve a casa de tu madre.;negative;negative
-Tú tienes ese don.;spanish;negative; Tú tienes ese don.;positive;positive
-Sabes tratar a la gente.;spanish;negative; ¿Sabes trazar a la gente?;negative;positive
-Les caes bien.;spanish;negative; Les caes bien.;positive;positive
-Y si te vas, no aprenderé a hacerlo.;spanish;negative; Y si te vas, no aprenderé a hacerlo.;negative;negative
-Hasta que una noche se enteró de que se había ...;spanish;negative; Hasta que una noche se enteró de que se había...;negative;negative
-Él no es la misma persona que era antes.;spanish;negative; Él no es la misma persona que era antes.;negative;negative
-Apenas se hablan. Son como extraños.;spanish;negative; Apenas se hablan, son como extraños.;negative;negative
-Porque siente que ...;spanish;negative; porque siente que...;negative;negative
-... sería ... como ayudar también al otro.;spanish;negative; sería como ayudar también al otro.;positive;positive
-Otra familia, otra ...;spanish;negative; Otra familia, otra...;negative;positive
+f_dis024aes;Lloyd, cariño, te quiero con toda mi alma ;spanish;negative; Lloyd, cariño, te quiero con toda mi alma.;positive;positive
+f_dis024bes;Pero a veces tengo que preguntarme si realmente eres mi hijo.;spanish;negative; Pero a veces tengo que preguntarme si realmente eres mi hijo.;negative;negative
+f_dis025aes;Siempre has sido más como tu padre.;spanish;negative; Siempre has sido más como tu padre.;negative;negative
+f_dis027aes;Puede darme la pistola o devolverme el dinero.;spanish;negative; ¿Puede darme la pistola o devolverme el dinero?;negative;negative
+f_dis027bes;La verdad es que prefiero recuperar el dinero.;spanish;negative; Y la verdad es que prefiero recuperar el dinero.;negative;negative
+f_dis028aes;¿Me da la caja sí o no?;spanish;negative; ¿Me da la caja sí o no?;negative;negative
+f_dis029aes;Nos iban a matar en ventura boulevard.;spanish;negative; Nos iban a matar en Ventura Boulevard.;negative;negative
+f_dis036aes;Mi padre es de Puerto Rico, mi madre es de El Salvador.;spanish;negative; Mi padre es de Puerto Rico, mi madre es del Salvador.;negative;negative
+f_dis036bes;Y ningún sitio de esos es México.;spanish;negative; y ningún sitio de esos es México.;negative;negative
+f_dis037aes; No lo sé. ¿No está enferma?;spanish;negative; No lo sé. ¿No está enferma?;negative;negative
+f_dis038aes;Creía que los enfermos se inventaban cosas a menudo.;spanish;negative; Creía que los enfermos inventaban cosas a menudo.;negative;negative
+f_dis042aes;¿Por qué compra esta tierra, Sr. Bloom?;spanish;negative; ¿Por qué compré esta tierra, señor Bloom?;negative;negative
+f_dis043aes;¿En vez  de comprarse un descapotable, se compra un pueblo? ;spanish;negative; En vez de comprarse un descapotable, ¿se compra un pueblo?;negative;negative
+f_dis049aes;Estoy a favor de la paz, Sr. Lud. Por eso estoy en la ONU. Para apoyar la diplomacia.;spanish;negative; Estoy a favor de la paz, señor Lat. Por eso estoy en la ONU para apoyar la diplomacia.;positive;positive
+f_dis108aes;No era una pregunta.;spanish;negative; No era una pregunta.;negative;negative
+f_dis150aes;Y tú puedes hacer lo todo, ¿no?;spanish;negative; Y tú puedes hacerlo todo, ¿no?;positive;positive
+f_dis201aes;Pero si ya lo hiciste.;spanish;negative; Pero si ya lo hiciste.;negative;negative
+f_dis202aes;Y antes de hoy, ¿no habías oído nunca hablar de mí? ;spanish;negative; ¿Y antes de hoy no habías oído nunca hablar de mí?;negative;negative
+f_dis204aes;¿Se ha muerto, o qué?;spanish;negative; si ha muerto o qué.;negative;negative
+f_dis205aes;Una vez un ayudante dejó su mesa porque se rebanó la mano con un abrecartas.;spanish;negative; Una vez un ayudante dejó su mesa porque se rebanó la mano con un abre cartas.;negative;negative
+f_dis206aes;Jamás creí que diría esto.;spanish;negative; Jamás creí que diría esto.;negative;negative
+f_dis901aes;Oh, os habríais librado de que los romanos os cortaran la cabeza, claro. ;spanish;negative; ¿Os habríais librado de que los romanos os cortaran la cabeza?;negative;negative
+f_dis902aes;¿Así que los dos habríais mentido hasta el punto de negar a Cristo?;spanish;negative; Así que los dos habríais mentido hasta el punto de negar a Cristo.;negative;negative
+f_gio002aes;Estoy curada.;spanish;positive; Estoy curada.;positive;positive
+f_gio012aes;Gracias señorita Burton.;spanish;positive; Gracias, señorita Burton.;positive;positive
+f_gio012bes;Tomaré nota de su consideración.;spanish;positive; Tomaré nota de su consideración.;positive;positive
+f_gio019aes;Eso es genial. Perfecto, sí.;spanish;positive; Eso es genial. Perfecto, sí.;positive;positive
+f_gio030aes;¡Eres tú!;spanish;positive; Eres tú.;positive;positive
+f_gio034aes;A veces, pero soy más discreta.;spanish;positive; A veces, pero soy más discreta.;negative;negative
+f_gio038aes;No, necesito un luchador con un master.;spanish;positive; No, necesito un luchador con un máster.;negative;negative
+f_gio040aes;Una noche saltó la barra y se ofreció a enseñarme a prepararlos. ;spanish;positive; Una noche saltó la barra y se ofreció a enseñarme a prepararlos.;positive;positive
+f_gio044aes;Vuelve a la cama tesoro.;spanish;positive; Vuelve a la cama, tesoro.;negative;negative
+f_gio045aes;Eso es estupendo.;spanish;positive; ¡Eso es estupendo!;positive;positive
+f_gio047aes;Al contrario.;spanish;positive; Al contrario.;negative;negative
+f_gio047bes;El otro día emprendimos una exploración a lo más recóndito de África en nuestro jardín.;spanish;positive; El otro día emprendimos una exploración al más recóndito de África en nuestro jardín.;positive;positive
+f_gio049aes;Les he dicho que tenía que pasar la tarde con un periodista ecuestre muy importante.;spanish;positive; Les he dicho que tenía que pasar la tarde con un periodista ecuestre muy importante.;negative;negative
+f_gio120aes;¡Oh, creía que se refería al juez!;spanish;positive; Creía que se refería al juez.;negative;negative
+f_gio123aes;¡Muchas gracias!;spanish;positive; Muchas gracias.;positive;positive
+f_gio133aes;Creí que estabas viviendo un tórrido romance.;spanish;positive; Creí que estabas viviendo un torrido romance.;negative;negative
+f_gio144aes;¡Feliz cumpleaños!  [no verbal];spanish;positive; ¡Feliz cumpleaños!;positive;positive
+f_gio162aes;No  [no verbal] ¡sí!;spanish;positive; No...;negative;negative
+f_gio189aes;[no verbal] caray.;spanish;positive; caray;negative;negative
+f_gio201aes;Es que aquí hace calor.;spanish;positive; Es que aquí hace calor.;negative;negative
+f_gio203aes;¿Y sobre mí?;spanish;positive; ¿Y sobre mí?;negative;negative
+f_gio204aes;¿Puedo verla?;spanish;positive; ¿Puedo verla?;negative;negative
+f_gio206aes;Que acogedora.;spanish;positive; Qué acogedora.;positive;negative
+f_gio207aes;Se lo agradecería.;spanish;positive; Se lo agradecería.;positive;positive
+f_gio208aes;No me siento tan mayor.;spanish;positive; Me siento tan mayor.;positive;negative
+f_gio209aes;Treinta y uno hasta mi próximo cumpleaños.;spanish;positive; 30 y 1. Hasta mi próximo cumpleaños.;positive;positive
+f_gio210aes;Es preciosa.;spanish;positive; ¡Es preciosa!;positive;positive
+f_gio212aes;[No verbal] ¿Qué significa?;spanish;positive; ¿Qué significa?;negative;negative
+f_gio214aes;Me esperara que llegara eso.;spanish;positive; Esperara que llegara eso.;negative;negative
+f_rab003aes;¿Dónde estás?;spanish;negative; ¿Dónde estás?;negative;negative
+f_rab008aes;Semejante obligación no existe.;spanish;negative; ¡Semejante obligación no existe!;negative;negative
+f_rab009aes;A todas horas soy atendida por médicos que me informan de mis propios intereses.;spanish;negative; A todas horas soy atendida por médicos que me informan de mis propios intereses.;positive;positive
+f_rab010aes;Este pueblo me está afixiando.;spanish;negative; ¡Este pueblo me está asfixiando!;negative;negative
+f_rab010bes;¡No lo es! Es la mía.;spanish;negative; ¡No lo es! ¡Es la mía!;positive;positive
+f_rab011aes;¡Por el amor de Dios, Dave!;spanish;negative; ¡Por el amor de Dios, Dave!;positive;positive
+f_rab011bes;¿Por qué no dijiste lo de ese hombre?;spanish;negative; ¿Por qué no dijiste lo de ese hombre?;negative;negative
+f_rab012aes;"Toda la prensa británica se ha levantado pensado: ""Sé dónde está Anna Scott"".";spanish;negative; Toda la prensa británica se ha levantado pensando, sé dónde está Ana Scott.;negative;negative
+f_rab012bes;En esa casa de la puerta azul en Notting Hill.;spanish;negative; en esa casa de la puerta azul en Nothing Hill.;negative;negative
+f_rab012ces;Y luego tú sales con tus ridículos calzoncillos.;spanish;negative; Y luego tú sales con tu ridículo, los calzoncillos.;negative;negative
+f_rab013bes;Por el amor de Dios, tengo novio.;spanish;negative; ¡Por el amor de Dios tengo novio!;positive;positive
+f_rab014aes;Pero mañana saldrá tu foto en cada periódico de aquí a Tombuctú.;spanish;negative; Pero mañana saldrá tu foto en cada periódico de aquí a... Donbuktu.;positive;positive
+f_rab015aes;Bueno, esta situación es perfecta para ti.;spanish;negative; Bueno, esta situación es perfecta para ti.;positive;positive
+f_rab015bes;Mínima inversión, máxima publicidad.;spanish;negative; Mínima inversión, máxima publicidad.;positive;positive
+f_rab015ces;"Vayas donde vayas la gente dirá: ""Oh, bien hecho, te has tirado a esa actriz"".";spanish;negative; Vayas donde vayas, la gente dirá ¡Oh, bien hecho! ¡Te has tirado a esa actriz!;positive;positive
+f_rab015des;Hemos visto las fotos.;spanish;negative; ¡Hemos visto las fotos!;positive;positive
+f_rab029aes;Te da miedo que yo no te ame.;spanish;negative; ¿Te da miedo que yo no te ame?;negative;negative
+f_rab029bes;Y sabes que yo también tengo miedo.;spanish;negative; Y sabes que yo también tengo miedo.;negative;negative
+f_rab029ces;Pero joder, debemos intentarlo, al menos habré sido honesta contigo.;spanish;negative; ¡Pero, joder, debemos intentarlo! ¡Al menos habré sido honesta contigo!;positive;positive
+f_rab034aes;Pues mal hecho, deberías haberme consultado.;spanish;negative; Pues mal hecho. Deberías haberme consultado.;negative;negative
+f_rab037aes;Puede ser el objeto más valioso que tenemos.;spanish;negative; ¡Puede ser el objeto más valioso que tenemos!;positive;positive
+f_rab042aes;¡Y quiero que me digas inmediatamente cuándo vas a venir a casa!;spanish;negative; ¡Que quiero que me digas inmediatamente cuándo vas a venir a casa!;positive;positive
+f_rab047ces;Es que me gustaría que se me reconociera el hecho de que me mato intentándolo.;spanish;negative; Es que me gustaría que se me reconociera el hecho de que me mato intentándola.;negative;negative
+f_rab064aes;¡No se acerque a ella!;spanish;negative; No se acerque a ella.;negative;negative
+f_rab068aes;No quiero decir por fuera, ¡cambia por dentro!;spanish;negative; No quiero decir por fuera, cambia por centro.;negative;positive
+f_rab068bes;¡Corre riesgos, comete errores!;spanish;negative; ¡Corre riesgos, comete errores!;negative;negative
+f_rab069aes;¡Sí! En ocasiones es importante no ser perfecto, ¿vale? Es importante equivocarse.;spanish;negative; Sí, en ocasiones. Es importante no ser perfecto, ¿vale? Es importante equivocarse.;negative;positive
+f_rab070aes;No, para cometerlos.;spanish;negative; ¡Y no para cometerlos!;negative;negative
+f_rab082aes;Y se acabó el boxear fuera.;spanish;negative; ¡Y se acabó el boxear fuera!;negative;negative
+f_rab082bes;¿Entendido? No se boxea. ¡Punto!;spanish;negative; Entendido, no se boxea. Punto.;negative;negative
+f_rab083aes;Seguiréis yendo al colegio.;spanish;negative; ¡Seguiréis yendo al colegio!;positive;negative
+f_rab083bes;Estudiaréis en la universidad y tendréis una profesión.;spanish;negative; que estudiaréis en la universidad y tendréis una profesión.;positive;positive
+f_rab083ces;Porque no quiero que también os machaquen el cráneo.;spanish;negative; ¿Por qué no quiero que también os machacen el cráneo?;negative;negative
+f_rab084aes;¿Lo habéis entendido?;spanish;negative; ¿Lo habéis entendido?;negative;negative
+f_rab084bes;¿Queda claro?;spanish;negative; ¿Qué es la clara?;negative;negative
+f_rab087aes;Pero evita como sea ese combate. Si es necesario, rómpete la mano.;spanish;negative; Pero evita como sea ese combate. Si es necesario, rompete la mano.;negative;negative
+f_rab089ces;Pues me he asustado y no he dicho nada y a los diez segundos tenía un arma en mi cara. ;spanish;negative; Pues me he asustado y no he dicho nada, ya los diez segundos tenía un arma en mi cara.;negative;negative
+f_rab090aes;Y te aseguro que tu amigo, el de ahí, va a vender nuestra llave a uno de sus colegas.;spanish;negative; Y te aseguro que tu amigo el de ahí va a vender nuestra llave a uno de sus colegas.;negative;negative
+f_rab090bes;Y esta vez sería de puta madre que actuaras como si te importara algo.;spanish;negative; Y esta vez sería de puta madre que actuaras como si te importara algo.;negative;negative
+f_rab092bes;Teniendo las manos de ese cerdo por todas partes.;spanish;negative; Teniendo las manos de ese cerdo por todas partes.;negative;negative
+f_rab094aes;Que no se quede quieto mientras me meten mano.;spanish;negative; ¡Que no se quede quieto mientras me mete en mano!;negative;negative
+f_rab098aes;No tiene sentido que pases todo el día aquí encerrado. ;spanish;negative; No tiene sentido que pases todo el día aquí encerrado.;negative;negative
+f_rab901aes;Estoy harta tí.;spanish;negative; ¡Estoy horta de ti!;positive;negative
+f_tri001aes;Fue culpa mía.;spanish;negative; Fue culpa mí.;negative;negative
+f_tri002aes;Podía haberlo impedido.;spanish;negative; Pude haberlo impedido.;negative;negative
+f_tri003aes;No sabías que últimamente se despertaba.;spanish;negative; No sabías que últimamente se despertaba.;negative;negative
+f_tri004aes;Y yo sabía que algunas veces ;spanish;negative; Yo sabía que algunas veces...;negative;negative
+f_tri005aes; se levantaba de la cama.;spanish;negative; se levantaba de la cama.;negative;negative
+f_tri005bes;Y andaba por ahí.;spanish;negative; y andaba por ahí.;negative;negative
+f_tri006aes;Se despertaba.;spanish;negative; ¡Se despertaba!;positive;negative
+f_tri007aes;Y se sentía confuso.;spanish;negative; Yo se sentía confuso.;negative;negative
+f_tri008aes;También me quiero morir.;spanish;negative; Me quiero morir.;negative;negative
+f_tri009aes;¿El dolor seguirá siempre igual?;spanish;negative; El dolor seguirá siempre igual.;negative;negative
+f_tri010aes;Será mucho peor.;spanish;negative; Será mucho peor.;negative;negative
+f_tri017aes;¿Tiene un caramelo?;spanish;negative; Tiene un caramelo.;positive;negative
+f_tri018aes;Mami te envía millones y millones de besos.;spanish;negative; Mami te envía millones y millones de besos.;positive;positive
+f_tri023aes;Excepto lo que más deseo.;spanish;negative; excepto lo que más deseo.;negative;negative
+f_tri026aes;Estoy preocupada por Ray.;spanish;negative; ¡Ya estoy preocupada por Ray!;negative;negative
+f_tri027aes;No se si él podrá soportarlo ;spanish;negative; No sé si él podrá soportarlo.;negative;negative
+f_tri032ces;En esas cosas.;spanish;negative; en esas cosas.;positive;positive
+f_tri037aes;Y lo que parecía una estúpida sesión de fotos es una peli porno.;spanish;negative; Y lo que parecía una estúpida sesión de fotos es una peliporno.;negative;negative
+f_tri039aes;Briony, no queda mucho tiempo.;spanish;negative; Rione, no queda mucho tiempo.;positive;positive
+f_tri039bes;Robbie tiene que presentarse a las seis.;spanish;negative; Robby tiene que presentarse a las 6.;negative;negative
+f_tri039ces;Para coger el tren.;spanish;negative; para coger el tren.;negative;negative
+f_tri039des;Así que siéntate.;spanish;negative; Así que siéntate.;negative;negative
+f_tri040aes;Siento muchisimo.;spanish;negative; Lo siento muchísimo.;negative;negative
+f_tri040bes;El terrible dolor que os he causado.;spanish;negative; el terrible dolor que os he causado.;negative;negative
+f_tri040ces;Lo siento mucho.;spanish;negative; Lo siento mucho.;negative;negative
+f_tri041aes;Lo siento tanto.;spanish;negative; Lo siento tanto.;negative;negative
+f_tri044aes;No hay ningún William Parcher. ;spanish;negative; No hay ningún William Parcher.;negative;negative
+f_tri044bes;Sólo está en tu mente.;spanish;negative; solo está en tu mente.;negative;negative
+f_tri045aes;¿Lo entiendes, mi amor?;spanish;negative; Lo entiendes, mi amor.;positive;positive
+f_tri045bes;No es real.;spanish;negative; ¡No es real!;negative;negative
+f_tri045ces;Estás enfermo, John.;spanish;negative; ¿Estás enfermo, Jordan?;negative;negative
+f_tri047aes;¿Intentarías hacerme daño?;spanish;negative; ¿Intentarías hacerme daño?;negative;negative
+f_tri049aes;Pero mis  mis hijas, ellas.;spanish;negative; Pero mis... mis hijas ellas...;negative;negative
+f_tri054aes;Otra decepción.;spanish;negative; Otra decepción.;negative;negative
+f_tri054ces;Que se va.;spanish;negative; Qué sé yo.;negative;negative
+f_tri059aes;Lo siento.;spanish;negative; Y lo siento.;negative;negative
+f_tri071aes;¿Te sientes orgullosa de mí?;spanish;negative; ¿Te sientes orgullosa de mí?;positive;positive
+f_tri081aes;Jim, tú no lo has visto.;spanish;negative; Jim, ¿tú no lo has visto?;negative;negative
+f_tri085aes;Se lo han dado al tío de city core;spanish;negative; se lo han dado al tío de CityCorp.;negative;negative
+f_tri091bes;De que me llevarías contigo.;spanish;negative; ¿De qué me llevarías contigo?;negative;negative
+f_tri094aes;Ojalá pudiera formar parte de el.;spanish;negative; Ojalá pudiera formar parte de él.;positive;positive
+f_tri096aes;Sin esa familia, nunca podrías haber escrito nada igual.;spanish;negative; Sin esa familia nunca podrías haber escrito nada igual.;negative;negative
+f_tri096bes;Les necesitas.;spanish;negative; las necesitas.;negative;negative
+f_tri097bes;Y que cuando vuelvas me cuentes hasta el último detalle. ;spanish;negative; y que cuando vuelvas me cuentes hasta el último detalle.;positive;positive
+m_ans001aes;Es sólo que sangra mucho.;spanish;negative; Eso es lo que sangra mucho.;negative;negative
+m_ans002aes;Un tipo trató de atracarme, me  me defendí y me rajó.;spanish;negative; Un tío trató de atracarme, me defendí, me rajó.;negative;negative
+m_ans003aes;Iba tranquilamente hacia mi coche.;spanish;negative; y va tranquilamente a la fiamincoche.;negative;positive
+m_ans003bes;Le digo no fumo y me dice yo tampoco, así que.;spanish;negative; Le digo, no fumó y me dice, yo tampoco, así que...;negative;negative
+m_ans007aes;Claro por eso crees que la maté yo.;spanish;negative; Claro, por eso crees que la maté yo.;negative;negative
+m_ans007bes;Por llegar a casa manchado de sangre la noche que matan a Katie.;spanish;negative; Por llegar a casa manchado de sangre la noche que matan a Katie.;negative;negative
+m_ans007ces;Por tanto debo haber sido yo, ¿verdad?;spanish;negative; Por tanto, debo haber sido yo, ¿verdad?;negative;negative
+m_ans008aes;No puedo seguir confiando en mi mente, Celeste. No puedo más.;spanish;negative; No puedo seguir confiando en mi mente, Ceste. No puedo más.;negative;negative
+m_ans011aes;¿Qué coño está pasando? ¿Dónde estoy?;spanish;negative; ¿Qué coño está pasando? ¿Dónde estoy?;negative;negative
+m_ans013aes;No lo sé.;spanish;negative; ¡LOROSÉ!;negative;negative
+m_ans014aes;¿Y eso qué importa? Ahora estoy confundido. ¿Cómo te llamas tú?;spanish;negative; Y eso que importa, ahora estoy confundido, ¿cómo te llamas tú?;negative;negative
+m_ans014bes;¿Qué coño pasa aquí?;spanish;negative; ¿Qué coño pasa aquí?;negative;negative
+m_ans015bes;Fuí a dormir a mi apartamento y me he despertado en este lugar asqueroso.;spanish;negative; Fui a dormir a mi apartamento y me he despertado en este lugar asqueroso.;negative;negative
+m_ans016aes;Es lo que suelen hacer. Te secuestran, te drogan.;spanish;negative; ¿Y eso que suelen hacer? ¿Te secuestran? ¿Te drogan?;negative;negative
+m_ans016bes;Y antes de que te des cuenta, tú estás en una bañera y tus riñones en otra persona.;spanish;negative; Y antes de que te des cuenta, tú estás en una bañera y tú riñones en otra persona.;negative;negative
+m_ans020bes;¡¿Quién anda ahí?!;spanish;negative; ¡Que nada!;positive;negative
+m_ans020ces;¡Sal!;spanish;negative; ¡San!;positive;positive
+m_ans020des;¡Te mataré, cabrón!;spanish;negative; ¡Te mataré, cabrón!;negative;negative
+m_ans021aes;¿Quién es?;spanish;negative; ¿Tienes?;negative;negative
+m_ans022aes;Sí, cariño, soy yo. Estoy aquí.;spanish;negative; Sí, cariño, yo estoy aquí.;positive;positive
+m_ans023aes;Esto no formaba parte del trato.;spanish;negative; Esto no formaba parte del trato.;negative;negative
+m_ans024aes;Alicia estaba trabajando para el gobierno.;spanish;negative; Alicia estaba trabajando para el gobierno.;negative;negative
+m_ans024bes;Existe una amenaza de proporciones catastróficas.;spanish;negative; Existe una amenaza de proporciones catastróficas.;negative;negative
+m_ans030aes;Con el debido respeto, esto … esto es ridículo. ¡No tiene ningún sentido!;spanish;negative; Con el debido respeto, esto... Esto reciclo no tiene ningún sentido.;negative;negative
+m_ans101aes;¿Qué es ese olor?;spanish;negative; ¿Qué es ese olor?;negative;negative
+m_ans105aes;Sí, te lo dije. A mí me hizo lo mismo.;spanish;negative; ¡Sí, te lo dije! ¡A mí me hizo lo mismo!;positive;positive
+m_ans105bes;Lo es, no te mentía.;spanish;negative; ¡Lo ves, no te mentías!;positive;positive
+m_ans106aes;Me, me está electrocutando.;spanish;negative; Me... Me está electrocutando...;negative;negative
+m_ans107aes;¡Socorro, que alguien me ayude!;spanish;negative; Socorro! ¡Que alguien me ayude!;negative;negative
+m_ans124aes;¿Quién eres?;spanish;negative; ¿Quién eres?;positive;positive
+m_ans124bes;¿Quién eres?;spanish;negative; ¿Quién eres?;positive;positive
+m_dis001aes;"Es como decir: ""No es un revuelta, es rabia. No es un crimen, es pobreza"".";spanish;negative; Es como decir, no es una revuelta, es rabia, no es un crimen, es pobreza.;negative;negative
+m_dis002aes;Mira esta triste, miserable y aplastada cosa.;spanish;negative; Mira esta triste, miserable y aplastada cosa.;negative;negative
+m_dis002bes;¿Alguien puede decirme dónde está el fallo de esa fotografía?;spanish;negative; ¿Alguien puede decirme dónde está el fallo de esa fotografía?;negative;negative
+m_dis003aes;Bueno, pues, quizás.;spanish;negative; Bueno pues quizás...;positive;positive
+m_dis003bes;Al cumplir seis años, mi mejor amigo, Scott Tibbs, me pinchó con un clavo, eso te no había contado.;spanish;negative; Al cumplir seis años, mi mejor amigo Scott Pipps me pinchó con un clavo. Eso no te lo había contado.;negative;negative
+m_dis005aes;¿A sí? Pues, ese poli piensa que tú estás detrás de todo.;spanish;negative; ¿Ah, sí? Pues ese poli piensa que tú estás detrás de todo.;negative;negative
+m_dis008bes;Tengo horas de consulta. Si necesitas más información sobre refranes, expresiones ;spanish;negative; Tengo horas de consulta. Si necesitas más información sobre refranes, expresiones...;positive;positive
+m_dis014aes;Y al parecer, tú también.;spanish;negative; Y al parecer tú también.;negative;negative
+m_dis016aes;Bueno, eso se llama mutación, madre. El milagro de la genética es que yo no soy tú.;spanish;negative; Bueno, eso se llama mutación, madre. El milagro de la genética es que yo no soy tú.;positive;positive
+m_dis018bes;Vivo contigo. Sé cuanto estudias, o debería decir no estudias. Y sacas mejores notas que yo.;spanish;negative; Vivo contigo, sé cuánto estudias o debería decir no estudias y sacas mejores notas que yo.;positive;positive
+m_dis023bes;¿Es porque tu padre era médico y tu abuelo era médico?;spanish;negative; ¿Es porque tu padre era médico y tu abuelo era médico?;negative;negative
+m_dis023ces;¿Es un asunto genético quizá?;spanish;negative; ¿Es un asunto genético, quizá?;negative;negative
+m_dis035aes;Saddam. ¿Se llama Saddam? Genial, estupendo, Bruce.;spanish;negative; ¿Sadam? ¿Se llama Sadam? ¡Genial! ¡Estupendo, Bruce!;positive;positive
+m_dis036aes;¡Concédete un ascenso por favor!;spanish;negative; ¡Concédate un ascenso, por favor!;positive;positive
+m_dis043aes;Construye barrios, no los destruye evidentemente.;spanish;negative; Construye barrios, no los destruye evidentemente.;negative;negative
+m_dis044aes;Extravié una importante demanda. Esa es su versión.;spanish;negative; extravió una importante demanda, esa es su versión.;negative;negative
+m_dis044bes;¿Te cuento la mía?;spanish;negative; ¿Te cuento la mía?;negative;negative
+m_gio001aes;[no verbal] es un idiota.;spanish;positive; Es un idiota.;negative;negative
+m_gio001bes;Siempre ha sido un idiota.;spanish;positive; Siempre ha sido una idiota.;negative;negative
+m_gio002aes;Guay. Gracias.;spanish;positive; ¡Guay! Gracias.;positive;positive
+m_gio002bes;Deséame suerte.;spanish;positive; ¡Déciame suerte!;positive;positive
+m_gio003aes;¿Hace una sesión de video esta noche?;spanish;positive; ¿Hace una sesión de vídeo esta noche?;positive;positive
+m_gio003bes;Tengo unos clásicos cojonudos.;spanish;positive; Tengo unos clásicos cojonudos.;negative;negative
+m_gio004aes;Pero sería emocionante, ¿verdad? Alguien famoso en la tienda [no verbal].;spanish;positive; Pero sería emocionante, ¿verdad? Alguien famoso en la tienda.;positive;positive
+m_gio005aes;¡Venga, un baile!;spanish;positive; Venga, un baile!;positive;positive
+m_gio010aes;Ya me lo has contado todo.;spanish;positive; Ya me lo has contado todo.;negative;negative
+m_gio013aes;Ve a patita cabrón. Will se lleva el coche.;spanish;positive; Ve a patita, cabrón. Will se lleva el coche.;negative;negative
+m_gio015aes;Vaya, que encanto de mujer.;spanish;positive; ¡Qué encanto de mujer!;positive;positive
+m_gio016aes;Porque son aburridas, insoportables.;spanish;positive; Porque son aburridas, insoportables.;negative;negative
+m_gio017aes;Eso es maravilloso.;spanish;positive; Eso es maravilloso.;positive;positive
+m_gio018aes;Tranquilo es broma. De qué sirve estar chalado msi no puedes divertirte.;spanish;positive; Tranquilo, es broma de que sirve estar chalado si no puedes divertirte.;negative;negative
+m_gio022aes;Como os quiero, chicos.;spanish;positive; Como os quiero chicos;positive;positive
+m_gio023aes;Por primera vez en dieciocho años voy a poder estar al mando de mi propia vida. ¡Ay, Dios mío!;spanish;positive; Y por primera vez en 18 años voy a poder estar al mando de mi propia vida ¡Ay, Dios mío!;positive;positive
+m_gio034aes;Pues en realidad tantas veces como puede.;spanish;positive; Pues en realidad tantas veces como puede.;negative;negative
+m_gio041aes;Santo Dios bendito.;spanish;positive; ¡Santo Dios bendito!;positive;positive
+m_gio041bes;Santo Dios, la Virgen y San José.;spanish;positive; ¡Santo Dios la Virgen y San José!;positive;positive
+m_gio046aes;Tú podrías salir con una bocina y perseguirle por el ring.;spanish;positive; ...tú podrías salir con una bocina y perseguirle por el ring.;negative;negative
+m_gio049aes;No comprenderá que se trata de un negro.;spanish;positive; ¿No comprenderá que se trata de un negro?;negative;negative
+m_gio049bes;[no verbal] por favor.;spanish;positive; Por favor.;negative;negative
+m_gio054aes;¿Cómo está?;spanish;positive; ¿Cómo está?;positive;positive
+m_gio054bes;¿Qué le pasa en la cara?;spanish;positive; ¿Qué le pasa en la cara?;negative;negative
+m_gio056aes;Gracias, no hay más preguntas.;spanish;positive; Gracias, no hay más preta.;positive;positive
+m_gio058aes;Sr. Wheeler, es usted magnífico.;spanish;positive; Señor Wheeler, es usted magnífico.;positive;positive
+m_gio062aes;[No verbal] eso es lógico. Medio capuchino marchando.;spanish;positive; Oh, eso es lógica. Medio capuchino marchando.;negative;negative
+m_gio100aes;Esa mierda es lo mejor que he oído salir ;spanish;positive; Esa mierda es lo mejor que he oído salir.;negative;negative
+m_gio101aes;Por favor, déjadle en paz.;spanish;positive; Por favor, dejadle en paz.;negative;negative
+m_gio102aes;No sé. A las chicas les gusta.;spanish;positive; No sé, a las chicas les gusta.;negative;positive
+m_gio103aes;¿Es esa la forma de hablarle a un invitado? ¿A un amigo de la familia?;spanish;positive; Eso de hablarles a un invitado, a un amigo de la familia.;negative;negative
+m_gio104aes;¿Estás enfermo?;spanish;positive; Estás enfermo.;negative;negative
+m_gio105aes;De puta madre. Ha resucitado.;spanish;positive; ¡De puta madre ha resucitado!;negative;negative
+m_gio106aes;Seis putos kilos.;spanish;positive; ¡6 putos kilos!;negative;negative
+m_gio107aes;De verdad tío este chaval es una pasada.;spanish;positive; De verdad tío, este chaval es una pasada.;positive;positive
+m_gio108aes;He perdido la cuenta tío.;spanish;positive; He perdido la cuenta, tío.;negative;negative
+m_gio108bes;Da igual, colega.;spanish;positive; No me importa que le diga.;negative;positive
+m_gio110aes;Te vendría bien, un bien [no verbal].;spanish;positive; ¡Te vendría bien! ¡Un bien go!;positive;positive
+m_gio111aes;¡Y ese es el segundo mejor invento!;spanish;positive; ¡Y ese es el segundo mejor invento!;positive;positive
+m_gio119aes;Pero tú, Jimmy, le miras como si fueras a arrancarle la nariz y obligar ;spanish;positive; Pero, tú, Jimmy, le miras como si fueras a arrancarle la nariz y obligar...;negative;negative
+m_gio123aes;¿Verdad que es extraño? [no verbal] tener muchos hijos.;spanish;positive; ¿Verdad que es extraño? Tener muchos hijos.;negative;negative
+m_gio129aes;Preferiría no hacerlo yo mismo. ;spanish;positive; Preferiría no hacerlo yo mismo.;negative;negative
+m_gio140aes;Cada uno tiene su propia idea de lo que es el paraíso. [no verbal];spanish;positive; Cada uno tiene su propia idea de lo que es el paraíso.;positive;negative
+m_gio140bes;Pero a la parienta, a la parienta le parece el paraíso. [no verbal];spanish;positive; Pero a la parienta, a la parienta le parece el paraíso.;positive;negative
+m_gio145aes;[No verbal] bien. Como le he dicho me obligan a preguntar si lo entiende.;spanish;positive; Bien, como le he dicho, me obligan a preguntárselo, ¿entiendes?;negative;negative
+m_gio146aes;¿Qué tiene de malo reírse del secretario general del partido? [no verbal];spanish;positive; ¿Qué tiene de malo reírse del secretario general del partido?;negative;negative
+m_gio146bes;Además, seguro de que ya me lo sé. [no verbal];spanish;positive; además seguro que ya me lo sé;negative;negative
+m_rab006aes;¡Todo se hizo por ti!;spanish;negative; ¡Todo se hizo por ti!;positive;positive
+m_rab006bes;¡Se hizo para que mejoraras!;spanish;negative; ¡Se hizo para que mejoraras!;positive;positive
+m_rab006ces;Se hizo por amor.;spanish;negative; ¡Se hizo por amor!;positive;positive
+m_rab021bes;¡Es de mi hija de quien estoy hablando!;spanish;negative; ¡Es de mi hija! ¿De quién estoy hablando?;positive;positive
+m_rab021ces;¡Que todo el mundo cierre el pico!;spanish;negative; ¡Que todo el mundo cierre el pico!;negative;negative
+m_rab021des;¡Cerrad el pico!;spanish;negative; ¡Cerrad el pico!;negative;negative
+m_rab022aes;¿Por qué coño crees que estaba allí?;spanish;negative; ¿Por qué coño crees que estaba allí?;negative;negative
+m_rab027aes;"Vamos, responde: ""¿Qué hay que comprender?";spanish;negative; ¡Vamos, responde! ¡Que hay que comprender!;positive;negative
+m_rab029aes; y las procesas.;spanish;negative; y las procesas.;negative;negative
+m_rab029bes;"Dices: ""Las malvadas fueron ellas, ellas son las culpables"".";spanish;negative; Dices las malvadas fueron ellas, ellas son las culpables.;negative;negative
+m_rab029ces;Porque por casualidad una de las víctimas escribió un libro.;spanish;negative; Porque por casualidad una de las víctimas escribió un libro.;negative;negative
+m_rab030ces;¿Quién lo sabía?;spanish;negative; ¿Quién lo sabía?;negative;negative
+m_rab030des;¿Qué sabían?;spanish;negative; ¿Qué sabían?;negative;negative
+m_rab030ees;Pues, ¿lo sabían todos?;spanish;negative; ¡Pues lo sabían todos!;positive;negative
+m_rab045aes;Mírate, jodida ruina humana.;spanish;negative; ¡Mirá, te jodida ruina humana!;negative;negative
+m_rab046aes;Exacto, está muerta joder. ¿Ella la palma y tú recoges tus fichas y te das el piro?;spanish;negative; ¡Exacto! ¡Está muerta, joder! Ella la palma y tú recoges tus fichas y te das el piro.;negative;negative
+m_rab047aes;Te perdiste una mano de cojones. Hay gente que pierde una mano como esa y tiene los huevos de volver a apostar.;spanish;negative; ¡Perdiste una mano de cojones! Hay gente que pierde una mano como esa y tiene los huevos de volver a apostar.;negative;negative
+m_rab050aes;¿Por qué crees que hace eso, Gerry? ¿Tienes alguna puta idea?;spanish;negative; ¿Por qué crees que haces eso, Sherry? ¿Tienes alguna puta idea?;negative;negative
+m_rab053ces;Tú y todos los tuyos me consideráis un caso lamentable.;spanish;negative; Tú y todos los tuyos me consideráis un caso lamentable.;negative;negative
+m_rab055aes;No se trata de ti, matemático gilipollas.;spanish;negative; ¡No se trata de ti, matemático gilipollas!;negative;negative
+m_rab055bes;¡Se trata del chico!;spanish;negative; ¡Se trata del chico!;positive;positive
+m_rab055ces;Y no voy a dejar que le jodas como estás intentando joderme a mí.;spanish;negative; No voy a dejar que le jodas como estás intentando joderme a mí.;negative;negative
+m_rab064aes;¿Me has oído? ¡Cállate!;spanish;negative; ¿Me has oído? ¡Cállate!;negative;negative
+m_rab067aes;O te corto en mil pedazos con esto.;spanish;negative; ¡Te corto en mil pedazos con esto!;negative;negative
+m_rab070aes;Pues, no me tengas en ascuas sobre lo que piensas.;spanish;negative; ¡Pues no me tengas en asco a sobre lo que piensas!;negative;negative
+m_rab071aes;Claro que es él, ¿qué aspecto tenía?;spanish;negative; ¡Claro que es él! ¿Qué aspecto tenís?;positive;negative
+m_rab084aes;¡Pues deberías maldita sea!;spanish;negative; ¡Pues te verías, maldita sea!;negative;negative
+m_rab087aes;¡Me da igual que le ames!;spanish;negative; ¡Me da igual que le ames!;positive;positive
+m_rab087bes;Hazme caso!;spanish;negative; Hazme caso.;negative;positive
+m_rab089bes;¡Hay un autobús lleno de muertos!;spanish;negative; Hay un autobús lleno de muertos.;negative;negative
+m_rab089ces;¡¿Y podrían hacer daño a alguien?!;spanish;negative; ¿Y podrían hacer daño a alguien?;negative;negative
+m_rab090aes;¿A quién? ¿A un amigo tuyo?;spanish;negative; ¿A quién? ¿A un amigo tuyo?;negative;negative
+m_rab093aes;No, esa eres tú.;spanish;negative; No, esa eres tú.;negative;negative
+m_rab095aes;Cierto, no me caes bien.;spanish;negative; ¡Cierto! ¡No me caes bien!;negative;negative
+m_rab097aes;No estamos en el recreo.;spanish;negative; ¡No estamos en el recreo!;negative;negative
+m_rab097bes;¡Esto es un asunto serio!;spanish;negative; Esto es un asunto serio.;negative;negative
+m_rab099aes;¿Dices que soy un capullo?;spanish;negative; ¿Dices que soy un capullo?;negative;negative
+m_rab110bes;Que no está preparado para ser médico y bajo mi responsabilidad ;spanish;negative; que no está preparado para ser médico y bajo mi responsabilidad.;negative;negative
+m_rab119ces;¡Joder!;spanish;negative; ¡Joder!;negative;negative
+m_tri001aes;Uno se siente muy …;spanish;negative; No se siente muy bien.;negative;negative
+m_tri001bes;Sólo cuando le hace daño a alguien.;spanish;negative; Solo cuando le haces daño a alguien.;negative;negative
+m_tri002aes;Te sientes como ;spanish;negative; Te es bien descomodado.;negative;negative
+m_tri002bes; un extraño.;spanish;negative; Un extraño.;negative;negative
+m_tri005aes;La quería.;spanish;negative; A que ría.;negative;negative
+m_tri005bes;Muchísimo.;spanish;negative; muchísimo.;positive;positive
+m_tri005ces;Por la noche nos sentábamos en la cocina ;spanish;negative; Por la noche nos sentábamos en la cocina.;negative;negative
+m_tri005des; que éramos las dos únicas personas sobre la tierra.;spanish;negative; que éramos las dos únicas personas sobre la Tierra.;negative;negative
+m_tri005ees;Rechazado.;spanish;negative; Rechazado.;negative;negative
+m_tri007aes;Sobre las ocho.;spanish;negative; sobre las ocho.;negative;negative
+m_tri007ces;Se fue a ver a Eve y Diane.;spanish;negative; Se fue a ver a Ify a dayar.;negative;negative
+m_tri008aes;Nos íbamos el domingo.;spanish;negative; Nos llevamos el domingo.;positive;negative
+m_tri008bes;Pensábamos casarnos allí.;spanish;negative; Pensábamos casarnos allí.;negative;negative
+m_tri008ces;Ese era el plan saben.;spanish;negative; Ese era el plan, ¿saben?;negative;negative
+m_tri009aes;La quería tanto.;spanish;negative; La que riga tanto.;negative;positive
+m_tri009bes;Tiene nada igual.;spanish;negative; No tiene nada igual.;negative;negative
+m_tri009ces;Nunca en la vida.;spanish;negative; Nunca en la vida.;negative;negative
+m_tri011aes;Pero ahora quiere morir.;spanish;negative; Pero ahora quiere morir.;negative;negative
+m_tri011bes;Y yo quiero que se quede conmigo.;spanish;negative; y yo quiero que se quede conmigo.;negative;negative
+m_tri011ces;Lo juro por Dios, Padre;spanish;negative; Lo juro por Dios, padre.;positive;positive
+m_tri011des;Es cometer un pecado el que haga.;spanish;negative; es cometer un pecado el que lo haga.;negative;negative
+m_tri011ees;Manteniéndola viva la estoy matando.;spanish;negative; manteniendo la viva, la estoy empatando.;positive;negative
+m_tri011fes;Lo entiendes.;spanish;negative; ¿Me entiendes?;negative;positive
+m_tri011ges;Cómo lo resumido;spanish;negative; como lo resuelvo.;negative;negative
+m_tri012aes;Fui a ver a Maggie esta mañana.;spanish;negative; fui a ver a Magui esta mañana.;positive;positive
+m_tri012bes;Debías de haber salido.;spanish;negative; debías de haber salido.;negative;negative
+m_tri014aes;Puede que no la firmes.;spanish;negative; Puede que no la firmes.;negative;negative
+m_tri014bes;Y me das un poco más de tiempo.;spanish;negative; y me das un poco más de tiempo.;positive;positive
+m_tri015aes;Hagas lo que hagas, Rosen tiene razón en una cosa.;spanish;negative; Hagas lo que hagas. Rosentía tiene razón en una cosa.;positive;negative
+m_tri015bes;No debes quedarte.;spanish;negative; No debes quedarte.;negative;negative
+m_tri015ces;Ya no soy de fiar.;spanish;negative; Ya no soy de fiar.;negative;negative
+m_tri016aes;No lo sé.;spanish;negative; No lo sé.;negative;negative
+m_tri016bes;Que el Dr. Rosen te lleve a casa de tu madre.;spanish;negative; que el Dr. Rosen te lleve a casa de tu madre.;negative;negative
+m_tri020aes;Tú tienes ese don.;spanish;negative; Tú tienes ese don.;positive;positive
+m_tri020bes;Sabes tratar a la gente.;spanish;negative; ¿Sabes trazar a la gente?;negative;positive
+m_tri021aes;Les caes bien.;spanish;negative; Les caes bien.;positive;positive
+m_tri021bes;Y si te vas, no aprenderé a hacerlo.;spanish;negative; Y si te vas, no aprenderé a hacerlo.;negative;negative
+m_tri025aes;Hasta que una noche se enteró de que se había ;spanish;negative; Hasta que una noche se enteró de que se había...;negative;negative
+m_tri028aes;Él no es la misma persona que era antes.;spanish;negative; Él no es la misma persona que era antes.;negative;negative
+m_tri029aes;Apenas se hablan. Son como extraños.;spanish;negative; Apenas se hablan, son como extraños.;negative;negative
+m_tri030bes;Porque siente que ;spanish;negative; porque siente que...;negative;negative
+m_tri030ces; sería  como ayudar también al otro.;spanish;negative; sería como ayudar también al otro.;positive;positive
+m_tri039aes;Otra familia, otra ;spanish;negative; Otra familia, otra...;negative;negative

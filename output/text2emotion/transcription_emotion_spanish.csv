@@ -1,361 +1,361 @@
-transcription;language;emotion;model_transcription;model_emotion;model_emotion_nowhisper
-No sé lo que me pasa, lo siento.;spanish;fear; No, no sé lo que me pasa, lo siento.;disgust;disgust
-Lo siento, he sido muy grosera.;spanish;fear; Lo siento, he sido muy grosera.;disgust;disgust
-Es como si tuviera un presentimiento, ¿sabes a qué me refiero?;spanish;fear; Es como si tuviera un presentimiento. ¿Sabes a qué me refiero?;fear;anger
-No me toques, por Dios.;spanish;fear; No me toques, por Dios.;sadness;sadness
-Sí, pero llegaban otras, llegaban mujeres constantemente así que ...;spanish;fear; Sí, pero llegaban otras. Llegaban mujeres constantemente, así que...;disgust;disgust
-No lo sé. Estaba envolviendo unos ... unos vasos y unas cosas y ...;spanish;fear; No lo sé, estaban volviendo unos vasos y unas cosas y...;sadness;disgust
-Me ha … me ha entrado mucho miedo.;spanish;fear; Me ha... me ha entrado mucho miedo.;sadness;sadness
-No harás lo de la mudanza solo por mí, ¿verdad? En fin ...;spanish;fear; No harás lo de la mudanza solo por mí, ¿verdad? En fin...;fear;fear
-Tú... tú deseas realmente hacerlo, ¿no?;spanish;fear; Tú deseas realmente hacerlo, ¿no?;disgust;disgust
-Por favor, háblame, dime qué ha pasado.;spanish;fear; Por favor, háblame. Dime qué ha pasado.;disgust;disgust
-No estoy ... no estoy mintiendo. Fuí a pedirle ayuda.;spanish;fear; No estoy, no estoy mintiendo, fui a pedirle ayuda.;disgust;disgust
-No puedo decírtelo. Harían daño a alguien.;spanish;fear; No puedo decírtelo, harían daño a alguien.;disgust;disgust
-¿Quién es usted?;spanish;fear; ¿Quién es usted?;fear;disgust
-Yo me había acostado con él y estaba sentada en el porche.;spanish;fear; Yo me había acostado con él y estaba sentada en el porche.;disgust;disgust
-Nunca se calla. Se mete en líos.;spanish;fear; Nunca se calla, se meten líos.;fear;fear
-Pasaba todas las noches en Hooverville.;spanish;fear; pasaba todas las noches en Hooverby.;fear;fear
-Mi hermano no tenía sitio para los dos.;spanish;fear; Mi hermano no tenía sitio para los dos.;disgust;disgust
-Mike dijo que si no había más remedio y tenía que vivir allí. ;spanish;fear; Dijo que si no había más remedio y tenía que vivir allí...;disgust;fear
-Intentaría convencer a todos para que se organizaran.;spanish;fear; intentaría convencer a todos para que se organizaran.;fear;disgust
-Le ha pasado algo a Jim, estoy segura.;spanish;fear; Le ha pasado algo, Jim. Estoy segura.;sadness;fear
-He oído que ha habido disturbios en Hooverville.;spanish;fear; He oído que ha habido disturbios en Hooverville.;fear;fear
-No pasaría tanto tiempo sin vernos a mí y a la niña.;spanish;fear; No pasaría tanto tiempo sin vernos a mí y a la niña.;fear;disgust
-No sabía a quién acudir, Jim.;spanish;fear; No sabía quién acudir siempre.;disgust;disgust
-Porque no creía que hubiese motivo.;spanish;fear; ¿Por qué no creía que hubiese motivo?;anger;disgust
-Era ... y no sabía lo que significaba.;spanish;fear; Era... y no sabía lo que significaba.;disgust;disgust
-Pero es imposible.;spanish;fear; Pero es imposible.;disgust;disgust
-El señor nunca permitiría semejante aberración.;spanish;fear; El señor nunca permitiría ese vegano de aberración.;disgust;fear
-Sólo se reunirán al final de los tiempos.;spanish;fear; Solo se reunirán al final de los tiempos.;sadness;disgust
-No era ella.;spanish;fear; No era ella.;sadness;disgust
-Era esa anciana.;spanish;fear; Era esa anciana.;disgust;disgust
-De ojos extraños estaba imitando la voz de mi hija.;spanish;fear; De ojos extraños se estaba inminando la voz de mi hija.;fear;fear
-Le juro por Dios que no era mi hija.;spanish;fear; le juro por dios que no era mi hija.;disgust;disgust
-La guerra ha acabado.;spanish;fear; ¡La guerra ha escapado!;anger;disgust
-¿Decir que es una quejica para ti no es meterte con ella? Creo que sí. ;spanish;disgust; Decir que es una quejica para ti no es meterte con ella, creo que sí.;disgust;fear
-Vaya, que raro.;spanish;disgust; Mmm, vaya, qué raro.;happiness;happiness
-Genial.;spanish;disgust; Crenia.;sadness;disgust
-En recursos humanos tienen un sentido del humor muy raro.;spanish;disgust; En recursos humanos tienen un sentido del humor muy raro.;happiness;happiness
-Yay, whoopee.;spanish;disgust; Sí, ñope.;disgust;disgust
-Has tropezado y te has golpeada la cabecita contra la acera.;spanish;disgust; ¿Has tropezado y te has golpeado la cabecita contra la acera?;fear;fear
- Una sola copia.;spanish;disgust; Una sola copia.;sadness;sadness
-¿Qué harán mis gemelas con esto?;spanish;disgust; ¿Qué harán mis gemelas con esto?;anger;anger
-¿Compartirlo?;spanish;disgust; compartirlo.;happiness;anger
-"
+file_name;transcription;language;emotion;model_transcription;model_emotion;model_emotion_nowhisper
+f_ans001aes;No sé lo que me pasa, lo siento.;spanish;fear; No, no sé lo que me pasa, lo siento.;disgust;disgust
+f_ans002aes;Lo siento, he sido muy grosera.;spanish;fear; Lo siento, he sido muy grosera.;disgust;disgust
+f_ans003aes;Es como si tuviera un presentimiento, ¿sabes a qué me refiero?;spanish;fear; Es como si tuviera un presentimiento. ¿Sabes a qué me refiero?;fear;anger
+f_ans004aes;No me toques, por Dios.;spanish;fear; No me toques, por Dios.;sadness;sadness
+f_ans007aes;Sí, pero llegaban otras, llegaban mujeres constantemente así que ;spanish;fear; Sí, pero llegaban otras. Llegaban mujeres constantemente, así que...;disgust;disgust
+f_ans009aes;No lo sé. Estaba envolviendo unos  unos vasos y unas cosas y ;spanish;fear; No lo sé, estaban volviendo unos vasos y unas cosas y...;sadness;fear
+f_ans009bes;Me ha … me ha entrado mucho miedo.;spanish;fear; Me ha... me ha entrado mucho miedo.;sadness;sadness
+f_ans010aes;No harás lo de la mudanza solo por mí, ¿verdad? En fin ;spanish;fear; No harás lo de la mudanza solo por mí, ¿verdad? En fin...;fear;fear
+f_ans010bes;Tú tú deseas realmente hacerlo, ¿no?;spanish;fear; Tú deseas realmente hacerlo, ¿no?;disgust;disgust
+f_ans012aes;Por favor, háblame, dime qué ha pasado.;spanish;fear; Por favor, háblame. Dime qué ha pasado.;disgust;disgust
+f_ans018aes;No estoy  no estoy mintiendo. Fuí a pedirle ayuda.;spanish;fear; No estoy, no estoy mintiendo, fui a pedirle ayuda.;disgust;fear
+f_ans019aes;No puedo decírtelo. Harían daño a alguien.;spanish;fear; No puedo decírtelo, harían daño a alguien.;disgust;disgust
+f_ans024aes;¿Quién es usted?;spanish;fear; ¿Quién es usted?;fear;disgust
+f_ans030aes;Yo me había acostado con él y estaba sentada en el porche.;spanish;fear; Yo me había acostado con él y estaba sentada en el porche.;disgust;disgust
+f_ans040aes;Nunca se calla. Se mete en líos.;spanish;fear; Nunca se calla, se meten líos.;fear;fear
+f_ans041aes;Pasaba todas las noches en Hooverville.;spanish;fear; pasaba todas las noches en Hooverby.;fear;fear
+f_ans041bes;Mi hermano no tenía sitio para los dos.;spanish;fear; Mi hermano no tenía sitio para los dos.;disgust;disgust
+f_ans042aes;Mike dijo que si no había más remedio y tenía que vivir allí. ;spanish;fear; Dijo que si no había más remedio y tenía que vivir allí...;disgust;fear
+f_ans042bes;Intentaría convencer a todos para que se organizaran.;spanish;fear; intentaría convencer a todos para que se organizaran.;fear;disgust
+f_ans043aes;Le ha pasado algo a Jim, estoy segura.;spanish;fear; Le ha pasado algo, Jim. Estoy segura.;sadness;fear
+f_ans044aes;He oído que ha habido disturbios en Hooverville.;spanish;fear; He oído que ha habido disturbios en Hooverville.;fear;fear
+f_ans044bes;No pasaría tanto tiempo sin vernos a mí y a la niña.;spanish;fear; No pasaría tanto tiempo sin vernos a mí y a la niña.;fear;disgust
+f_ans045aes;No sabía a quién acudir, Jim.;spanish;fear; No sabía quién acudir siempre.;disgust;disgust
+f_ans049aes;Porque no creía que hubiese motivo.;spanish;fear; ¿Por qué no creía que hubiese motivo?;anger;disgust
+f_ans050aes;Era  y no sabía lo que significaba.;spanish;fear; Era... y no sabía lo que significaba.;disgust;disgust
+f_ans901aes;Pero es imposible.;spanish;fear; Pero es imposible.;disgust;disgust
+f_ans901bes;El señor nunca permitiría semejante aberración.;spanish;fear; El señor nunca permitiría ese vegano de aberración.;disgust;fear
+f_ans901ces;Sólo se reunirán al final de los tiempos.;spanish;fear; Solo se reunirán al final de los tiempos.;sadness;disgust
+f_ans902aes;No era ella.;spanish;fear; No era ella.;sadness;disgust
+f_ans902bes;Era esa anciana.;spanish;fear; Era esa anciana.;disgust;disgust
+f_ans902ces;De ojos extraños estaba imitando la voz de mi hija.;spanish;fear; De ojos extraños se estaba inminando la voz de mi hija.;fear;fear
+f_ans902des;Le juro por Dios que no era mi hija.;spanish;fear; le juro por dios que no era mi hija.;disgust;disgust
+f_ans905aes;La guerra ha acabado.;spanish;fear; ¡La guerra ha escapado!;anger;disgust
+f_dis008aes;¿Decir que es una quejica para ti no es meterte con ella? Creo que sí. ;spanish;disgust; Decir que es una quejica para ti no es meterte con ella, creo que sí.;disgust;fear
+f_dis009aes;Vaya, que raro.;spanish;disgust; Mmm, vaya, qué raro.;happiness;happiness
+f_dis014aes;Genial.;spanish;disgust; Crenia.;sadness;disgust
+f_dis014bes;En recursos humanos tienen un sentido del humor muy raro.;spanish;disgust; En recursos humanos tienen un sentido del humor muy raro.;happiness;happiness
+f_dis016aes;Yay, whoopee.;spanish;disgust; Sí, ñope.;disgust;disgust
+f_dis017aes;Has tropezado y te has golpeada la cabecita contra la acera.;spanish;disgust; ¿Has tropezado y te has golpeado la cabecita contra la acera?;fear;fear
+f_dis019aes; Una sola copia.;spanish;disgust; Una sola copia.;sadness;sadness
+f_dis019bes;¿Qué harán mis gemelas con esto?;spanish;disgust; ¿Qué harán mis gemelas con esto?;anger;anger
+f_dis019ces;¿Compartirlo?;spanish;disgust; compartirlo.;happiness;anger
+f_dis020aes;"
 ¿Hay alguien que tenga algo que yo pueda usar?";spanish;disgust; ¿Hay alguien que tenga algo que yo pueda usar?;anger;anger
-Lloyd, cariño, te quiero con toda mi alma ...;spanish;disgust; Lloyd, cariño, te quiero con toda mi alma.;happiness;sadness
-Pero a veces tengo que preguntarme si realmente eres mi hijo.;spanish;disgust; Pero a veces tengo que preguntarme si realmente eres mi hijo.;anger;anger
-Siempre has sido más como tu padre.;spanish;disgust; Siempre has sido más como tu padre.;disgust;disgust
-Puede darme la pistola o devolverme el dinero.;spanish;disgust; ¿Puede darme la pistola o devolverme el dinero?;anger;disgust
-La verdad es que prefiero recuperar el dinero.;spanish;disgust; Y la verdad es que prefiero recuperar el dinero.;disgust;disgust
-¿Me da la caja sí o no?;spanish;disgust; ¿Me da la caja sí o no?;fear;anger
-Nos iban a matar en ventura boulevard.;spanish;disgust; Nos iban a matar en Ventura Boulevard.;fear;fear
-Mi padre es de Puerto Rico, mi madre es de El Salvador.;spanish;disgust; Mi padre es de Puerto Rico, mi madre es del Salvador.;sadness;sadness
-Y ningún sitio de esos es México.;spanish;disgust; y ningún sitio de esos es México.;fear;disgust
- No lo sé. ¿No está enferma?;spanish;disgust; No lo sé. ¿No está enferma?;disgust;disgust
-Creía que los enfermos se inventaban cosas a menudo.;spanish;disgust; Creía que los enfermos inventaban cosas a menudo.;disgust;disgust
-¿Por qué compra esta tierra, Sr. Bloom?;spanish;disgust; ¿Por qué compré esta tierra, señor Bloom?;fear;fear
-¿En vez  de comprarse un descapotable, se compra un pueblo? ;spanish;disgust; En vez de comprarse un descapotable, ¿se compra un pueblo?;fear;fear
-Estoy a favor de la paz, Sr. Lud. Por eso estoy en la ONU. Para apoyar la diplomacia.;spanish;disgust; Estoy a favor de la paz, señor Lat. Por eso estoy en la ONU para apoyar la diplomacia.;disgust;disgust
-No era una pregunta.;spanish;disgust; No era una pregunta.;disgust;disgust
-Y tú puedes hacer lo todo, ¿no?;spanish;disgust; Y tú puedes hacerlo todo, ¿no?;disgust;disgust
-Pero si ya lo hiciste.;spanish;disgust; Pero si ya lo hiciste.;happiness;happiness
-Y antes de hoy, ¿no habías oído nunca hablar de mí? ;spanish;disgust; ¿Y antes de hoy no habías oído nunca hablar de mí?;fear;fear
-¿Se ha muerto, o qué?;spanish;disgust; si ha muerto o qué.;sadness;fear
-Una vez un ayudante dejó su mesa porque se rebanó la mano con un abrecartas.;spanish;disgust; Una vez un ayudante dejó su mesa porque se rebanó la mano con un abre cartas.;disgust;anger
-Jamás creí que diría esto.;spanish;disgust; Jamás creí que diría esto.;disgust;disgust
-Oh, os habríais librado de que los romanos os cortaran la cabeza, claro. ;spanish;disgust; ¿Os habríais librado de que los romanos os cortaran la cabeza?;fear;fear
-¿Así que los dos habríais mentido hasta el punto de negar a Cristo?;spanish;disgust; Así que los dos habríais mentido hasta el punto de negar a Cristo.;disgust;disgust
-Estoy curada.;spanish;happiness; Estoy curada.;disgust;disgust
-Gracias señorita Burton.;spanish;happiness; Gracias, señorita Burton.;happiness;sadness
-Tomaré nota de su consideración.;spanish;happiness; Tomaré nota de su consideración.;disgust;disgust
-Eso es genial. Perfecto, sí.;spanish;happiness; Eso es genial. Perfecto, sí.;disgust;disgust
-¡Eres tú!;spanish;happiness; Eres tú.;disgust;disgust
-A veces, pero soy más discreta.;spanish;happiness; A veces, pero soy más discreta.;disgust;disgust
-No, necesito un luchador con un master.;spanish;happiness; No, necesito un luchador con un máster.;disgust;disgust
-Una noche saltó la barra y se ofreció a enseñarme a prepararlos. ;spanish;happiness; Una noche saltó la barra y se ofreció a enseñarme a prepararlos.;disgust;fear
-Vuelve a la cama tesoro.;spanish;happiness; Vuelve a la cama, tesoro.;happiness;happiness
-Eso es estupendo.;spanish;happiness; ¡Eso es estupendo!;anger;disgust
-Al contrario.;spanish;happiness; Al contrario.;disgust;disgust
-El otro día emprendimos una exploración a lo más recóndito de África en nuestro jardín.;spanish;happiness; El otro día emprendimos una exploración al más recóndito de África en nuestro jardín.;fear;fear
-Les he dicho que tenía que pasar la tarde con un periodista ecuestre muy importante.;spanish;happiness; Les he dicho que tenía que pasar la tarde con un periodista ecuestre muy importante.;fear;fear
-¡Oh, creía que se refería al juez!;spanish;happiness; Creía que se refería al juez.;disgust;anger
-¡Muchas gracias!;spanish;happiness; Muchas gracias.;happiness;happiness
-Creí que estabas viviendo un tórrido romance.;spanish;happiness; Creí que estabas viviendo un torrido romance.;disgust;disgust
-¡Feliz cumpleaños!  [no verbal];spanish;happiness; ¡Feliz cumpleaños!;anger;anger
-No ... [no verbal] ¡sí!;spanish;happiness; No...;sadness;disgust
-[no verbal] caray.;spanish;happiness; caray;happiness;disgust
-Es que aquí hace calor.;spanish;happiness; Es que aquí hace calor.;disgust;disgust
-¿Y sobre mí?;spanish;happiness; ¿Y sobre mí?;fear;fear
-¿Puedo verla?;spanish;happiness; ¿Puedo verla?;anger;anger
-Que acogedora.;spanish;happiness; Qué acogedora.;disgust;disgust
-Se lo agradecería.;spanish;happiness; Se lo agradecería.;fear;disgust
-No me siento tan mayor.;spanish;happiness; Me siento tan mayor.;disgust;disgust
-Treinta y uno hasta mi próximo cumpleaños.;spanish;happiness; 30 y 1. Hasta mi próximo cumpleaños.;sadness;fear
-Es preciosa.;spanish;happiness; ¡Es preciosa!;anger;disgust
-[No verbal] ¿Qué significa?;spanish;happiness; ¿Qué significa?;anger;disgust
-Me esperara que llegara eso.;spanish;happiness; Esperara que llegara eso.;disgust;disgust
-¿Dónde estás?;spanish;anger; ¿Dónde estás?;fear;anger
-Semejante obligación no existe.;spanish;anger; ¡Semejante obligación no existe!;anger;disgust
-A todas horas soy atendida por médicos que me informan de mis propios intereses.;spanish;anger; A todas horas soy atendida por médicos que me informan de mis propios intereses.;fear;fear
-Este pueblo me está afixiando.;spanish;anger; ¡Este pueblo me está asfixiando!;anger;fear
-¡No lo es! Es la mía.;spanish;anger; ¡No lo es! ¡Es la mía!;anger;disgust
-¡Por el amor de Dios, Dave!;spanish;anger; ¡Por el amor de Dios, Dave!;anger;anger
-¿Por qué no dijiste lo de ese hombre?;spanish;anger; ¿Por qué no dijiste lo de ese hombre?;fear;fear
-"Toda la prensa británica se ha levantado pensado: ""Sé dónde está Anna Scott"".";spanish;anger; Toda la prensa británica se ha levantado pensando, sé dónde está Ana Scott.;disgust;disgust
-En esa casa de la puerta azul en Notting Hill.;spanish;anger; en esa casa de la puerta azul en Nothing Hill.;fear;fear
-Y luego tú sales con tus ridículos calzoncillos.;spanish;anger; Y luego tú sales con tu ridículo, los calzoncillos.;disgust;disgust
-Por el amor de Dios, tengo novio.;spanish;anger; ¡Por el amor de Dios tengo novio!;anger;disgust
-Pero mañana saldrá tu foto en cada periódico de aquí a Tombuctú.;spanish;anger; Pero mañana saldrá tu foto en cada periódico de aquí a... Donbuktu.;fear;fear
-Bueno, esta situación es perfecta para ti.;spanish;anger; Bueno, esta situación es perfecta para ti.;happiness;happiness
-Mínima inversión, máxima publicidad.;spanish;anger; Mínima inversión, máxima publicidad.;disgust;disgust
-"Vayas donde vayas la gente dirá: ""Oh, bien hecho, te has tirado a esa actriz"".";spanish;anger; Vayas donde vayas, la gente dirá ¡Oh, bien hecho! ¡Te has tirado a esa actriz!;anger;disgust
-Hemos visto las fotos.;spanish;anger; ¡Hemos visto las fotos!;disgust;disgust
-Te da miedo que yo no te ame.;spanish;anger; ¿Te da miedo que yo no te ame?;anger;disgust
-Y sabes que yo también tengo miedo.;spanish;anger; Y sabes que yo también tengo miedo.;disgust;disgust
-Pero joder, debemos intentarlo, al menos habré sido honesta contigo.;spanish;anger; ¡Pero, joder, debemos intentarlo! ¡Al menos habré sido honesta contigo!;anger;disgust
-Pues mal hecho, deberías haberme consultado.;spanish;anger; Pues mal hecho. Deberías haberme consultado.;disgust;disgust
-Puede ser el objeto más valioso que tenemos.;spanish;anger; ¡Puede ser el objeto más valioso que tenemos!;anger;anger
-¡Y quiero que me digas inmediatamente cuándo vas a venir a casa!;spanish;anger; ¡Que quiero que me digas inmediatamente cuándo vas a venir a casa!;anger;anger
-Es que me gustaría que se me reconociera el hecho de que me mato intentándolo.;spanish;anger; Es que me gustaría que se me reconociera el hecho de que me mato intentándola.;disgust;disgust
-¡No se acerque a ella!;spanish;anger; No se acerque a ella.;sadness;anger
-No quiero decir por fuera, ¡cambia por dentro!;spanish;anger; No quiero decir por fuera, cambia por centro.;disgust;anger
-¡Corre riesgos, comete errores!;spanish;anger; ¡Corre riesgos, comete errores!;anger;anger
-¡Sí! En ocasiones es importante no ser perfecto, ¿vale? Es importante equivocarse.;spanish;anger; Sí, en ocasiones. Es importante no ser perfecto, ¿vale? Es importante equivocarse.;disgust;anger
-No, para cometerlos.;spanish;anger; ¡Y no para cometerlos!;anger;disgust
-Y se acabó el boxear fuera.;spanish;anger; ¡Y se acabó el boxear fuera!;anger;disgust
-¿Entendido? No se boxea. ¡Punto!;spanish;anger; Entendido, no se boxea. Punto.;disgust;disgust
-Seguiréis yendo al colegio.;spanish;anger; ¡Seguiréis yendo al colegio!;anger;disgust
-Estudiaréis en la universidad y tendréis una profesión.;spanish;anger; que estudiaréis en la universidad y tendréis una profesión.;disgust;disgust
-Porque no quiero que también os machaquen el cráneo.;spanish;anger; ¿Por qué no quiero que también os machacen el cráneo?;anger;disgust
-¿Lo habéis entendido?;spanish;anger; ¿Lo habéis entendido?;fear;anger
-¿Queda claro?;spanish;anger; ¿Qué es la clara?;fear;anger
-Pero evita como sea ese combate. Si es necesario, rómpete la mano.;spanish;anger; Pero evita como sea ese combate. Si es necesario, rompete la mano.;fear;fear
-Pues me he asustado y no he dicho nada y a los diez segundos tenía un arma en mi cara. ;spanish;anger; Pues me he asustado y no he dicho nada, ya los diez segundos tenía un arma en mi cara.;disgust;disgust
-Y te aseguro que tu amigo, el de ahí, va a vender nuestra llave a uno de sus colegas.;spanish;anger; Y te aseguro que tu amigo el de ahí va a vender nuestra llave a uno de sus colegas.;disgust;disgust
-Y esta vez sería de puta madre que actuaras como si te importara algo.;spanish;anger; Y esta vez sería de puta madre que actuaras como si te importara algo.;fear;fear
-Teniendo las manos de ese cerdo por todas partes.;spanish;anger; Teniendo las manos de ese cerdo por todas partes.;disgust;anger
-Que no se quede quieto mientras me meten mano.;spanish;anger; ¡Que no se quede quieto mientras me mete en mano!;anger;disgust
-No tiene sentido que pases todo el día aquí encerrado. ;spanish;anger; No tiene sentido que pases todo el día aquí encerrado.;disgust;disgust
-Estoy harta tí.;spanish;anger; ¡Estoy horta de ti!;anger;fear
-Fue culpa mía.;spanish;sadness; Fue culpa mí.;disgust;disgust
-Podía haberlo impedido.;spanish;sadness; Pude haberlo impedido.;disgust;disgust
-No sabías que últimamente se despertaba.;spanish;sadness; No sabías que últimamente se despertaba.;disgust;disgust
-Y yo sabía que algunas veces ...;spanish;sadness; Yo sabía que algunas veces...;disgust;disgust
-... se levantaba de la cama.;spanish;sadness; se levantaba de la cama.;happiness;happiness
-Y andaba por ahí.;spanish;sadness; y andaba por ahí.;sadness;sadness
-Se despertaba.;spanish;sadness; ¡Se despertaba!;anger;fear
-Y se sentía confuso.;spanish;sadness; Yo se sentía confuso.;disgust;disgust
-También me quiero morir.;spanish;sadness; Me quiero morir.;disgust;disgust
-¿El dolor seguirá siempre igual?;spanish;sadness; El dolor seguirá siempre igual.;disgust;disgust
-Será mucho peor.;spanish;sadness; Será mucho peor.;disgust;disgust
-¿Tiene un caramelo?;spanish;sadness; Tiene un caramelo.;disgust;anger
-Mami te envía millones y millones de besos.;spanish;sadness; Mami te envía millones y millones de besos.;sadness;sadness
-Excepto lo que más deseo.;spanish;sadness; excepto lo que más deseo.;disgust;disgust
-Estoy preocupada por Ray.;spanish;sadness; ¡Ya estoy preocupada por Ray!;anger;disgust
-No se si él podrá soportarlo [non-verbal];spanish;sadness; No sé si él podrá soportarlo.;disgust;disgust
-En esas cosas.;spanish;sadness; en esas cosas.;sadness;disgust
-Y lo que parecía una estúpida sesión de fotos es una peli porno.;spanish;sadness; Y lo que parecía una estúpida sesión de fotos es una peliporno.;disgust;disgust
-Briony, no queda mucho tiempo.;spanish;sadness; Rione, no queda mucho tiempo.;disgust;sadness
-Robbie tiene que presentarse a las seis.;spanish;sadness; Robby tiene que presentarse a las 6.;happiness;disgust
-Para coger el tren.;spanish;sadness; para coger el tren.;disgust;disgust
-Así que siéntate.;spanish;sadness; Así que siéntate.;disgust;disgust
-Siento muchisimo.;spanish;sadness; Lo siento muchísimo.;disgust;disgust
-El terrible dolor que os he causado.;spanish;sadness; el terrible dolor que os he causado.;fear;fear
-Lo siento mucho.;spanish;sadness; Lo siento mucho.;disgust;disgust
-Lo siento tanto.;spanish;sadness; Lo siento tanto.;sadness;disgust
-No hay ningún William Parcher. ;spanish;sadness; No hay ningún William Parcher.;disgust;disgust
-Sólo está en tu mente.;spanish;sadness; solo está en tu mente.;disgust;disgust
-¿Lo entiendes, mi amor?;spanish;sadness; Lo entiendes, mi amor.;happiness;fear
-No es real.;spanish;sadness; ¡No es real!;anger;disgust
-Estás enfermo, John.;spanish;sadness; ¿Estás enfermo, Jordan?;fear;disgust
-¿Intentarías hacerme daño?;spanish;sadness; ¿Intentarías hacerme daño?;fear;fear
-Pero mis ... mis hijas, ellas.;spanish;sadness; Pero mis... mis hijas ellas...;sadness;disgust
-Otra decepción.;spanish;sadness; Otra decepción.;fear;fear
-Que se va.;spanish;sadness; Qué sé yo.;disgust;disgust
-Lo siento.;spanish;sadness; Y lo siento.;happiness;disgust
-¿Te sientes orgullosa de mí?;spanish;sadness; ¿Te sientes orgullosa de mí?;fear;disgust
-Jim, tú no lo has visto.;spanish;sadness; Jim, ¿tú no lo has visto?;disgust;disgust
-Se lo han dado al tío de city core;spanish;sadness; se lo han dado al tío de CityCorp.;disgust;disgust
-De que me llevarías contigo.;spanish;sadness; ¿De qué me llevarías contigo?;fear;disgust
-Ojalá pudiera formar parte de el.;spanish;sadness; Ojalá pudiera formar parte de él.;disgust;disgust
-Sin esa familia, nunca podrías haber escrito nada igual.;spanish;sadness; Sin esa familia nunca podrías haber escrito nada igual.;disgust;disgust
-Les necesitas.;spanish;sadness; las necesitas.;sadness;sadness
-Y que cuando vuelvas me cuentes hasta el último detalle. ;spanish;sadness; y que cuando vuelvas me cuentes hasta el último detalle.;fear;fear
-Es sólo que sangra mucho.;spanish;fear; Eso es lo que sangra mucho.;disgust;disgust
-Un tipo trató de atracarme, me ... me defendí y me rajó.;spanish;fear; Un tío trató de atracarme, me defendí, me rajó.;fear;fear
-Iba tranquilamente hacia mi coche.;spanish;fear; y va tranquilamente a la fiamincoche.;happiness;happiness
-Le digo no fumo y me dice yo tampoco, así que.;spanish;fear; Le digo, no fumó y me dice, yo tampoco, así que...;anger;anger
-Claro por eso crees que la maté yo.;spanish;fear; Claro, por eso crees que la maté yo.;disgust;disgust
-Por llegar a casa manchado de sangre la noche que matan a Katie.;spanish;fear; Por llegar a casa manchado de sangre la noche que matan a Katie.;disgust;disgust
-Por tanto debo haber sido yo, ¿verdad?;spanish;fear; Por tanto, debo haber sido yo, ¿verdad?;fear;fear
-No puedo seguir confiando en mi mente, Celeste. No puedo más.;spanish;fear; No puedo seguir confiando en mi mente, Ceste. No puedo más.;disgust;disgust
-¿Qué coño está pasando? ¿Dónde estoy?;spanish;fear; ¿Qué coño está pasando? ¿Dónde estoy?;fear;fear
-No lo sé.;spanish;fear; ¡LOROSÉ!;anger;disgust
-¿Y eso qué importa? Ahora estoy confundido. ¿Cómo te llamas tú?;spanish;fear; Y eso que importa, ahora estoy confundido, ¿cómo te llamas tú?;fear;fear
-¿Qué coño pasa aquí?;spanish;fear; ¿Qué coño pasa aquí?;fear;fear
-Fuí a dormir a mi apartamento y me he despertado en este lugar asqueroso.;spanish;fear; Fui a dormir a mi apartamento y me he despertado en este lugar asqueroso.;fear;fear
-Es lo que suelen hacer. Te secuestran, te drogan.;spanish;fear; ¿Y eso que suelen hacer? ¿Te secuestran? ¿Te drogan?;fear;disgust
-Y antes de que te des cuenta, tú estás en una bañera y tus riñones en otra persona.;spanish;fear; Y antes de que te des cuenta, tú estás en una bañera y tú riñones en otra persona.;disgust;disgust
-¡¿Quién anda ahí?!;spanish;fear; ¡Que nada!;anger;anger
-¡Sal!;spanish;fear; ¡San!;anger;anger
-¡Te mataré, cabrón!;spanish;fear; ¡Te mataré, cabrón!;anger;anger
-¿Quién es?;spanish;fear; ¿Tienes?;anger;disgust
-Sí, cariño, soy yo. Estoy aquí.;spanish;fear; Sí, cariño, yo estoy aquí.;disgust;disgust
-Esto no formaba parte del trato.;spanish;fear; Esto no formaba parte del trato.;disgust;disgust
-Alicia estaba trabajando para el gobierno.;spanish;fear; Alicia estaba trabajando para el gobierno.;fear;disgust
-Existe una amenaza de proporciones catastróficas.;spanish;fear; Existe una amenaza de proporciones catastróficas.;fear;fear
-Con el debido respeto, esto … esto es ridículo. ¡No tiene ningún sentido!;spanish;fear; Con el debido respeto, esto... Esto reciclo no tiene ningún sentido.;disgust;disgust
-¿Qué es ese olor?;spanish;fear; ¿Qué es ese olor?;disgust;disgust
-Sí, te lo dije. A mí me hizo lo mismo.;spanish;fear; ¡Sí, te lo dije! ¡A mí me hizo lo mismo!;anger;disgust
-Lo es, no te mentía.;spanish;fear; ¡Lo ves, no te mentías!;anger;disgust
-Me, me está electrocutando.;spanish;fear; Me... Me está electrocutando...;disgust;fear
-¡Socorro, que alguien me ayude!;spanish;fear; Socorro! ¡Que alguien me ayude!;anger;disgust
-¿Quién eres?;spanish;fear; ¿Quién eres?;disgust;disgust
-¿Quién eres?;spanish;fear; ¿Quién eres?;disgust;disgust
-"Es como decir: ""No es un revuelta, es rabia. No es un crimen, es pobreza"".";spanish;disgust; Es como decir, no es una revuelta, es rabia, no es un crimen, es pobreza.;disgust;disgust
-Mira esta triste, miserable y aplastada cosa.;spanish;disgust; Mira esta triste, miserable y aplastada cosa.;sadness;sadness
-¿Alguien puede decirme dónde está el fallo de esa fotografía?;spanish;disgust; ¿Alguien puede decirme dónde está el fallo de esa fotografía?;anger;disgust
-Bueno, pues, quizás.;spanish;disgust; Bueno pues quizás...;happiness;happiness
-Al cumplir seis años, mi mejor amigo, Scott Tibbs, me pinchó con un clavo, eso te no había contado.;spanish;disgust; Al cumplir seis años, mi mejor amigo Scott Pipps me pinchó con un clavo. Eso no te lo había contado.;fear;fear
-¿A sí? Pues, ese poli piensa que tú estás detrás de todo.;spanish;disgust; ¿Ah, sí? Pues ese poli piensa que tú estás detrás de todo.;disgust;disgust
-Tengo horas de consulta. Si necesitas más información sobre refranes, expresiones ...;spanish;disgust; Tengo horas de consulta. Si necesitas más información sobre refranes, expresiones...;disgust;disgust
-Y al parecer, tú también.;spanish;disgust; Y al parecer tú también.;disgust;disgust
-Bueno, eso se llama mutación, madre. El milagro de la genética es que yo no soy tú.;spanish;disgust; Bueno, eso se llama mutación, madre. El milagro de la genética es que yo no soy tú.;disgust;disgust
-Vivo contigo. Sé cuanto estudias, o debería decir no estudias. Y sacas mejores notas que yo.;spanish;disgust; Vivo contigo, sé cuánto estudias o debería decir no estudias y sacas mejores notas que yo.;disgust;disgust
-¿Es porque tu padre era médico y tu abuelo era médico?;spanish;disgust; ¿Es porque tu padre era médico y tu abuelo era médico?;fear;disgust
-¿Es un asunto genético quizá?;spanish;disgust; ¿Es un asunto genético, quizá?;fear;fear
-Saddam. ¿Se llama Saddam? Genial, estupendo, Bruce.;spanish;disgust; ¿Sadam? ¿Se llama Sadam? ¡Genial! ¡Estupendo, Bruce!;happiness;disgust
-¡Concédete un ascenso por favor!;spanish;disgust; ¡Concédate un ascenso, por favor!;anger;anger
-Construye barrios, no los destruye evidentemente.;spanish;disgust; Construye barrios, no los destruye evidentemente.;disgust;disgust
-Extravié una importante demanda. Esa es su versión.;spanish;disgust; extravió una importante demanda, esa es su versión.;anger;anger
-¿Te cuento la mía?;spanish;disgust; ¿Te cuento la mía?;fear;fear
-[no verbal] es un idiota.;spanish;happiness; Es un idiota.;disgust;disgust
-Siempre ha sido un idiota.;spanish;happiness; Siempre ha sido una idiota.;disgust;sadness
-Guay. Gracias.;spanish;happiness; ¡Guay! Gracias.;happiness;happiness
-Deséame suerte.;spanish;happiness; ¡Déciame suerte!;anger;disgust
-¿Hace una sesión de video esta noche?;spanish;happiness; ¿Hace una sesión de vídeo esta noche?;fear;disgust
-Tengo unos clásicos cojonudos.;spanish;happiness; Tengo unos clásicos cojonudos.;disgust;disgust
-Pero sería emocionante, ¿verdad? Alguien famoso en la tienda [no verbal].;spanish;happiness; Pero sería emocionante, ¿verdad? Alguien famoso en la tienda.;disgust;disgust
-¡Venga, un baile!;spanish;happiness; Venga, un baile!;anger;anger
-Ya me lo has contado todo.;spanish;happiness; Ya me lo has contado todo.;disgust;disgust
-Ve a patita cabrón. Will se lleva el coche.;spanish;happiness; Ve a patita, cabrón. Will se lleva el coche.;fear;fear
-Vaya, que encanto de mujer.;spanish;happiness; ¡Qué encanto de mujer!;anger;disgust
-Porque son aburridas, insoportables.;spanish;happiness; Porque son aburridas, insoportables.;disgust;disgust
-Eso es maravilloso.;spanish;happiness; Eso es maravilloso.;happiness;happiness
-Tranquilo es broma. De qué sirve estar chalado msi no puedes divertirte.;spanish;happiness; Tranquilo, es broma de que sirve estar chalado si no puedes divertirte.;disgust;disgust
-Como os quiero, chicos.;spanish;happiness; Como os quiero chicos;happiness;happiness
-Por primera vez en dieciocho años voy a poder estar al mando de mi propia vida. ¡Ay, Dios mío!;spanish;happiness; Y por primera vez en 18 años voy a poder estar al mando de mi propia vida ¡Ay, Dios mío!;anger;happiness
-Pues en realidad tantas veces como puede.;spanish;happiness; Pues en realidad tantas veces como puede.;disgust;disgust
-Santo Dios bendito.;spanish;happiness; ¡Santo Dios bendito!;anger;sadness
-Santo Dios, la Virgen y San José.;spanish;happiness; ¡Santo Dios la Virgen y San José!;happiness;happiness
-Tú podrías salir con una bocina y perseguirle por el ring.;spanish;happiness; ...tú podrías salir con una bocina y perseguirle por el ring.;fear;disgust
-No comprenderá que se trata de un negro.;spanish;happiness; ¿No comprenderá que se trata de un negro?;disgust;disgust
-[no verbal] por favor.;spanish;happiness; Por favor.;disgust;disgust
-¿Cómo está?;spanish;happiness; ¿Cómo está?;fear;anger
-¿Qué le pasa en la cara?;spanish;happiness; ¿Qué le pasa en la cara?;fear;fear
-Gracias, no hay más preguntas.;spanish;happiness; Gracias, no hay más preta.;disgust;disgust
-Sr. Wheeler, es usted magnífico.;spanish;happiness; Señor Wheeler, es usted magnífico.;fear;disgust
-[No verbal] eso es lógico. Medio capuchino marchando.;spanish;happiness; Oh, eso es lógica. Medio capuchino marchando.;disgust;disgust
-Esa mierda es lo mejor que he oído salir ...;spanish;happiness; Esa mierda es lo mejor que he oído salir.;disgust;disgust
-Por favor, déjadle en paz.;spanish;happiness; Por favor, dejadle en paz.;disgust;disgust
-No sé. A las chicas les gusta.;spanish;happiness; No sé, a las chicas les gusta.;disgust;disgust
-¿Es esa la forma de hablarle a un invitado? ¿A un amigo de la familia?;spanish;happiness; Eso de hablarles a un invitado, a un amigo de la familia.;disgust;fear
-¿Estás enfermo?;spanish;happiness; Estás enfermo.;disgust;anger
-De puta madre. Ha resucitado.;spanish;happiness; ¡De puta madre ha resucitado!;anger;disgust
-Seis putos kilos.;spanish;happiness; ¡6 putos kilos!;anger;disgust
-De verdad tío este chaval es una pasada.;spanish;happiness; De verdad tío, este chaval es una pasada.;disgust;disgust
-He perdido la cuenta tío.;spanish;happiness; He perdido la cuenta, tío.;disgust;disgust
-Da igual, colega.;spanish;happiness; No me importa que le diga.;disgust;disgust
-Te vendría bien, un bien [no verbal].;spanish;happiness; ¡Te vendría bien! ¡Un bien go!;anger;disgust
-¡Y ese es el segundo mejor invento!;spanish;happiness; ¡Y ese es el segundo mejor invento!;anger;anger
-Pero tú, Jimmy, le miras como si fueras a arrancarle la nariz y obligar ...;spanish;happiness; Pero, tú, Jimmy, le miras como si fueras a arrancarle la nariz y obligar...;anger;anger
-¿Verdad que es extraño? [no verbal] tener muchos hijos.;spanish;happiness; ¿Verdad que es extraño? Tener muchos hijos.;anger;disgust
-Preferiría no hacerlo yo mismo. ;spanish;happiness; Preferiría no hacerlo yo mismo.;disgust;fear
-Cada uno tiene su propia idea de lo que es el paraíso. [no verbal];spanish;happiness; Cada uno tiene su propia idea de lo que es el paraíso.;disgust;disgust
-Pero a la parienta, a la parienta le parece el paraíso. [no verbal];spanish;happiness; Pero a la parienta, a la parienta le parece el paraíso.;anger;disgust
-[No verbal] bien. Como le he dicho me obligan a preguntar si lo entiende.;spanish;happiness; Bien, como le he dicho, me obligan a preguntárselo, ¿entiendes?;anger;disgust
-¿Qué tiene de malo reírse del secretario general del partido? [no verbal];spanish;happiness; ¿Qué tiene de malo reírse del secretario general del partido?;fear;disgust
-Además, seguro de que ya me lo sé. [no verbal];spanish;happiness; además seguro que ya me lo sé;disgust;disgust
-¡Todo se hizo por ti!;spanish;anger; ¡Todo se hizo por ti!;anger;anger
-¡Se hizo para que mejoraras!;spanish;anger; ¡Se hizo para que mejoraras!;anger;anger
-Se hizo por amor.;spanish;anger; ¡Se hizo por amor!;anger;fear
-¡Es de mi hija de quien estoy hablando!;spanish;anger; ¡Es de mi hija! ¿De quién estoy hablando?;fear;anger
-¡Que todo el mundo cierre el pico!;spanish;anger; ¡Que todo el mundo cierre el pico!;anger;anger
-¡Cerrad el pico!;spanish;anger; ¡Cerrad el pico!;anger;anger
-¿Por qué coño crees que estaba allí?;spanish;anger; ¿Por qué coño crees que estaba allí?;fear;fear
-"Vamos, responde: ""¿Qué hay que comprender?";spanish;anger; ¡Vamos, responde! ¡Que hay que comprender!;anger;anger
-... y las procesas.;spanish;anger; y las procesas.;sadness;sadness
-"Dices: ""Las malvadas fueron ellas, ellas son las culpables"".";spanish;anger; Dices las malvadas fueron ellas, ellas son las culpables.;sadness;disgust
-Porque por casualidad una de las víctimas escribió un libro.;spanish;anger; Porque por casualidad una de las víctimas escribió un libro.;disgust;disgust
-¿Quién lo sabía?;spanish;anger; ¿Quién lo sabía?;anger;anger
-¿Qué sabían?;spanish;anger; ¿Qué sabían?;fear;anger
-Pues, ¿lo sabían todos?;spanish;anger; ¡Pues lo sabían todos!;anger;disgust
-Mírate, jodida ruina humana.;spanish;anger; ¡Mirá, te jodida ruina humana!;happiness;disgust
-Exacto, está muerta joder. ¿Ella la palma y tú recoges tus fichas y te das el piro?;spanish;anger; ¡Exacto! ¡Está muerta, joder! Ella la palma y tú recoges tus fichas y te das el piro.;disgust;disgust
-Te perdiste una mano de cojones. Hay gente que pierde una mano como esa y tiene los huevos de volver a apostar.;spanish;anger; ¡Perdiste una mano de cojones! Hay gente que pierde una mano como esa y tiene los huevos de volver a apostar.;disgust;disgust
-¿Por qué crees que hace eso, Gerry? ¿Tienes alguna puta idea?;spanish;anger; ¿Por qué crees que haces eso, Sherry? ¿Tienes alguna puta idea?;fear;disgust
-Tú y todos los tuyos me consideráis un caso lamentable.;spanish;anger; Tú y todos los tuyos me consideráis un caso lamentable.;sadness;sadness
-No se trata de ti, matemático gilipollas.;spanish;anger; ¡No se trata de ti, matemático gilipollas!;anger;disgust
-¡Se trata del chico!;spanish;anger; ¡Se trata del chico!;anger;anger
-Y no voy a dejar que le jodas como estás intentando joderme a mí.;spanish;anger; No voy a dejar que le jodas como estás intentando joderme a mí.;disgust;disgust
-¿Me has oído? ¡Cállate!;spanish;anger; ¿Me has oído? ¡Cállate!;fear;anger
-O te corto en mil pedazos con esto.;spanish;anger; ¡Te corto en mil pedazos con esto!;anger;fear
-Pues, no me tengas en ascuas sobre lo que piensas.;spanish;anger; ¡Pues no me tengas en asco a sobre lo que piensas!;anger;disgust
-Claro que es él, ¿qué aspecto tenía?;spanish;anger; ¡Claro que es él! ¿Qué aspecto tenís?;anger;anger
-¡Pues deberías maldita sea!;spanish;anger; ¡Pues te verías, maldita sea!;anger;disgust
-¡Me da igual que le ames!;spanish;anger; ¡Me da igual que le ames!;anger;anger
-Hazme caso!;spanish;anger; Hazme caso.;fear;anger
-¡Hay un autobús lleno de muertos!;spanish;anger; Hay un autobús lleno de muertos.;fear;anger
-¡¿Y podrían hacer daño a alguien?!;spanish;anger; ¿Y podrían hacer daño a alguien?;fear;anger
-¿A quién? ¿A un amigo tuyo?;spanish;anger; ¿A quién? ¿A un amigo tuyo?;fear;anger
-No, esa eres tú.;spanish;anger; No, esa eres tú.;disgust;disgust
-Cierto, no me caes bien.;spanish;anger; ¡Cierto! ¡No me caes bien!;anger;disgust
-No estamos en el recreo.;spanish;anger; ¡No estamos en el recreo!;anger;disgust
-¡Esto es un asunto serio!;spanish;anger; Esto es un asunto serio.;disgust;anger
-¿Dices que soy un capullo?;spanish;anger; ¿Dices que soy un capullo?;fear;fear
-Que no está preparado para ser médico y bajo mi responsabilidad ...;spanish;anger; que no está preparado para ser médico y bajo mi responsabilidad.;fear;fear
-¡Joder!;spanish;anger; ¡Joder!;anger;anger
-Uno se siente muy …;spanish;sadness; No se siente muy bien.;disgust;disgust
-Sólo cuando le hace daño a alguien.;spanish;sadness; Solo cuando le haces daño a alguien.;fear;disgust
-Te sientes como ...;spanish;sadness; Te es bien descomodado.;disgust;disgust
-... un extraño.;spanish;sadness; Un extraño.;disgust;happiness
-La quería.;spanish;sadness; A que ría.;disgust;disgust
-Muchísimo.;spanish;sadness; muchísimo.;disgust;disgust
-Por la noche nos sentábamos en la cocina ...;spanish;sadness; Por la noche nos sentábamos en la cocina.;disgust;disgust
-... que éramos las dos únicas personas sobre la tierra.;spanish;sadness; que éramos las dos únicas personas sobre la Tierra.;disgust;disgust
-Rechazado.;spanish;sadness; Rechazado.;sadness;disgust
-Sobre las ocho.;spanish;sadness; sobre las ocho.;disgust;disgust
-Se fue a ver a Eve y Diane.;spanish;sadness; Se fue a ver a Ify a dayar.;fear;sadness
-Nos íbamos el domingo.;spanish;sadness; Nos llevamos el domingo.;fear;disgust
-Pensábamos casarnos allí.;spanish;sadness; Pensábamos casarnos allí.;fear;disgust
-Ese era el plan saben.;spanish;sadness; Ese era el plan, ¿saben?;disgust;disgust
-La quería tanto.;spanish;sadness; La que riga tanto.;disgust;disgust
-Tiene nada igual.;spanish;sadness; No tiene nada igual.;disgust;disgust
-Nunca en la vida.;spanish;sadness; Nunca en la vida.;disgust;sadness
-Pero ahora quiere morir.;spanish;sadness; Pero ahora quiere morir.;disgust;disgust
-Y yo quiero que se quede conmigo.;spanish;sadness; y yo quiero que se quede conmigo.;fear;disgust
-Lo juro por Dios, Padre...;spanish;sadness; Lo juro por Dios, padre.;disgust;disgust
-Es cometer un pecado el que haga.;spanish;sadness; es cometer un pecado el que lo haga.;anger;disgust
-Manteniéndola viva la estoy matando.;spanish;sadness; manteniendo la viva, la estoy empatando.;happiness;fear
-Lo entiendes.;spanish;sadness; ¿Me entiendes?;fear;happiness
-Cómo lo resumido;spanish;sadness; como lo resuelvo.;sadness;disgust
-Fui a ver a Maggie esta mañana.;spanish;sadness; fui a ver a Magui esta mañana.;sadness;disgust
-Debías de haber salido.;spanish;sadness; debías de haber salido.;disgust;disgust
-Puede que no la firmes.;spanish;sadness; Puede que no la firmes.;disgust;anger
-Y me das un poco más de tiempo.;spanish;sadness; y me das un poco más de tiempo.;fear;fear
-Hagas lo que hagas, Rosen tiene razón en una cosa.;spanish;sadness; Hagas lo que hagas. Rosentía tiene razón en una cosa.;disgust;disgust
-No debes quedarte.;spanish;sadness; No debes quedarte.;disgust;disgust
-Ya no soy de fiar.;spanish;sadness; Ya no soy de fiar.;disgust;disgust
-No lo sé.;spanish;sadness; No lo sé.;disgust;disgust
-Que el Dr. Rosen te lleve a casa de tu madre.;spanish;sadness; que el Dr. Rosen te lleve a casa de tu madre.;fear;anger
-Tú tienes ese don.;spanish;sadness; Tú tienes ese don.;disgust;disgust
-Sabes tratar a la gente.;spanish;sadness; ¿Sabes trazar a la gente?;fear;anger
-Les caes bien.;spanish;sadness; Les caes bien.;disgust;disgust
-Y si te vas, no aprenderé a hacerlo.;spanish;sadness; Y si te vas, no aprenderé a hacerlo.;disgust;disgust
-Hasta que una noche se enteró de que se había ...;spanish;sadness; Hasta que una noche se enteró de que se había...;disgust;disgust
-Él no es la misma persona que era antes.;spanish;sadness; Él no es la misma persona que era antes.;disgust;disgust
-Apenas se hablan. Son como extraños.;spanish;sadness; Apenas se hablan, son como extraños.;sadness;sadness
-Porque siente que ...;spanish;sadness; porque siente que...;disgust;disgust
-... sería ... como ayudar también al otro.;spanish;sadness; sería como ayudar también al otro.;disgust;sadness
-Otra familia, otra ...;spanish;sadness; Otra familia, otra...;disgust;disgust
+f_dis024aes;Lloyd, cariño, te quiero con toda mi alma ;spanish;disgust; Lloyd, cariño, te quiero con toda mi alma.;happiness;fear
+f_dis024bes;Pero a veces tengo que preguntarme si realmente eres mi hijo.;spanish;disgust; Pero a veces tengo que preguntarme si realmente eres mi hijo.;anger;anger
+f_dis025aes;Siempre has sido más como tu padre.;spanish;disgust; Siempre has sido más como tu padre.;disgust;disgust
+f_dis027aes;Puede darme la pistola o devolverme el dinero.;spanish;disgust; ¿Puede darme la pistola o devolverme el dinero?;anger;disgust
+f_dis027bes;La verdad es que prefiero recuperar el dinero.;spanish;disgust; Y la verdad es que prefiero recuperar el dinero.;disgust;disgust
+f_dis028aes;¿Me da la caja sí o no?;spanish;disgust; ¿Me da la caja sí o no?;fear;anger
+f_dis029aes;Nos iban a matar en ventura boulevard.;spanish;disgust; Nos iban a matar en Ventura Boulevard.;fear;fear
+f_dis036aes;Mi padre es de Puerto Rico, mi madre es de El Salvador.;spanish;disgust; Mi padre es de Puerto Rico, mi madre es del Salvador.;sadness;sadness
+f_dis036bes;Y ningún sitio de esos es México.;spanish;disgust; y ningún sitio de esos es México.;fear;disgust
+f_dis037aes; No lo sé. ¿No está enferma?;spanish;disgust; No lo sé. ¿No está enferma?;disgust;disgust
+f_dis038aes;Creía que los enfermos se inventaban cosas a menudo.;spanish;disgust; Creía que los enfermos inventaban cosas a menudo.;disgust;disgust
+f_dis042aes;¿Por qué compra esta tierra, Sr. Bloom?;spanish;disgust; ¿Por qué compré esta tierra, señor Bloom?;fear;fear
+f_dis043aes;¿En vez  de comprarse un descapotable, se compra un pueblo? ;spanish;disgust; En vez de comprarse un descapotable, ¿se compra un pueblo?;fear;fear
+f_dis049aes;Estoy a favor de la paz, Sr. Lud. Por eso estoy en la ONU. Para apoyar la diplomacia.;spanish;disgust; Estoy a favor de la paz, señor Lat. Por eso estoy en la ONU para apoyar la diplomacia.;disgust;disgust
+f_dis108aes;No era una pregunta.;spanish;disgust; No era una pregunta.;disgust;disgust
+f_dis150aes;Y tú puedes hacer lo todo, ¿no?;spanish;disgust; Y tú puedes hacerlo todo, ¿no?;disgust;disgust
+f_dis201aes;Pero si ya lo hiciste.;spanish;disgust; Pero si ya lo hiciste.;happiness;happiness
+f_dis202aes;Y antes de hoy, ¿no habías oído nunca hablar de mí? ;spanish;disgust; ¿Y antes de hoy no habías oído nunca hablar de mí?;fear;fear
+f_dis204aes;¿Se ha muerto, o qué?;spanish;disgust; si ha muerto o qué.;sadness;fear
+f_dis205aes;Una vez un ayudante dejó su mesa porque se rebanó la mano con un abrecartas.;spanish;disgust; Una vez un ayudante dejó su mesa porque se rebanó la mano con un abre cartas.;disgust;anger
+f_dis206aes;Jamás creí que diría esto.;spanish;disgust; Jamás creí que diría esto.;disgust;disgust
+f_dis901aes;Oh, os habríais librado de que los romanos os cortaran la cabeza, claro. ;spanish;disgust; ¿Os habríais librado de que los romanos os cortaran la cabeza?;fear;fear
+f_dis902aes;¿Así que los dos habríais mentido hasta el punto de negar a Cristo?;spanish;disgust; Así que los dos habríais mentido hasta el punto de negar a Cristo.;disgust;disgust
+f_gio002aes;Estoy curada.;spanish;happiness; Estoy curada.;disgust;disgust
+f_gio012aes;Gracias señorita Burton.;spanish;happiness; Gracias, señorita Burton.;happiness;sadness
+f_gio012bes;Tomaré nota de su consideración.;spanish;happiness; Tomaré nota de su consideración.;disgust;disgust
+f_gio019aes;Eso es genial. Perfecto, sí.;spanish;happiness; Eso es genial. Perfecto, sí.;disgust;disgust
+f_gio030aes;¡Eres tú!;spanish;happiness; Eres tú.;disgust;disgust
+f_gio034aes;A veces, pero soy más discreta.;spanish;happiness; A veces, pero soy más discreta.;disgust;disgust
+f_gio038aes;No, necesito un luchador con un master.;spanish;happiness; No, necesito un luchador con un máster.;disgust;disgust
+f_gio040aes;Una noche saltó la barra y se ofreció a enseñarme a prepararlos. ;spanish;happiness; Una noche saltó la barra y se ofreció a enseñarme a prepararlos.;disgust;fear
+f_gio044aes;Vuelve a la cama tesoro.;spanish;happiness; Vuelve a la cama, tesoro.;happiness;happiness
+f_gio045aes;Eso es estupendo.;spanish;happiness; ¡Eso es estupendo!;anger;disgust
+f_gio047aes;Al contrario.;spanish;happiness; Al contrario.;disgust;disgust
+f_gio047bes;El otro día emprendimos una exploración a lo más recóndito de África en nuestro jardín.;spanish;happiness; El otro día emprendimos una exploración al más recóndito de África en nuestro jardín.;fear;fear
+f_gio049aes;Les he dicho que tenía que pasar la tarde con un periodista ecuestre muy importante.;spanish;happiness; Les he dicho que tenía que pasar la tarde con un periodista ecuestre muy importante.;fear;fear
+f_gio120aes;¡Oh, creía que se refería al juez!;spanish;happiness; Creía que se refería al juez.;disgust;anger
+f_gio123aes;¡Muchas gracias!;spanish;happiness; Muchas gracias.;happiness;happiness
+f_gio133aes;Creí que estabas viviendo un tórrido romance.;spanish;happiness; Creí que estabas viviendo un torrido romance.;disgust;disgust
+f_gio144aes;¡Feliz cumpleaños!  [no verbal];spanish;happiness; ¡Feliz cumpleaños!;anger;anger
+f_gio162aes;No  [no verbal] ¡sí!;spanish;happiness; No...;sadness;disgust
+f_gio189aes;[no verbal] caray.;spanish;happiness; caray;happiness;disgust
+f_gio201aes;Es que aquí hace calor.;spanish;happiness; Es que aquí hace calor.;disgust;disgust
+f_gio203aes;¿Y sobre mí?;spanish;happiness; ¿Y sobre mí?;fear;fear
+f_gio204aes;¿Puedo verla?;spanish;happiness; ¿Puedo verla?;anger;anger
+f_gio206aes;Que acogedora.;spanish;happiness; Qué acogedora.;disgust;disgust
+f_gio207aes;Se lo agradecería.;spanish;happiness; Se lo agradecería.;fear;disgust
+f_gio208aes;No me siento tan mayor.;spanish;happiness; Me siento tan mayor.;disgust;disgust
+f_gio209aes;Treinta y uno hasta mi próximo cumpleaños.;spanish;happiness; 30 y 1. Hasta mi próximo cumpleaños.;sadness;fear
+f_gio210aes;Es preciosa.;spanish;happiness; ¡Es preciosa!;anger;disgust
+f_gio212aes;[No verbal] ¿Qué significa?;spanish;happiness; ¿Qué significa?;anger;disgust
+f_gio214aes;Me esperara que llegara eso.;spanish;happiness; Esperara que llegara eso.;disgust;disgust
+f_rab003aes;¿Dónde estás?;spanish;anger; ¿Dónde estás?;fear;anger
+f_rab008aes;Semejante obligación no existe.;spanish;anger; ¡Semejante obligación no existe!;anger;disgust
+f_rab009aes;A todas horas soy atendida por médicos que me informan de mis propios intereses.;spanish;anger; A todas horas soy atendida por médicos que me informan de mis propios intereses.;fear;fear
+f_rab010aes;Este pueblo me está afixiando.;spanish;anger; ¡Este pueblo me está asfixiando!;anger;fear
+f_rab010bes;¡No lo es! Es la mía.;spanish;anger; ¡No lo es! ¡Es la mía!;anger;disgust
+f_rab011aes;¡Por el amor de Dios, Dave!;spanish;anger; ¡Por el amor de Dios, Dave!;anger;anger
+f_rab011bes;¿Por qué no dijiste lo de ese hombre?;spanish;anger; ¿Por qué no dijiste lo de ese hombre?;fear;fear
+f_rab012aes;"Toda la prensa británica se ha levantado pensado: ""Sé dónde está Anna Scott"".";spanish;anger; Toda la prensa británica se ha levantado pensando, sé dónde está Ana Scott.;disgust;disgust
+f_rab012bes;En esa casa de la puerta azul en Notting Hill.;spanish;anger; en esa casa de la puerta azul en Nothing Hill.;fear;fear
+f_rab012ces;Y luego tú sales con tus ridículos calzoncillos.;spanish;anger; Y luego tú sales con tu ridículo, los calzoncillos.;disgust;disgust
+f_rab013bes;Por el amor de Dios, tengo novio.;spanish;anger; ¡Por el amor de Dios tengo novio!;anger;disgust
+f_rab014aes;Pero mañana saldrá tu foto en cada periódico de aquí a Tombuctú.;spanish;anger; Pero mañana saldrá tu foto en cada periódico de aquí a... Donbuktu.;fear;fear
+f_rab015aes;Bueno, esta situación es perfecta para ti.;spanish;anger; Bueno, esta situación es perfecta para ti.;happiness;happiness
+f_rab015bes;Mínima inversión, máxima publicidad.;spanish;anger; Mínima inversión, máxima publicidad.;disgust;disgust
+f_rab015ces;"Vayas donde vayas la gente dirá: ""Oh, bien hecho, te has tirado a esa actriz"".";spanish;anger; Vayas donde vayas, la gente dirá ¡Oh, bien hecho! ¡Te has tirado a esa actriz!;anger;disgust
+f_rab015des;Hemos visto las fotos.;spanish;anger; ¡Hemos visto las fotos!;disgust;disgust
+f_rab029aes;Te da miedo que yo no te ame.;spanish;anger; ¿Te da miedo que yo no te ame?;anger;disgust
+f_rab029bes;Y sabes que yo también tengo miedo.;spanish;anger; Y sabes que yo también tengo miedo.;disgust;disgust
+f_rab029ces;Pero joder, debemos intentarlo, al menos habré sido honesta contigo.;spanish;anger; ¡Pero, joder, debemos intentarlo! ¡Al menos habré sido honesta contigo!;anger;disgust
+f_rab034aes;Pues mal hecho, deberías haberme consultado.;spanish;anger; Pues mal hecho. Deberías haberme consultado.;disgust;disgust
+f_rab037aes;Puede ser el objeto más valioso que tenemos.;spanish;anger; ¡Puede ser el objeto más valioso que tenemos!;anger;anger
+f_rab042aes;¡Y quiero que me digas inmediatamente cuándo vas a venir a casa!;spanish;anger; ¡Que quiero que me digas inmediatamente cuándo vas a venir a casa!;anger;anger
+f_rab047ces;Es que me gustaría que se me reconociera el hecho de que me mato intentándolo.;spanish;anger; Es que me gustaría que se me reconociera el hecho de que me mato intentándola.;disgust;disgust
+f_rab064aes;¡No se acerque a ella!;spanish;anger; No se acerque a ella.;sadness;anger
+f_rab068aes;No quiero decir por fuera, ¡cambia por dentro!;spanish;anger; No quiero decir por fuera, cambia por centro.;disgust;anger
+f_rab068bes;¡Corre riesgos, comete errores!;spanish;anger; ¡Corre riesgos, comete errores!;anger;anger
+f_rab069aes;¡Sí! En ocasiones es importante no ser perfecto, ¿vale? Es importante equivocarse.;spanish;anger; Sí, en ocasiones. Es importante no ser perfecto, ¿vale? Es importante equivocarse.;disgust;anger
+f_rab070aes;No, para cometerlos.;spanish;anger; ¡Y no para cometerlos!;anger;disgust
+f_rab082aes;Y se acabó el boxear fuera.;spanish;anger; ¡Y se acabó el boxear fuera!;anger;disgust
+f_rab082bes;¿Entendido? No se boxea. ¡Punto!;spanish;anger; Entendido, no se boxea. Punto.;disgust;disgust
+f_rab083aes;Seguiréis yendo al colegio.;spanish;anger; ¡Seguiréis yendo al colegio!;anger;disgust
+f_rab083bes;Estudiaréis en la universidad y tendréis una profesión.;spanish;anger; que estudiaréis en la universidad y tendréis una profesión.;disgust;disgust
+f_rab083ces;Porque no quiero que también os machaquen el cráneo.;spanish;anger; ¿Por qué no quiero que también os machacen el cráneo?;anger;disgust
+f_rab084aes;¿Lo habéis entendido?;spanish;anger; ¿Lo habéis entendido?;fear;anger
+f_rab084bes;¿Queda claro?;spanish;anger; ¿Qué es la clara?;fear;anger
+f_rab087aes;Pero evita como sea ese combate. Si es necesario, rómpete la mano.;spanish;anger; Pero evita como sea ese combate. Si es necesario, rompete la mano.;fear;fear
+f_rab089ces;Pues me he asustado y no he dicho nada y a los diez segundos tenía un arma en mi cara. ;spanish;anger; Pues me he asustado y no he dicho nada, ya los diez segundos tenía un arma en mi cara.;disgust;disgust
+f_rab090aes;Y te aseguro que tu amigo, el de ahí, va a vender nuestra llave a uno de sus colegas.;spanish;anger; Y te aseguro que tu amigo el de ahí va a vender nuestra llave a uno de sus colegas.;disgust;disgust
+f_rab090bes;Y esta vez sería de puta madre que actuaras como si te importara algo.;spanish;anger; Y esta vez sería de puta madre que actuaras como si te importara algo.;fear;fear
+f_rab092bes;Teniendo las manos de ese cerdo por todas partes.;spanish;anger; Teniendo las manos de ese cerdo por todas partes.;disgust;anger
+f_rab094aes;Que no se quede quieto mientras me meten mano.;spanish;anger; ¡Que no se quede quieto mientras me mete en mano!;anger;disgust
+f_rab098aes;No tiene sentido que pases todo el día aquí encerrado. ;spanish;anger; No tiene sentido que pases todo el día aquí encerrado.;disgust;disgust
+f_rab901aes;Estoy harta tí.;spanish;anger; ¡Estoy horta de ti!;anger;fear
+f_tri001aes;Fue culpa mía.;spanish;sadness; Fue culpa mí.;disgust;disgust
+f_tri002aes;Podía haberlo impedido.;spanish;sadness; Pude haberlo impedido.;disgust;disgust
+f_tri003aes;No sabías que últimamente se despertaba.;spanish;sadness; No sabías que últimamente se despertaba.;disgust;disgust
+f_tri004aes;Y yo sabía que algunas veces ;spanish;sadness; Yo sabía que algunas veces...;disgust;fear
+f_tri005aes; se levantaba de la cama.;spanish;sadness; se levantaba de la cama.;happiness;happiness
+f_tri005bes;Y andaba por ahí.;spanish;sadness; y andaba por ahí.;sadness;sadness
+f_tri006aes;Se despertaba.;spanish;sadness; ¡Se despertaba!;anger;fear
+f_tri007aes;Y se sentía confuso.;spanish;sadness; Yo se sentía confuso.;disgust;disgust
+f_tri008aes;También me quiero morir.;spanish;sadness; Me quiero morir.;disgust;disgust
+f_tri009aes;¿El dolor seguirá siempre igual?;spanish;sadness; El dolor seguirá siempre igual.;disgust;disgust
+f_tri010aes;Será mucho peor.;spanish;sadness; Será mucho peor.;disgust;disgust
+f_tri017aes;¿Tiene un caramelo?;spanish;sadness; Tiene un caramelo.;disgust;anger
+f_tri018aes;Mami te envía millones y millones de besos.;spanish;sadness; Mami te envía millones y millones de besos.;sadness;sadness
+f_tri023aes;Excepto lo que más deseo.;spanish;sadness; excepto lo que más deseo.;disgust;disgust
+f_tri026aes;Estoy preocupada por Ray.;spanish;sadness; ¡Ya estoy preocupada por Ray!;anger;disgust
+f_tri027aes;No se si él podrá soportarlo ;spanish;sadness; No sé si él podrá soportarlo.;disgust;fear
+f_tri032ces;En esas cosas.;spanish;sadness; en esas cosas.;sadness;disgust
+f_tri037aes;Y lo que parecía una estúpida sesión de fotos es una peli porno.;spanish;sadness; Y lo que parecía una estúpida sesión de fotos es una peliporno.;disgust;disgust
+f_tri039aes;Briony, no queda mucho tiempo.;spanish;sadness; Rione, no queda mucho tiempo.;disgust;sadness
+f_tri039bes;Robbie tiene que presentarse a las seis.;spanish;sadness; Robby tiene que presentarse a las 6.;happiness;disgust
+f_tri039ces;Para coger el tren.;spanish;sadness; para coger el tren.;disgust;disgust
+f_tri039des;Así que siéntate.;spanish;sadness; Así que siéntate.;disgust;disgust
+f_tri040aes;Siento muchisimo.;spanish;sadness; Lo siento muchísimo.;disgust;disgust
+f_tri040bes;El terrible dolor que os he causado.;spanish;sadness; el terrible dolor que os he causado.;fear;fear
+f_tri040ces;Lo siento mucho.;spanish;sadness; Lo siento mucho.;disgust;disgust
+f_tri041aes;Lo siento tanto.;spanish;sadness; Lo siento tanto.;sadness;disgust
+f_tri044aes;No hay ningún William Parcher. ;spanish;sadness; No hay ningún William Parcher.;disgust;disgust
+f_tri044bes;Sólo está en tu mente.;spanish;sadness; solo está en tu mente.;disgust;disgust
+f_tri045aes;¿Lo entiendes, mi amor?;spanish;sadness; Lo entiendes, mi amor.;happiness;fear
+f_tri045bes;No es real.;spanish;sadness; ¡No es real!;anger;disgust
+f_tri045ces;Estás enfermo, John.;spanish;sadness; ¿Estás enfermo, Jordan?;fear;disgust
+f_tri047aes;¿Intentarías hacerme daño?;spanish;sadness; ¿Intentarías hacerme daño?;fear;fear
+f_tri049aes;Pero mis  mis hijas, ellas.;spanish;sadness; Pero mis... mis hijas ellas...;sadness;happiness
+f_tri054aes;Otra decepción.;spanish;sadness; Otra decepción.;fear;fear
+f_tri054ces;Que se va.;spanish;sadness; Qué sé yo.;disgust;disgust
+f_tri059aes;Lo siento.;spanish;sadness; Y lo siento.;happiness;disgust
+f_tri071aes;¿Te sientes orgullosa de mí?;spanish;sadness; ¿Te sientes orgullosa de mí?;fear;disgust
+f_tri081aes;Jim, tú no lo has visto.;spanish;sadness; Jim, ¿tú no lo has visto?;disgust;disgust
+f_tri085aes;Se lo han dado al tío de city core;spanish;sadness; se lo han dado al tío de CityCorp.;disgust;disgust
+f_tri091bes;De que me llevarías contigo.;spanish;sadness; ¿De qué me llevarías contigo?;fear;disgust
+f_tri094aes;Ojalá pudiera formar parte de el.;spanish;sadness; Ojalá pudiera formar parte de él.;disgust;disgust
+f_tri096aes;Sin esa familia, nunca podrías haber escrito nada igual.;spanish;sadness; Sin esa familia nunca podrías haber escrito nada igual.;disgust;disgust
+f_tri096bes;Les necesitas.;spanish;sadness; las necesitas.;sadness;sadness
+f_tri097bes;Y que cuando vuelvas me cuentes hasta el último detalle. ;spanish;sadness; y que cuando vuelvas me cuentes hasta el último detalle.;fear;fear
+m_ans001aes;Es sólo que sangra mucho.;spanish;fear; Eso es lo que sangra mucho.;disgust;disgust
+m_ans002aes;Un tipo trató de atracarme, me  me defendí y me rajó.;spanish;fear; Un tío trató de atracarme, me defendí, me rajó.;fear;fear
+m_ans003aes;Iba tranquilamente hacia mi coche.;spanish;fear; y va tranquilamente a la fiamincoche.;happiness;happiness
+m_ans003bes;Le digo no fumo y me dice yo tampoco, así que.;spanish;fear; Le digo, no fumó y me dice, yo tampoco, así que...;anger;anger
+m_ans007aes;Claro por eso crees que la maté yo.;spanish;fear; Claro, por eso crees que la maté yo.;disgust;disgust
+m_ans007bes;Por llegar a casa manchado de sangre la noche que matan a Katie.;spanish;fear; Por llegar a casa manchado de sangre la noche que matan a Katie.;disgust;disgust
+m_ans007ces;Por tanto debo haber sido yo, ¿verdad?;spanish;fear; Por tanto, debo haber sido yo, ¿verdad?;fear;fear
+m_ans008aes;No puedo seguir confiando en mi mente, Celeste. No puedo más.;spanish;fear; No puedo seguir confiando en mi mente, Ceste. No puedo más.;disgust;disgust
+m_ans011aes;¿Qué coño está pasando? ¿Dónde estoy?;spanish;fear; ¿Qué coño está pasando? ¿Dónde estoy?;fear;fear
+m_ans013aes;No lo sé.;spanish;fear; ¡LOROSÉ!;anger;disgust
+m_ans014aes;¿Y eso qué importa? Ahora estoy confundido. ¿Cómo te llamas tú?;spanish;fear; Y eso que importa, ahora estoy confundido, ¿cómo te llamas tú?;fear;fear
+m_ans014bes;¿Qué coño pasa aquí?;spanish;fear; ¿Qué coño pasa aquí?;fear;fear
+m_ans015bes;Fuí a dormir a mi apartamento y me he despertado en este lugar asqueroso.;spanish;fear; Fui a dormir a mi apartamento y me he despertado en este lugar asqueroso.;fear;fear
+m_ans016aes;Es lo que suelen hacer. Te secuestran, te drogan.;spanish;fear; ¿Y eso que suelen hacer? ¿Te secuestran? ¿Te drogan?;fear;disgust
+m_ans016bes;Y antes de que te des cuenta, tú estás en una bañera y tus riñones en otra persona.;spanish;fear; Y antes de que te des cuenta, tú estás en una bañera y tú riñones en otra persona.;disgust;disgust
+m_ans020bes;¡¿Quién anda ahí?!;spanish;fear; ¡Que nada!;anger;anger
+m_ans020ces;¡Sal!;spanish;fear; ¡San!;anger;anger
+m_ans020des;¡Te mataré, cabrón!;spanish;fear; ¡Te mataré, cabrón!;anger;anger
+m_ans021aes;¿Quién es?;spanish;fear; ¿Tienes?;anger;disgust
+m_ans022aes;Sí, cariño, soy yo. Estoy aquí.;spanish;fear; Sí, cariño, yo estoy aquí.;disgust;disgust
+m_ans023aes;Esto no formaba parte del trato.;spanish;fear; Esto no formaba parte del trato.;disgust;disgust
+m_ans024aes;Alicia estaba trabajando para el gobierno.;spanish;fear; Alicia estaba trabajando para el gobierno.;fear;disgust
+m_ans024bes;Existe una amenaza de proporciones catastróficas.;spanish;fear; Existe una amenaza de proporciones catastróficas.;fear;fear
+m_ans030aes;Con el debido respeto, esto … esto es ridículo. ¡No tiene ningún sentido!;spanish;fear; Con el debido respeto, esto... Esto reciclo no tiene ningún sentido.;disgust;disgust
+m_ans101aes;¿Qué es ese olor?;spanish;fear; ¿Qué es ese olor?;disgust;disgust
+m_ans105aes;Sí, te lo dije. A mí me hizo lo mismo.;spanish;fear; ¡Sí, te lo dije! ¡A mí me hizo lo mismo!;anger;disgust
+m_ans105bes;Lo es, no te mentía.;spanish;fear; ¡Lo ves, no te mentías!;anger;disgust
+m_ans106aes;Me, me está electrocutando.;spanish;fear; Me... Me está electrocutando...;disgust;fear
+m_ans107aes;¡Socorro, que alguien me ayude!;spanish;fear; Socorro! ¡Que alguien me ayude!;anger;disgust
+m_ans124aes;¿Quién eres?;spanish;fear; ¿Quién eres?;disgust;disgust
+m_ans124bes;¿Quién eres?;spanish;fear; ¿Quién eres?;disgust;disgust
+m_dis001aes;"Es como decir: ""No es un revuelta, es rabia. No es un crimen, es pobreza"".";spanish;disgust; Es como decir, no es una revuelta, es rabia, no es un crimen, es pobreza.;disgust;disgust
+m_dis002aes;Mira esta triste, miserable y aplastada cosa.;spanish;disgust; Mira esta triste, miserable y aplastada cosa.;sadness;sadness
+m_dis002bes;¿Alguien puede decirme dónde está el fallo de esa fotografía?;spanish;disgust; ¿Alguien puede decirme dónde está el fallo de esa fotografía?;anger;disgust
+m_dis003aes;Bueno, pues, quizás.;spanish;disgust; Bueno pues quizás...;happiness;happiness
+m_dis003bes;Al cumplir seis años, mi mejor amigo, Scott Tibbs, me pinchó con un clavo, eso te no había contado.;spanish;disgust; Al cumplir seis años, mi mejor amigo Scott Pipps me pinchó con un clavo. Eso no te lo había contado.;fear;fear
+m_dis005aes;¿A sí? Pues, ese poli piensa que tú estás detrás de todo.;spanish;disgust; ¿Ah, sí? Pues ese poli piensa que tú estás detrás de todo.;disgust;disgust
+m_dis008bes;Tengo horas de consulta. Si necesitas más información sobre refranes, expresiones ;spanish;disgust; Tengo horas de consulta. Si necesitas más información sobre refranes, expresiones...;disgust;fear
+m_dis014aes;Y al parecer, tú también.;spanish;disgust; Y al parecer tú también.;disgust;disgust
+m_dis016aes;Bueno, eso se llama mutación, madre. El milagro de la genética es que yo no soy tú.;spanish;disgust; Bueno, eso se llama mutación, madre. El milagro de la genética es que yo no soy tú.;disgust;disgust
+m_dis018bes;Vivo contigo. Sé cuanto estudias, o debería decir no estudias. Y sacas mejores notas que yo.;spanish;disgust; Vivo contigo, sé cuánto estudias o debería decir no estudias y sacas mejores notas que yo.;disgust;disgust
+m_dis023bes;¿Es porque tu padre era médico y tu abuelo era médico?;spanish;disgust; ¿Es porque tu padre era médico y tu abuelo era médico?;fear;disgust
+m_dis023ces;¿Es un asunto genético quizá?;spanish;disgust; ¿Es un asunto genético, quizá?;fear;fear
+m_dis035aes;Saddam. ¿Se llama Saddam? Genial, estupendo, Bruce.;spanish;disgust; ¿Sadam? ¿Se llama Sadam? ¡Genial! ¡Estupendo, Bruce!;happiness;disgust
+m_dis036aes;¡Concédete un ascenso por favor!;spanish;disgust; ¡Concédate un ascenso, por favor!;anger;anger
+m_dis043aes;Construye barrios, no los destruye evidentemente.;spanish;disgust; Construye barrios, no los destruye evidentemente.;disgust;disgust
+m_dis044aes;Extravié una importante demanda. Esa es su versión.;spanish;disgust; extravió una importante demanda, esa es su versión.;anger;anger
+m_dis044bes;¿Te cuento la mía?;spanish;disgust; ¿Te cuento la mía?;fear;fear
+m_gio001aes;[no verbal] es un idiota.;spanish;happiness; Es un idiota.;disgust;disgust
+m_gio001bes;Siempre ha sido un idiota.;spanish;happiness; Siempre ha sido una idiota.;disgust;sadness
+m_gio002aes;Guay. Gracias.;spanish;happiness; ¡Guay! Gracias.;happiness;happiness
+m_gio002bes;Deséame suerte.;spanish;happiness; ¡Déciame suerte!;anger;disgust
+m_gio003aes;¿Hace una sesión de video esta noche?;spanish;happiness; ¿Hace una sesión de vídeo esta noche?;fear;disgust
+m_gio003bes;Tengo unos clásicos cojonudos.;spanish;happiness; Tengo unos clásicos cojonudos.;disgust;disgust
+m_gio004aes;Pero sería emocionante, ¿verdad? Alguien famoso en la tienda [no verbal].;spanish;happiness; Pero sería emocionante, ¿verdad? Alguien famoso en la tienda.;disgust;disgust
+m_gio005aes;¡Venga, un baile!;spanish;happiness; Venga, un baile!;anger;anger
+m_gio010aes;Ya me lo has contado todo.;spanish;happiness; Ya me lo has contado todo.;disgust;disgust
+m_gio013aes;Ve a patita cabrón. Will se lleva el coche.;spanish;happiness; Ve a patita, cabrón. Will se lleva el coche.;fear;fear
+m_gio015aes;Vaya, que encanto de mujer.;spanish;happiness; ¡Qué encanto de mujer!;anger;disgust
+m_gio016aes;Porque son aburridas, insoportables.;spanish;happiness; Porque son aburridas, insoportables.;disgust;disgust
+m_gio017aes;Eso es maravilloso.;spanish;happiness; Eso es maravilloso.;happiness;happiness
+m_gio018aes;Tranquilo es broma. De qué sirve estar chalado msi no puedes divertirte.;spanish;happiness; Tranquilo, es broma de que sirve estar chalado si no puedes divertirte.;disgust;disgust
+m_gio022aes;Como os quiero, chicos.;spanish;happiness; Como os quiero chicos;happiness;happiness
+m_gio023aes;Por primera vez en dieciocho años voy a poder estar al mando de mi propia vida. ¡Ay, Dios mío!;spanish;happiness; Y por primera vez en 18 años voy a poder estar al mando de mi propia vida ¡Ay, Dios mío!;anger;happiness
+m_gio034aes;Pues en realidad tantas veces como puede.;spanish;happiness; Pues en realidad tantas veces como puede.;disgust;disgust
+m_gio041aes;Santo Dios bendito.;spanish;happiness; ¡Santo Dios bendito!;anger;sadness
+m_gio041bes;Santo Dios, la Virgen y San José.;spanish;happiness; ¡Santo Dios la Virgen y San José!;happiness;happiness
+m_gio046aes;Tú podrías salir con una bocina y perseguirle por el ring.;spanish;happiness; ...tú podrías salir con una bocina y perseguirle por el ring.;fear;disgust
+m_gio049aes;No comprenderá que se trata de un negro.;spanish;happiness; ¿No comprenderá que se trata de un negro?;disgust;disgust
+m_gio049bes;[no verbal] por favor.;spanish;happiness; Por favor.;disgust;disgust
+m_gio054aes;¿Cómo está?;spanish;happiness; ¿Cómo está?;fear;anger
+m_gio054bes;¿Qué le pasa en la cara?;spanish;happiness; ¿Qué le pasa en la cara?;fear;fear
+m_gio056aes;Gracias, no hay más preguntas.;spanish;happiness; Gracias, no hay más preta.;disgust;disgust
+m_gio058aes;Sr. Wheeler, es usted magnífico.;spanish;happiness; Señor Wheeler, es usted magnífico.;fear;disgust
+m_gio062aes;[No verbal] eso es lógico. Medio capuchino marchando.;spanish;happiness; Oh, eso es lógica. Medio capuchino marchando.;disgust;disgust
+m_gio100aes;Esa mierda es lo mejor que he oído salir ;spanish;happiness; Esa mierda es lo mejor que he oído salir.;disgust;fear
+m_gio101aes;Por favor, déjadle en paz.;spanish;happiness; Por favor, dejadle en paz.;disgust;disgust
+m_gio102aes;No sé. A las chicas les gusta.;spanish;happiness; No sé, a las chicas les gusta.;disgust;disgust
+m_gio103aes;¿Es esa la forma de hablarle a un invitado? ¿A un amigo de la familia?;spanish;happiness; Eso de hablarles a un invitado, a un amigo de la familia.;disgust;fear
+m_gio104aes;¿Estás enfermo?;spanish;happiness; Estás enfermo.;disgust;anger
+m_gio105aes;De puta madre. Ha resucitado.;spanish;happiness; ¡De puta madre ha resucitado!;anger;disgust
+m_gio106aes;Seis putos kilos.;spanish;happiness; ¡6 putos kilos!;anger;disgust
+m_gio107aes;De verdad tío este chaval es una pasada.;spanish;happiness; De verdad tío, este chaval es una pasada.;disgust;disgust
+m_gio108aes;He perdido la cuenta tío.;spanish;happiness; He perdido la cuenta, tío.;disgust;disgust
+m_gio108bes;Da igual, colega.;spanish;happiness; No me importa que le diga.;disgust;disgust
+m_gio110aes;Te vendría bien, un bien [no verbal].;spanish;happiness; ¡Te vendría bien! ¡Un bien go!;anger;disgust
+m_gio111aes;¡Y ese es el segundo mejor invento!;spanish;happiness; ¡Y ese es el segundo mejor invento!;anger;anger
+m_gio119aes;Pero tú, Jimmy, le miras como si fueras a arrancarle la nariz y obligar ;spanish;happiness; Pero, tú, Jimmy, le miras como si fueras a arrancarle la nariz y obligar...;anger;fear
+m_gio123aes;¿Verdad que es extraño? [no verbal] tener muchos hijos.;spanish;happiness; ¿Verdad que es extraño? Tener muchos hijos.;anger;disgust
+m_gio129aes;Preferiría no hacerlo yo mismo. ;spanish;happiness; Preferiría no hacerlo yo mismo.;disgust;fear
+m_gio140aes;Cada uno tiene su propia idea de lo que es el paraíso. [no verbal];spanish;happiness; Cada uno tiene su propia idea de lo que es el paraíso.;disgust;disgust
+m_gio140bes;Pero a la parienta, a la parienta le parece el paraíso. [no verbal];spanish;happiness; Pero a la parienta, a la parienta le parece el paraíso.;anger;disgust
+m_gio145aes;[No verbal] bien. Como le he dicho me obligan a preguntar si lo entiende.;spanish;happiness; Bien, como le he dicho, me obligan a preguntárselo, ¿entiendes?;anger;disgust
+m_gio146aes;¿Qué tiene de malo reírse del secretario general del partido? [no verbal];spanish;happiness; ¿Qué tiene de malo reírse del secretario general del partido?;fear;disgust
+m_gio146bes;Además, seguro de que ya me lo sé. [no verbal];spanish;happiness; además seguro que ya me lo sé;disgust;disgust
+m_rab006aes;¡Todo se hizo por ti!;spanish;anger; ¡Todo se hizo por ti!;anger;anger
+m_rab006bes;¡Se hizo para que mejoraras!;spanish;anger; ¡Se hizo para que mejoraras!;anger;anger
+m_rab006ces;Se hizo por amor.;spanish;anger; ¡Se hizo por amor!;anger;fear
+m_rab021bes;¡Es de mi hija de quien estoy hablando!;spanish;anger; ¡Es de mi hija! ¿De quién estoy hablando?;fear;anger
+m_rab021ces;¡Que todo el mundo cierre el pico!;spanish;anger; ¡Que todo el mundo cierre el pico!;anger;anger
+m_rab021des;¡Cerrad el pico!;spanish;anger; ¡Cerrad el pico!;anger;anger
+m_rab022aes;¿Por qué coño crees que estaba allí?;spanish;anger; ¿Por qué coño crees que estaba allí?;fear;fear
+m_rab027aes;"Vamos, responde: ""¿Qué hay que comprender?";spanish;anger; ¡Vamos, responde! ¡Que hay que comprender!;anger;anger
+m_rab029aes; y las procesas.;spanish;anger; y las procesas.;sadness;sadness
+m_rab029bes;"Dices: ""Las malvadas fueron ellas, ellas son las culpables"".";spanish;anger; Dices las malvadas fueron ellas, ellas son las culpables.;sadness;disgust
+m_rab029ces;Porque por casualidad una de las víctimas escribió un libro.;spanish;anger; Porque por casualidad una de las víctimas escribió un libro.;disgust;disgust
+m_rab030ces;¿Quién lo sabía?;spanish;anger; ¿Quién lo sabía?;anger;anger
+m_rab030des;¿Qué sabían?;spanish;anger; ¿Qué sabían?;fear;anger
+m_rab030ees;Pues, ¿lo sabían todos?;spanish;anger; ¡Pues lo sabían todos!;anger;disgust
+m_rab045aes;Mírate, jodida ruina humana.;spanish;anger; ¡Mirá, te jodida ruina humana!;happiness;disgust
+m_rab046aes;Exacto, está muerta joder. ¿Ella la palma y tú recoges tus fichas y te das el piro?;spanish;anger; ¡Exacto! ¡Está muerta, joder! Ella la palma y tú recoges tus fichas y te das el piro.;disgust;disgust
+m_rab047aes;Te perdiste una mano de cojones. Hay gente que pierde una mano como esa y tiene los huevos de volver a apostar.;spanish;anger; ¡Perdiste una mano de cojones! Hay gente que pierde una mano como esa y tiene los huevos de volver a apostar.;disgust;disgust
+m_rab050aes;¿Por qué crees que hace eso, Gerry? ¿Tienes alguna puta idea?;spanish;anger; ¿Por qué crees que haces eso, Sherry? ¿Tienes alguna puta idea?;fear;disgust
+m_rab053ces;Tú y todos los tuyos me consideráis un caso lamentable.;spanish;anger; Tú y todos los tuyos me consideráis un caso lamentable.;sadness;sadness
+m_rab055aes;No se trata de ti, matemático gilipollas.;spanish;anger; ¡No se trata de ti, matemático gilipollas!;anger;disgust
+m_rab055bes;¡Se trata del chico!;spanish;anger; ¡Se trata del chico!;anger;anger
+m_rab055ces;Y no voy a dejar que le jodas como estás intentando joderme a mí.;spanish;anger; No voy a dejar que le jodas como estás intentando joderme a mí.;disgust;disgust
+m_rab064aes;¿Me has oído? ¡Cállate!;spanish;anger; ¿Me has oído? ¡Cállate!;fear;anger
+m_rab067aes;O te corto en mil pedazos con esto.;spanish;anger; ¡Te corto en mil pedazos con esto!;anger;fear
+m_rab070aes;Pues, no me tengas en ascuas sobre lo que piensas.;spanish;anger; ¡Pues no me tengas en asco a sobre lo que piensas!;anger;disgust
+m_rab071aes;Claro que es él, ¿qué aspecto tenía?;spanish;anger; ¡Claro que es él! ¿Qué aspecto tenís?;anger;anger
+m_rab084aes;¡Pues deberías maldita sea!;spanish;anger; ¡Pues te verías, maldita sea!;anger;disgust
+m_rab087aes;¡Me da igual que le ames!;spanish;anger; ¡Me da igual que le ames!;anger;anger
+m_rab087bes;Hazme caso!;spanish;anger; Hazme caso.;fear;anger
+m_rab089bes;¡Hay un autobús lleno de muertos!;spanish;anger; Hay un autobús lleno de muertos.;fear;anger
+m_rab089ces;¡¿Y podrían hacer daño a alguien?!;spanish;anger; ¿Y podrían hacer daño a alguien?;fear;anger
+m_rab090aes;¿A quién? ¿A un amigo tuyo?;spanish;anger; ¿A quién? ¿A un amigo tuyo?;fear;anger
+m_rab093aes;No, esa eres tú.;spanish;anger; No, esa eres tú.;disgust;disgust
+m_rab095aes;Cierto, no me caes bien.;spanish;anger; ¡Cierto! ¡No me caes bien!;anger;disgust
+m_rab097aes;No estamos en el recreo.;spanish;anger; ¡No estamos en el recreo!;anger;disgust
+m_rab097bes;¡Esto es un asunto serio!;spanish;anger; Esto es un asunto serio.;disgust;anger
+m_rab099aes;¿Dices que soy un capullo?;spanish;anger; ¿Dices que soy un capullo?;fear;fear
+m_rab110bes;Que no está preparado para ser médico y bajo mi responsabilidad ;spanish;anger; que no está preparado para ser médico y bajo mi responsabilidad.;fear;fear
+m_rab119ces;¡Joder!;spanish;anger; ¡Joder!;anger;anger
+m_tri001aes;Uno se siente muy …;spanish;sadness; No se siente muy bien.;disgust;disgust
+m_tri001bes;Sólo cuando le hace daño a alguien.;spanish;sadness; Solo cuando le haces daño a alguien.;fear;disgust
+m_tri002aes;Te sientes como ;spanish;sadness; Te es bien descomodado.;disgust;fear
+m_tri002bes; un extraño.;spanish;sadness; Un extraño.;disgust;happiness
+m_tri005aes;La quería.;spanish;sadness; A que ría.;disgust;disgust
+m_tri005bes;Muchísimo.;spanish;sadness; muchísimo.;disgust;disgust
+m_tri005ces;Por la noche nos sentábamos en la cocina ;spanish;sadness; Por la noche nos sentábamos en la cocina.;disgust;fear
+m_tri005des; que éramos las dos únicas personas sobre la tierra.;spanish;sadness; que éramos las dos únicas personas sobre la Tierra.;disgust;disgust
+m_tri005ees;Rechazado.;spanish;sadness; Rechazado.;sadness;disgust
+m_tri007aes;Sobre las ocho.;spanish;sadness; sobre las ocho.;disgust;disgust
+m_tri007ces;Se fue a ver a Eve y Diane.;spanish;sadness; Se fue a ver a Ify a dayar.;fear;sadness
+m_tri008aes;Nos íbamos el domingo.;spanish;sadness; Nos llevamos el domingo.;fear;disgust
+m_tri008bes;Pensábamos casarnos allí.;spanish;sadness; Pensábamos casarnos allí.;fear;disgust
+m_tri008ces;Ese era el plan saben.;spanish;sadness; Ese era el plan, ¿saben?;disgust;disgust
+m_tri009aes;La quería tanto.;spanish;sadness; La que riga tanto.;disgust;disgust
+m_tri009bes;Tiene nada igual.;spanish;sadness; No tiene nada igual.;disgust;disgust
+m_tri009ces;Nunca en la vida.;spanish;sadness; Nunca en la vida.;disgust;sadness
+m_tri011aes;Pero ahora quiere morir.;spanish;sadness; Pero ahora quiere morir.;disgust;disgust
+m_tri011bes;Y yo quiero que se quede conmigo.;spanish;sadness; y yo quiero que se quede conmigo.;fear;disgust
+m_tri011ces;Lo juro por Dios, Padre;spanish;sadness; Lo juro por Dios, padre.;disgust;disgust
+m_tri011des;Es cometer un pecado el que haga.;spanish;sadness; es cometer un pecado el que lo haga.;anger;disgust
+m_tri011ees;Manteniéndola viva la estoy matando.;spanish;sadness; manteniendo la viva, la estoy empatando.;happiness;fear
+m_tri011fes;Lo entiendes.;spanish;sadness; ¿Me entiendes?;fear;happiness
+m_tri011ges;Cómo lo resumido;spanish;sadness; como lo resuelvo.;sadness;disgust
+m_tri012aes;Fui a ver a Maggie esta mañana.;spanish;sadness; fui a ver a Magui esta mañana.;sadness;disgust
+m_tri012bes;Debías de haber salido.;spanish;sadness; debías de haber salido.;disgust;disgust
+m_tri014aes;Puede que no la firmes.;spanish;sadness; Puede que no la firmes.;disgust;anger
+m_tri014bes;Y me das un poco más de tiempo.;spanish;sadness; y me das un poco más de tiempo.;fear;fear
+m_tri015aes;Hagas lo que hagas, Rosen tiene razón en una cosa.;spanish;sadness; Hagas lo que hagas. Rosentía tiene razón en una cosa.;disgust;disgust
+m_tri015bes;No debes quedarte.;spanish;sadness; No debes quedarte.;disgust;disgust
+m_tri015ces;Ya no soy de fiar.;spanish;sadness; Ya no soy de fiar.;disgust;disgust
+m_tri016aes;No lo sé.;spanish;sadness; No lo sé.;disgust;disgust
+m_tri016bes;Que el Dr. Rosen te lleve a casa de tu madre.;spanish;sadness; que el Dr. Rosen te lleve a casa de tu madre.;fear;anger
+m_tri020aes;Tú tienes ese don.;spanish;sadness; Tú tienes ese don.;disgust;disgust
+m_tri020bes;Sabes tratar a la gente.;spanish;sadness; ¿Sabes trazar a la gente?;fear;anger
+m_tri021aes;Les caes bien.;spanish;sadness; Les caes bien.;disgust;disgust
+m_tri021bes;Y si te vas, no aprenderé a hacerlo.;spanish;sadness; Y si te vas, no aprenderé a hacerlo.;disgust;disgust
+m_tri025aes;Hasta que una noche se enteró de que se había ;spanish;sadness; Hasta que una noche se enteró de que se había...;disgust;fear
+m_tri028aes;Él no es la misma persona que era antes.;spanish;sadness; Él no es la misma persona que era antes.;disgust;disgust
+m_tri029aes;Apenas se hablan. Son como extraños.;spanish;sadness; Apenas se hablan, son como extraños.;sadness;sadness
+m_tri030bes;Porque siente que ;spanish;sadness; porque siente que...;disgust;fear
+m_tri030ces; sería  como ayudar también al otro.;spanish;sadness; sería como ayudar también al otro.;disgust;fear
+m_tri039aes;Otra familia, otra ;spanish;sadness; Otra familia, otra...;disgust;fear

@@ -1,12 +1,12 @@
 file_name;transcription;language;emotion;model_transcription;model_emotion;model_emotion_nowhisper
-f_ans001aen;[non-verbal] I don't know what's happening, I'm sorry.;english;negative; I don't know what's happening. I'm sorry.;negative;negative
+f_ans001aen; I don't know what's happening, I'm sorry.;english;negative; I don't know what's happening. I'm sorry.;negative;negative
 f_ans003aen;It's more like having a presentiment, do you know what I'm saying?;english;negative; It's more like having a presentiment, do you know what I'm saying?;negative;negative
 f_ans004aen;Don't touch me, better if you don't.;english;negative; Don't touch me better if you don't.;negative;negative
 f_ans005aen;In Wellfleet, you were there, we were all there.;english;negative; In well, Fleet, you were there. We were all there.;positive;positive
-f_ans007sen;Yes, but they were new arrivals. New women were arriving all the time. So the [non-verbal] ...;english;negative; Yes, but there were new arrivals, new women were arriving all the time.;positive;negative
+f_ans007sen;Yes, but they were new arrivals. New women were arriving all the time. So the  ;english;negative; Yes, but there were new arrivals, new women were arriving all the time.;positive;negative
 f_ans009ben;I got really scared.;english;negative; I got really scared.;negative;negative
-f_ans010aen;You're not doing this move just for me, are you? I mean ...;english;negative; You're not doing this move just for me, are you? I mean...;negative;negative
-f_ans012aen;Please, talk to me, tell me what happened.;english;negative; Please, talk to me, tell me what happened.;negative;negative
+f_ans010aen;You're not doing this move just for me, are you? I mean ;english;negative; You're not doing this move just for me, are you? I mean...;negative;negative
+f_ans012aen;Please, talk to me, tell me what happened.;english;negative; Please, talk to me. Tell me what happened.;negative;negative
 f_ans019aen;I can't tell you. Someone might get hurt.;english;negative; I can't tell you. Someone might get hurt.;negative;negative
 f_ans021aen;It was once, it's not anymore.;english;negative; It was once. It's not anymore.;negative;negative
 f_ans030aen;I'd been sleeping with him, and I was out on the back porch.;english;negative; I'd been sleeping with him and I was out on the back porch.;negative;negative
@@ -28,18 +28,18 @@ f_ans901ben;Never allow such an aberration, believing in the dead.;english;negat
 f_ans901cen;I will only meet you at the end of eternity.;english;negative; They will only meet at the end of eternity.;positive;positive
 f_ans902aen;It wasn't her.;english;negative; It was a doll.;positive;negative
 f_ans902ben;It was the old woman.;english;negative; It was the old woman.;negative;negative
-f_ans902cen;With strange eyes she was imitating my daughter's voice.;english;negative; With strange eyes she was imitating my daughter's voice.;negative;negative
+f_ans902cen;With strange eyes she was imitating my daughter's voice.;english;negative; With strange eyes, she was imitating my daughter's voice.;negative;negative
 f_ans902den;I'd swear to God that it wasn't my daughter.;english;negative; I swear to God that it wasn't my daughter.;negative;negative
 f_ans902een;Oh God, God help me.;english;negative; Oh God, God help me.;negative;negative
 f_ans902fen;I don't know what's the matter with me.;english;negative; I don't know what's the matter with me.;negative;negative
-f_ans903aen;They know I'd never hurt them, I [non-verbal] ...;english;negative; They know I'd never hurt them.;negative;negative
+f_ans903aen;They know I'd never hurt them, I  ;english;negative; They know I'd never hurt them.;negative;negative
 f_ans999aen;It's in the hands of some physician I have never even met.;english;negative; It's in the hands of some physician I've never even met.;negative;negative
 f_ans999ben;I mean, of course I'm worried about Ray.;english;negative; I mean, of course I'm worried about Ray.;negative;negative
-f_ans999cen;If anything, he's not good with this stuff. [non-verbal];english;negative; If anything is not good with this stuff.;negative;negative
+f_ans999cen;If anything, he's not good with this stuff. ;english;negative; If anything is not good with this stuff.;negative;negative
 f_dis008aen;Telling me that she's always complaining, that's not picking on her? I think so.;english;negative; telling me that she's always complaining that's not picking on her? I think so.;negative;negative
 f_dis010aen;I'm saying, Vanessa, that even crazy people like to be asked.;english;negative; I'm saying, Vanessa, that even crazy people like to be asked.;negative;negative
 f_dis016aen;Yeah, whoopee.;english;negative; Yeah, whoopee.;positive;positive
-f_dis024aen;Sweetheart, I do love you, but sometimes I have to wonder if you really are my ...;english;negative; Sweetheart, I do love you, but sometimes I have to wonder if you really are my;negative;negative
+f_dis024aen;Sweetheart, I do love you, but sometimes I have to wonder if you really are my ;english;negative; Sweetheart, I do love you, but sometimes I have to wonder if you really are my;negative;negative
 f_dis025aen;You've always been more like your father.;english;negative; You've always been more like your father.;negative;negative
 f_dis026aen;What is it exactly that you want?;english;negative; What is it exactly that you want?;negative;negative
 f_dis027aen;You can give me the gun or give me back the money.;english;negative; You can give me the gun or give me back the money.;positive;positive
@@ -51,7 +51,7 @@ f_dis037aen;I don't know. Isn't she sick?;english;negative; I don't know. Isn't 
 f_dis038aen;I thought sick people sometimes make things up.;english;negative; I thought sick people sometimes make things up.;negative;negative
 f_dis039aen;A woman you were treating killed her husband.;english;negative; A woman you were treating killed her husband.;negative;negative
 f_dis042aen;Why are you buying this land, Mr. Bloom?;english;negative; Why you bond this way, Mr. Blue?;negative;negative
-f_dis043aen;Instead of buying a convertible, you buy a town?;english;negative; Instead of buying a convertible, you buy a town.;positive;negative
+f_dis043aen;Instead of buying a convertible, you buy a town?;english;negative; instead of buying a convertible, you buy a town.;positive;negative
 f_dis108aen;That wasn't a question.;english;negative; That was no question.;negative;negative
 f_dis150aen;And you can do anything, right?;english;negative; And you can do anything, right?;positive;positive
 f_dis202aen;And before today, you had never heard of me?;english;negative; And before today, you had never heard of me.;negative;negative
@@ -61,9 +61,9 @@ f_dis901aen;Oh you'd have saved your heads being chopped off by the Romans, that
 f_dis902aen;So you both would have lied to the point of denying Christ?;english;negative; So you both would have lied to the point of denying Christ.;negative;negative
 f_gio009aen;I just want you to come to California with me.;english;positive; I just want you to come to California with me.;positive;positive
 f_gio011aen;Congratulations on your unfettered ascendancy at Wyant Wheeler.;english;positive; Congratulations on your unfettered ascendancy at Wyatt Wheeler.;positive;positive
-f_gio012aen;Oh thank you Miss Burton, now ...;english;positive; Well, thank you, Ms. Burton.;positive;positive
+f_gio012aen;Oh thank you Miss Burton, now ;english;positive; Well, thank you, Ms. Burton.;positive;positive
 f_gio012ben;Take that note under consideration.;english;positive; Take that note under consideration.;positive;positive
-f_gio014aen;Well that's a big surprise. [non-verbal];english;positive; Well, that's a big surprise.;positive;positive
+f_gio014aen;Well that's a big surprise. ;english;positive; Well, that's a big surprise.;positive;positive
 f_gio016aen;I'm not a psycho.;english;positive; I'm not a psycho.;negative;negative
 f_gio017aen;She didn't call me Emily, isn't that great?;english;positive; She didn't call me Emily, which is, isn't that great?;negative;positive
 f_gio030aen;It is you.;english;positive; It is you!;positive;positive
@@ -73,13 +73,13 @@ f_gio045aen;This is wonderful.;english;positive; That's just wonderful.;positive
 f_gio049aen;I told them I had to spend the evening with him.;english;positive; I told him I had to spend the evening with...;positive;positive
 f_gio049ben;Britain's premier equestrian journalist.;english;positive; Britain's premier equestrian journalist.;positive;positive
 f_gio101aen;It's just hot in here, that's all.;english;positive; It's just hot in here, that's all.;negative;negative
-f_gio120aen;Oh, I thought you meant the judge! [non-verbal];english;positive; Oh, I thought you meant the judge.;negative;negative
+f_gio120aen;Oh, I thought you meant the judge! ;english;positive; Oh, I thought you meant the judge.;negative;negative
 f_gio123aen;Thanks a lot!;english;positive; Thanks a lot.;positive;positive
 f_gio125aen;Will you relax? I know it's a big deal day.;english;positive; Will you relax? I know it's a big deal today.;negative;negative
 f_gio126aen;Oh that's all.;english;positive; Oh, that's all?;negative;negative
 f_gio133aen;I thought you might be in the middle of some tempestuous romance.;english;positive; I thought you might be in the middle of something, best you as a man.;negative;negative
-f_gio144aen;Happy Birthday! [non-verbal];english;positive; Happy birthday.;positive;positive
-f_gio162aen;No ... [non-verbal] yeah!;english;positive; No! Yeah!;positive;negative
+f_gio144aen;Happy Birthday! ;english;positive; Happy birthday.;positive;positive
+f_gio162aen;No   yeah!;english;positive; No! Yeah!;positive;positive
 f_gio202aen;Do you write about Sister Drummond?;english;positive; Do you write about Sister Drummond?;positive;positive
 f_gio203aen;Do you write about me?;english;positive; You're right about me.;positive;positive
 f_gio204aen;Can I look?;english;positive; Good night.;positive;negative
@@ -90,7 +90,7 @@ f_gio209aen;Thirty-one until my next birthday.;english;positive; 31 until my nex
 f_gio210aen;Beautiful.;english;positive; Beautiful.;positive;positive
 f_gio211aen;I love London.;english;positive; I love London.;positive;positive
 f_gio212aen;What's it mean?;english;positive; What's it mean?;negative;negative
-f_gio214aen;... wait until he got around to it.;english;positive; wait until he got around to it.;positive;positive
+f_gio214aen; wait until he got around to it.;english;positive; wait until he got around to it.;positive;positive
 f_gio999ben;I seem to be in some strange sort of mood.;english;positive; I seem to be in some strange sort of mood.;negative;negative
 f_rab003aen;Where are you?;english;negative; WHERE ARE YOU?!;negative;negative
 f_rab007aen;My two little daughters singing stupid fucking songs from those stupid fucking commercials.;english;negative; My two little daughters sing those stupid fucking songs from those stupid fucking commercials!;negative;negative
@@ -126,7 +126,7 @@ f_rab084aen;Do you understand me?;english;negative; Do you understand me?;negati
 f_rab084ben;Is that clear?;english;negative; Is that clear?;negative;negative
 f_rab087aen;But you find a way out of that fight. Break your hand again if you have to.;english;negative; But you find a way out of that fight. Break your hand again if you have to.;negative;negative
 f_rab089cen;Well I got scared and I didn't say anything. And ten seconds later I had a gun in my face.;english;negative; Well, I got scared and I didn't say anything and 10 seconds later I had a gun in my face!;negative;negative
-f_rab090ben;And this time it'd be really fucking great if you acted like you actually gave a shit.;english;negative; And this time it'd be really fucking great if you acted like you actually gave a shit.;positive;positive
+f_rab090ben;And this time it'd be really fucking great if you acted like you actually gave a shit.;english;negative; And this time it'd be really fucking great if you acted like you actually gave a shit!;positive;positive
 f_rab092aen;Do you have any idea how that felt?;english;negative; Do you have any idea how that felt?;negative;negative
 f_rab092ben;To have that pig's hands all over me.;english;negative; to have that pig's hands all over me.;negative;negative
 f_rab098aen;It doesn't make sense that you are sitting here doing this all day long.;english;negative; It doesn't make sense that you're sitting here doing this all day long.;negative;negative
@@ -134,7 +134,7 @@ f_rab099aen;The case is over.;english;negative; The case is over.;negative;negat
 f_rab102aen;Bullshit John, it is splashed all over you. It's gonna follow you around forever.;english;negative; Bullshit, John, it's splashed all over you. It's gonna follow you around forever.;negative;negative
 f_rab104aen;But that seems hard for you.;english;negative; But that seems hard for you.;negative;negative
 f_tri002aen;I could have stopped him.;english;negative; I could have stopped it.;negative;negative
-f_tri004aen;I was aware that he would sometimes ...;english;negative; I was aware that he would sometimes...;negative;negative
+f_tri004aen;I was aware that he would sometimes ;english;negative; I was aware that he would sometimes...;negative;negative
 f_tri004ben;Wake up.;english;negative; Wake up.;positive;positive
 f_tri005aen;Crawl out of bed.;english;negative; Crawl out of bed.;negative;negative
 f_tri005ben;And walk about.;english;negative; I'm Wookaboo.;positive;positive
@@ -147,14 +147,14 @@ f_tri039cen;And he's got a train to catch.;english;negative; He's got a train to
 f_tri040aen;I'm very, very sorry.;english;negative; I'm very, very sorry.;negative;negative
 f_tri040ben;For the terrible distress that I've caused.;english;negative; Is it terrible distress that I've caused?;negative;negative
 f_tri040cen;I'm very, very sorry.;english;negative; I'm very, very sorry.;negative;negative
-f_tri046aen;He said that if you said that ...;english;negative; He said that if he said that.;negative;negative
+f_tri046aen;He said that if you said that ;english;negative; He said that if he said that.;negative;negative
 f_tri046ben;He has commitment papers for me to sign.;english;negative; He has commitment papers for me to sign.;positive;positive
 f_tri047aen;Would you have hurt me, John?;english;negative; But you've hurt me, John.;negative;negative
-f_tri049aen;But my, my girls, I just ...;english;negative; But my girls, I just...;negative;negative
-f_tri055aen;It's great here, it's really great. [non-verbal];english;negative; It's great here, it's really great.;positive;positive
+f_tri049aen;But my, my girls, I just ;english;negative; But my girls, I just...;negative;negative
+f_tri055aen;It's great here, it's really great. ;english;negative; It's great here, it's really great.;positive;positive
 f_tri055ben;I don't know, I went to this shrine today.;english;negative; I don't know why I went to this shrine today.;negative;positive
 f_tri056aen;There were these monks and they were chanting.;english;negative; There were these monks and they were chanting.;negative;negative
-f_tri056ben;And ... I didn't feel anything.;english;negative; and I didn't feel anything.;negative;negative
+f_tri056ben;And  I didn't feel anything.;english;negative; and I didn't feel anything.;negative;negative
 f_tri057aen;Nothing, it's okay. I'll call you later, okay?;english;negative; Nothing, it's okay. I'll call you later, okay?;positive;positive
 f_tri071aen;Do I make her proud?;english;negative; Do I make her proud?;positive;positive
 f_tri081aen;Jim, you didn't see.;english;negative; gem you didn't see.;negative;negative
@@ -165,7 +165,7 @@ f_tri095ben;Then we must end this.;english;negative; Then we must end this.;nega
 f_tri096aen;Without that family, you could never have written anything like this.;english;negative; Without that family you could never have written anything like this.;negative;negative
 f_tri096ben;You need them.;english;negative; You need them.;negative;negative
 m_ans001aen;It just bled like hell.;english;negative; It just, it just played like hella.;negative;negative
-m_ans002aen;This guy tried to mug me and I swung on him and he sliced me.;english;negative; This guy tried to mug me and swung on him and sliced me.;negative;negative
+m_ans002aen;This guy tried to mug me and I swung on him and he sliced me.;english;negative; This guy tried to mug me and hung on to me and sliced me.;negative;negative
 m_ans003aen;So I'm walking to my car.;english;negative; So I'm walking to my car.;positive;positive
 m_ans003ben;I say I don't smoke. He says neither does he.;english;negative; He said, I don't smoke. He says, neither do they.;negative;negative
 m_ans003cen;My heart starts clocking a buck fifty because there is no one around but me and him.;english;negative; My heart starts clocking a buck fifty because there's no one around but me and him.;positive;positive
@@ -178,7 +178,7 @@ m_ans014aen;My name is Very Fucking Confused. What's your name?;english;negative
 m_ans014ben;What's going on here?;english;negative; What's going on here?;negative;negative
 m_ans015ben;I went to bed in my shithole apartment and woke up in an actual shithole.;english;negative; I went to bed in my shithole apartment and woke up in an actual shithole.;negative;negative
 m_ans016aen;This is what they do man. They kidnap you and drug you.;english;negative; This is what they do, man. They kidnap you and drug you.;negative;negative
-m_ans016ben;Before you know it, you're lying in a bathtub and your kidneys are on eBay.;english;negative; you know what you're lying in a bathtub and your kidneys are on ebay.;negative;negative
+m_ans016ben;Before you know it, you're lying in a bathtub and your kidneys are on eBay.;english;negative; Before you know it, you're lying in a bathtub and your kidneys are on ebay.;negative;negative
 m_ans017aen;I'm not gonna risk breaking it. You throw me your tape!;english;negative; I'm not gonna risk breaking it. You throw me your tape.;negative;negative
 m_ans018aen;Probably a joke, right?;english;negative; Probably a joke, right?;negative;negative
 m_ans020aen;Who is that?!;english;negative; Who is that?;negative;negative
@@ -202,27 +202,27 @@ m_ans150aen;Lawrence, get up!;english;negative; LARTS GET UP!;positive;positive
 m_dis001aen;You know it's like saying: 'It's not a riot, it's rage. It's not crime, it's poverty.';english;negative; You know, it's like saying, it's not a riot, it's rage. It's not crime, it's poverty.;negative;negative
 m_dis002aen;Look at this sorry, miserable, squashed thing.;english;negative; Look at this sorry, miserable squash thing.;negative;negative
 m_dis002ben;Can anybody tell me what's wrong with this picture?;english;negative; Can anybody tell me what's wrong with this picture?;negative;negative
-m_dis003aen;Well, [non-verbal], let's see.;english;negative; Well, let's see.;positive;negative
+m_dis003aen;Well, , let's see.;english;negative; Well, let's see.;positive;positive
 m_dis003ben;On my sixth birthday, my best friend at the time, Scott Tibbs, stabbed me with a rusty nail.;english;negative; On my sixth birthday, my best friend at the time, Scott Tibbs, stabbed me with a rusty nail.;negative;negative
 m_dis004aen;What I saw was you get into your car. That's it.;english;negative; What I saw was you getting to your car, that's it.;negative;negative
 m_dis004cen;I don't know how I got here, I don't know how you got here.;english;negative; I don't know how I got here, I don't know how you got here.;negative;negative
 m_dis005aen;Really? Obviously this cop thinks you are the one behind it all.;english;negative; Really? Obviously, this cop thinks you're the one behind it all.;negative;negative
-m_dis008ben;I keep regular office hours if there's any further information you might need on sayings, common phrases ...;english;negative; I keep regular office hours if there's any further information you might need on sayings, common phrases.;positive;positive
+m_dis008ben;I keep regular office hours if there's any further information you might need on sayings, common phrases ;english;negative; I keep regular office hours if there's any further information you might need on sayings, common phrases.;positive;positive
 m_dis008cen;My door's wide open.;english;negative; My door's wide open.;positive;positive
 m_dis011aen;Well, I'll make a note of it. Anything else I can do for you?;english;negative; Well, I'll make a note of it. Anything else I can do for you?;positive;positive
 m_dis013aen;You include me out. I've had enough of the convocations.;english;negative; You include me out, I've had enough of the convocations.;negative;negative
 m_dis014aen;And it seems you do too.;english;negative; And it seems you do too.;negative;negative
 m_dis015aen;Mother, I'm a very busy man.;english;negative; Mother, I'm a very busy man.;negative;negative
-m_dis015ben;I do not have time to help ... it pursue some ridiculous lawsuit.;english;negative; I do not have time to help it pursue some ridiculous lawsuit.;negative;negative
+m_dis015ben;I do not have time to help  it pursue some ridiculous lawsuit.;english;negative; I do not have time to help it pursue some ridiculous lawsuit.;negative;negative
 m_dis016aen;Well, that's mutation, Mother. The miracle of genetics is I'm not you.;english;negative; Well, that's mutation, mother. The miracle of genetics is, I'm not you.;positive;positive
 m_dis017aen;So you'd be gone for quite a long time.;english;negative; So you'd be gone for quite a long time.;negative;negative
 m_dis018ben;I live with you. I know how much you study, or I should say don't study. And you do better than me.;english;negative; I live with you, I know how much you study, or I should say don't study. And you do better than me.;positive;positive
 m_dis020aen;I will save lives that could have otherwise not been saved.;english;negative; I will save lives that could have otherwise not been saved.;positive;positive
-m_dis021aen;You know, maybe I am. But you ask the average person ...;english;negative; You know, maybe I am, but you ask the average person.;negative;negative
-m_dis021ben;When death comes knocking at their door ... whether they want a prick on their side.;english;negative; When death comes knocking at their door, whether they want a prick on their side.;negative;negative
+m_dis021aen;You know, maybe I am. But you ask the average person ;english;negative; You know, maybe I am, but you ask the average person.;negative;negative
+m_dis021ben;When death comes knocking at their door  whether they want a prick on their side.;english;negative; When death comes knocking at their door, whether they want a prick on their side.;negative;negative
 m_dis023ben;Is it because your father was a doctor and his father was a doctor, some sort of genetic thing?;english;negative; is because your father was a doctor and his father was a doctor, some sort of genetic thing.;negative;negative
 m_dis027ben;People are good. Trust people?;english;negative; People are good. Trust people.;positive;positive
-m_dis031ben;Maybe you got a bunch of fat and happy fighters at home ... can afford to rest a month between bouts. I don't know. Lucky you! ;english;negative; Maybe you got a bunch of fat and happy fighters at home can afford the rest of month between bouts. I don't know. Lucky yeah!;positive;negative
+m_dis031ben;Maybe you got a bunch of fat and happy fighters at home  can afford to rest a month between bouts. I don't know. Lucky you! ;english;negative; Maybe you got a bunch of fat and happy fighters at home can afford the rest of month between bouts. I don't know. Lucky you!;positive;positive
 m_dis035aen;Saddam. His, his name's Saddam? Well that's, that's real good Bruce.;english;negative; Saddam. His name's Saddam. Oh, that's real good, Bruce.;positive;positive
 m_dis044aen;I misplaced an important complaint. That's their story.;english;negative; I misplaced an important complaint. That's their story.;negative;negative
 m_dis044ben;Wanna hear mine?;english;negative; Wanna hear mine?;positive;positive
@@ -234,7 +234,7 @@ m_gio003aen;On for a video fest tonight?;english;positive; On for a video fest t
 m_gio003ben;I got some absolute classics.;english;positive; I got some absolute classics.;positive;positive
 m_gio005aen;Come on, one dance!;english;positive; Come on, one dance.;positive;positive
 m_gio010aen;You told me every other fucking thing.;english;positive; You told me every other fucking thing.;negative;negative
-m_gio014aen;Everybody has their own idea of what they think paradise is. [non-verbal];english;positive; Everybody has their own idea what they think paradise is.;negative;negative
+m_gio014aen;Everybody has their own idea of what they think paradise is. ;english;positive; Everybody has their own idea what they think paradise is.;negative;negative
 m_gio018aen;Relax, it's okay. There is no point in being nuts if you can't have a little fun.;english;positive; Relax, it's okay. There's no point in being nuts if you can't have a little fun.;negative;negative
 m_gio022aen;Gee, I love you guys.;english;positive; Gee, I love you guys.;positive;positive
 m_gio023aen;For the first time in eighteen years I'm going to be able to call the shots in my own life. Oh my God!;english;positive; For the first time in 18 years I'm going to be able to call the shots in my own life. Oh my god!;positive;positive
@@ -256,19 +256,19 @@ m_gio108aen;I lost count, man.;english;positive; I lost count, man.;negative;neg
 m_gio108ben;Doesn't matter, man.;english;positive; Then matter, man.;positive;negative
 m_gio111aen;Make that second most beautiful invention!;english;positive; Make that second most beautiful invention.;positive;positive
 m_gio129aen;I'd feel a bit of a fool handing it over myself.;english;positive; I feel a bit of a fool handing that over myself.;negative;negative
-m_gio130aen;[non-verbal] I just use it for clean-up.;english;positive; I didn't, I just used it for the, for cleanup.;positive;negative
-m_gio135aen;[non-verbal] I gotta go see about a girl.;english;positive; I gotta go see about it, girl.;positive;negative
-m_gio140aen;Everybody has their own idea of what they think paradise is. [non-verbal];english;positive; everybody has their own idea what they think paradise is.;negative;negative
-m_gio140ben;The wife thinks it's paradise.;english;positive; Life thinks it's paradise.;negative;negative
+m_gio130aen; I just use it for clean-up.;english;positive; I didn't, I just used it for the, for cleanup.;positive;positive
+m_gio135aen; I gotta go see about a girl.;english;positive; I gotta go see about it, girl.;positive;negative
+m_gio140aen;Everybody has their own idea of what they think paradise is. ;english;positive; Everybody has their own idea what they think paradise is.;negative;negative
+m_gio140ben;The wife thinks it's paradise.;english;positive; who I think is paradise.;negative;negative
 m_gio144aen;So I shared that with you.;english;positive; Sorry I shared that with you.;negative;positive
 m_gio144ben;And one night it was so loud it woke the dog up.;english;positive; One night it was so loud it woke the dog up.;negative;negative
-m_gio145aen;Well, like I say, they make me ask. You understand.;english;positive; Well, like I said, they make me ask. You understand.;positive;positive
+m_gio145aen;Well, like I say, they make me ask. You understand.;english;positive; Well, like I said, they make me ask, you understand.;positive;positive
 m_rab002aen;A walk!;english;negative; I walk.;positive;positive
 m_rab002ben;Is that all? Just a walk.;english;negative; Is that all? Just a walk?;negative;negative
 m_rab005den;You've tried to kill yourself twice.;english;negative; You've tried to kill yourself twice!;negative;negative
 m_rab006aen;It was done for you!;english;negative; It was done for you!;positive;positive
 m_rab006ben;It was done for your betterment!;english;negative; It was done for your betterment!;positive;positive
-m_rab006cen;It was done out of love!;english;negative; It was done out of love!;positive;positive
+m_rab006cen;It was done out of love!;english;negative; I was turned out of love!;positive;positive
 m_rab010ben;And it fucking pisses me off!;english;negative; And he fucking pisses me off!;negative;negative
 m_rab021aen;Shut the fuck up!;english;negative; THE FUCK UP!;negative;negative
 m_rab021ben;This is my daughter I'm talking about!;english;negative; This is my daughter I'm talking about!;positive;positive
@@ -278,9 +278,9 @@ m_rab022aen;Why the hell did you think I was there?;english;negative; Why the he
 m_rab027aen;Tell me, I'm asking: 'What is there to understand?';english;negative; Tell me, I'm asking, what is that to understand?;negative;negative
 m_rab050aen;Why do you think he does that, Gerry? Do you have any fucking clue why?;english;negative; Why do you think he does that, Jerry? Do you have any fucking clue why?;negative;negative
 m_rab055aen;It's not about you, you mathematical dick!;english;negative; It's not about you, you mathematical dick!;negative;negative
-m_rab055den;He is a good kid!;english;negative; He's a good kid!;positive;positive
+m_rab055den;He is a good kid!;english;negative; He's a good kid.;positive;positive
 m_rab064aen;Did you hear me? Shut up!;english;negative; Did you hear me? Shut up!;negative;negative
-m_rab067aen;Now you either tell me what is really going on or I'll cut you with this, you hear me? I'll cut ...;english;negative; Now you either tell me what is really going on or I'll cut you with this, you hear me? I'll cut-;negative;negative
+m_rab067aen;Now you either tell me what is really going on or I'll cut you with this, you hear me? I'll cut ;english;negative; Now you either tell me what is really going on or I'll cut you with this, you hear me? I'll cut-;negative;negative
 m_rab070aen;Well then don't keep me in the dark about what you're thinking!;english;negative; Well then don't keep me in the dark about what you're thinking!;negative;negative
 m_rab072aen;Does that mean you saw what happened to me?;english;negative; Does that mean you saw what happened to me?;negative;negative
 m_rab084aen;You goddamn well should!;english;negative; In god damn motion!;negative;positive
@@ -289,7 +289,7 @@ m_rab087aen;I don't care if you love him!;english;negative; I don't care if you 
 m_rab087ben;I'm telling you!;english;negative; I'm telling you!;positive;positive
 m_rab089ben;There's a bus full of dead people!;english;negative; There's a bus full of dead people!;negative;negative
 m_rab090aen;Who? Someone you know?;english;negative; Who? Someone you know?;negative;negative
-m_rab092aen;No, you didn't tell me.;english;negative; No, you didn't tell me!;negative;negative
+m_rab092aen;No, you didn't tell me.;english;negative; No, you didn't tell me.;negative;negative
 m_rab095aen;I don't like you!;english;negative; I don't like you.;negative;negative
 m_rab096aen;Because you make my effort a joke!;english;negative; Because you make my effort a joke!;negative;negative
 m_rab096ben;I want to be a doctor! This isn't a game to me!;english;negative; I wanna be a doctor! This is a game to me!;positive;negative
@@ -299,12 +299,12 @@ m_rab102aen;How hard can that be?;english;negative; How hard can that be?;negati
 m_rab115aen;Fights being stopped by referees? He's pathetic!;english;negative; Fights me and stop my reveries? He's pathetic!;negative;negative
 m_rab121aen;What does that mean?;english;negative; What does that mean?;negative;negative
 m_rab121ben;If she's not guilty, why am I?;english;negative; If she's not guilty, why am I?;negative;negative
-m_tri002aen;Makes you feel ...;english;negative; Thanks for being here.;positive;positive
-m_tri002ben;... alian.;english;negative; He'll eat it.;positive;negative
-m_tri004ben;You know, after ...;english;negative; You know, I have to...;negative;negative
-m_tri004een;... then I ever was of being in ...;english;negative; Never was a been;negative;negative
+m_tri002aen;Makes you feel ;english;negative; Thanks for being here.;positive;positive
+m_tri002ben; alian.;english;negative; He'll eat it.;positive;positive
+m_tri004ben;You know, after ;english;negative; You know, I have to...;negative;negative
+m_tri004een; then I ever was of being in ;english;negative; Never was a been;negative;negative
 m_tri005aen;I loved her.;english;negative; I loved it.;positive;positive
-m_tri005cen;When we were sitting in that kitchen that night ...;english;negative; when we were sitting in that kitchen at night.;negative;positive
+m_tri005cen;When we were sitting in that kitchen that night ;english;negative; when we were sitting in that kitchen at night.;negative;positive
 m_tri005een;I don't want it.;english;negative; I'm wanted.;negative;negative
 m_tri007cen;She had to go meet Eve and Diane.;english;negative; We have to go meet Eve and Diane.;positive;negative
 m_tri008aen;We were gonna leave Sunday.;english;negative; I'm gonna leave Sunday.;negative;negative
@@ -312,7 +312,7 @@ m_tri008ben;We were gonna get married when we got there.;english;negative; We we
 m_tri009aen;I loved her so much.;english;negative; I love her so much.;positive;positive
 m_tri009cen;It doesn't happen twice.;english;negative; It doesn't happen twice.;negative;negative
 m_tri011aen;But now she wants to die.;english;negative; But now she wants to die.;negative;negative
-m_tri011cen;And I swear to God, Father ...;english;negative; And I swear to God, Father.;positive;positive
+m_tri011cen;And I swear to God, Father ;english;negative; And I swear to God, Father.;positive;positive
 m_tri011den;It's comitting a sin by doing it.;english;negative; It's committing a sin by doing it.;negative;negative
 m_tri011een;By keeping her alive I'm killing her.;english;negative; I'm keeping her alive, I'm killing her.;positive;positive
 m_tri011fen;Do you know what I mean?;english;negative; Don't obey.;negative;negative
@@ -332,13 +332,13 @@ m_tri025ben;Couldn't help that one.;english;negative; Couldn't help that one.;ne
 m_tri026aen;And he can't stop thinking about Annie.;english;negative; And he can't stop thinking about it.;negative;negative
 m_tri027aen;Ever since then, things have been different.;english;negative; Ever since then, things have been different.;negative;negative
 m_tri028aen;He is not the same person that he used to be.;english;negative; He's not the same person that he used to be.;negative;negative
-m_tri028ben;And his wife ... doesn't like the person that he's become.;english;negative; And his wife doesn't like the person that he's become.;negative;negative
+m_tri028ben;And his wife  doesn't like the person that he's become.;english;negative; And his wife doesn't like the person that he's become.;negative;negative
 m_tri029ben;And then one day Malcom meets this wonderful little boy.;english;negative; And then one day Malcolm meets this wonderful little boy.;positive;positive
 m_tri030aen;And Malcom decides to try and help this new boy.;english;negative; And Malcolm decides to try and help this new boy.;positive;positive
-m_tri030ben;Cause he feels that ...;english;negative; Because he feels that.;negative;negative
-m_tri030cen;... it would be like ... helping that other one too.;english;negative; be like helping that other one too.;negative;positive
+m_tri030ben;Cause he feels that ;english;negative; Because he feels that.;negative;negative
+m_tri030cen; it would be like  helping that other one too.;english;negative; be like helping that other one too.;negative;positive
 m_tri038aen;You have to understand. When I was growing up, he was gone more than he was there.;english;negative; You have to understand, when I was growing up, he was gone more than he was there.;negative;negative
 m_tri040aen;Maybe he never wanted a family.;english;negative; Maybe he never wanted a family.;negative;negative
-m_tri041aen;Whatever it is, he likes his second life ...;english;negative; Whatever it is he likes his second life.;positive;positive
-m_tri041ben;... better and the reason that he tells his stories is because he can't stand this boring place.;english;negative; And the reason that he tells these stories is because he can't stand this boring place.;negative;negative
+m_tri041aen;Whatever it is, he likes his second life ;english;negative; Whatever it is he likes his second life.;positive;positive
+m_tri041ben; better and the reason that he tells his stories is because he can't stand this boring place.;english;negative; And the reason that he tells these stories is because he can't stand this boring place.;negative;negative
 m_tri042aen;What's true?;english;negative; What's true?;negative;negative
