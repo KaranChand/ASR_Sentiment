@@ -14,8 +14,8 @@ from numpy import asarray
 from numpy import zeros
 import contractions
 
-embedding_max_length = 30  # max words in sentence
-embedding_dimension = 300
+embedding_max_length = 10  # max words in sentence
+embedding_dimension = 100
 
 # --------------------------------------------------------------------------#
 # Preprocessing                                                            #
@@ -49,10 +49,10 @@ def preprocess_text(text):
     # sentence = pattern_stopwords.sub("", sentence)
 
     # Remove the word non-verbal, this occurs when the transcription model can not transcribe the speech segment
-    pattern_non_verbal = re.compile("(\s*)non-verbal(\s*)")
-    sentence = pattern_non_verbal.sub("", sentence)
+    # pattern_non_verbal = re.compile("(\s*)non-verbal(\s*)")
+    # sentence = pattern_non_verbal.sub("", sentence)
 
-    print("s:" + sentence)
+    # print("s:" + sentence)
     return sentence
 
 
