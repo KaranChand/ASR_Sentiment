@@ -14,12 +14,12 @@ def load_speech_data(data):
     x = []
     for file_name in data:
         feature = extract_feature(
-            "../data/wav_corpus/" + file_name + ".wav",
+            "data/wav_corpus/" + file_name + ".wav",
             extract_mfcc=True,
             extract_chroma=True,
             extract_melspectogram=True,
-            magnitudes=True,
-            pitches=True,
+            extract_magnitudes=True,
+            extract_pitches=True,
             extract_contrast=True,
         )
         x.append(feature)

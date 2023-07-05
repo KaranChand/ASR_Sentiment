@@ -14,7 +14,7 @@ epochs = 10
 verbose = 0
 # https://machinelearningmastery.com/evaluate-performance-deep-learning-models-keras/
 # Read the csv file with data to a data frame
-df = pd.read_csv("../output/audio2text/" + "Whisper_italian.csv", sep=";")
+df = pd.read_csv("output/audio2text/" + "Whisper_italian.csv", sep=";")
 
 labels = df["emotion"].unique()
 

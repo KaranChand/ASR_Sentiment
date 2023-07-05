@@ -14,13 +14,19 @@ from numpy import asarray
 from numpy import zeros
 import contractions
 
-embedding_max_length = 10  # max words in sentence
-embedding_dimension = 100
+
 
 # --------------------------------------------------------------------------#
 # Preprocessing                                                            #
 # --------------------------------------------------------------------------#
 nltk.download("stopwords")
+
+language = "english"
+
+embedding_max_length = 10  # max words in sentence
+embedding_dimension = 100
+if language == "english":
+    embedding_dimension = 300
 
 
 def preprocess_text(text):
@@ -89,7 +95,7 @@ def getTextData(x_train, x_test):
     # Load GloVe word embeddings and create an Embeddings Dictionary
     embeddings_dictionary = dict()
     glove_file = open(
-        "data/pretrained_glove_embedding/italian.txt", encoding="utf8"
+        f"data/pretrained_glove_embedding/{language}.txt", encoding="utf8", errors='ignore'
     )
 
     for line in glove_file:

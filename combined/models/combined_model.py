@@ -9,9 +9,12 @@ from keras.layers import LSTM, Embedding, Flatten
 # - Paper: https://arxiv.org/pdf/1804.05788.pdf                             #
 # - Code https://github.com/Samarth-Tripathi/IEMOCAP-Emotion-Detection      #
 # --------------------------------------------------------------------------#
+language = "english"
 
-embedding_max_length = 30  # max words in sentence
-embedding_dimension = 300
+embedding_max_length = 10  # max words in sentence
+embedding_dimension = 100
+if language == "english":
+    embedding_dimension = 300
 
 
 def getCombinedModel(x_acoustic, labels, vocab_length, embedding_matrix):

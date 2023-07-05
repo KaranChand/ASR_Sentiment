@@ -2,15 +2,15 @@ from matplotlib import pyplot as plt
 import pandas as pd
 import numpy as np
 from sklearn.calibration import LabelEncoder
-from sklearn.metrics import confusion_matrix
-
+from sklearn.metrics import confusion_matrix, accuracy_score
 from sklearn.model_selection import train_test_split
-
 from models.combined_model import getCombinedModel
 from keras.utils import np_utils
 from models.text_model import getTextData, getTextModel
 from models.acoustic_model import getAcousticData, getAcousticModel
 import seaborn as sn
+
+language = "english"
 
 test_size = 0.25
 random_state = 42
@@ -19,7 +19,7 @@ epochs = 10
 verbose = 0
 
 # Read the csv file with data to a data frame
-df = pd.read_csv("output/audio2text/" + "Whisper_italian.csv", sep=";")
+df = pd.read_csv(f"output/audio2text/Whisper_{language}.csv", sep=";")
 
 labels = df["emotion"].unique()
 
@@ -91,18 +91,20 @@ predictions = [
 ]
 y_test = np.argmax(y_test, axis=1)
 
-
+fontsize=18
 names = ["Text Model", "Acoustic Model", "Combined Model"]
 plt.figure(figsize=(20, 5))
 for i, prediction in enumerate(predictions):
     labels = df["emotion"].unique()
     array = confusion_matrix(y_test, prediction)
-
+    acc = accuracy_score(y_test, prediction)
     df_cm = pd.DataFrame(array, labels, labels)
     plt.subplot(1, 3, i + 1)
     sn.heatmap(df_cm, annot=True, cmap="BuPu")
-    plt.xlabel("Predicted")
-    plt.ylabel("True")
-    plt.title(names[i])
+    plt.xlabel("Predicted", fontsize=fontsize)
+    plt.ylabel("True", fontsize=fontsize)
+    plt.title(f"{names[i]} with accuracy of {acc*100:.0f}%", fontsize=fontsize+2)
+plt.suptitle(language, fontsize=fontsize+4)
 plt.tight_layout()
+plt.savefig(f"combined/images/{language}_real.png")
 plt.show()
